@@ -16,8 +16,8 @@ For example, if the input is 'Welcome', the output will be:
 const howMuchPencil = (str) => {
   let result = [];
   // Solution code here...
-  for(let i = 0; i <= str.length; i++){
-    result.push(str.slice(i,str.length));
+  for (let i = 0; i <= str.length; i++) {
+    result.push(str.slice(i, str.length));
   }
 
   return result;
@@ -81,6 +81,11 @@ const gruffaloCrumble = {
 const listFoods = (recipe) => {
   let result = [];
   // Solution code here...
+  recipe.ingredients.forEach(element => {
+    let temp = element.slice(element.indexOf(' ') + 1, element.length);
+    let temp2 = temp.slice(temp.indexOf(' ') + 1, temp.length);
+    result.push(temp2);
+  });
   return result;
 };
 
@@ -95,6 +100,16 @@ You may also use other string or array methods.
 const splitFoods = (recipe) => {
   let result = [];
   // Solution code here...
+  recipe.ingredients.forEach(element => {
+    let temp = element.split(' ');
+    let food = temp[2];
+    if (temp.length > 3) {
+      for (let i = 3; i < temp.length; i++) {
+        food += ` ${temp[i]}`;
+      }
+    }
+    result.push(food);
+  });
   return result;
 };
 
@@ -111,6 +126,10 @@ Return a new array containing just the verbs. For example, ['Mix until evenly di
 const stepActions = (recipe) => {
   let result = [];
   // Solution code here...
+  recipe.steps.forEach(element => {
+    let temp = element.split(' ');
+    result.push(temp[0]);
+  });
   return result;
 };
 
@@ -129,6 +148,13 @@ For example:
 
 const removeEvenValues = (arr) => {
   // Solution code here...
+  for(let i = 0; i < arr.length; i++){
+    console.log('Element: ' + arr[i] + ' @ index: ' + i);
+    if (arr[i] % 2 === 0) {
+      arr.splice(i,1);
+      i--;
+    }
+  }
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -148,6 +174,14 @@ removeLastCharacters('Gregor', 9) returns ''
 
 const removeLastCharacters = (str, numberOfCharacters) => {
   // Solution code here...
+  if(numberOfCharacters > str.length){
+    return '';
+  }else if(numberOfCharacters < 0){
+    return str;
+  }
+
+  return str.slice(0,(str.length - numberOfCharacters));
+
 };
 
 
@@ -160,6 +194,10 @@ Write a function named totalSumCSV that, given a string of comma-separated value
 const totalSumCSV = (str) => {
   let total = 0;
   // Solution code here...
+  let numbers = str.split(',');
+  numbers.forEach(element => {
+    total += parseInt(element);
+  });
   return total;
 };
 
@@ -174,6 +212,16 @@ For example, removeVowels('gregor') returns 'grgr'.
 
 const removeVowels = (str) => {
   // Solution code here...
+  let newStr = '';
+  const vowels = /[^aeiou]/;
+  let temp = str.split('');
+  temp.forEach(element => {
+    if(vowels.test(element)){
+      newStr += element;
+    }
+  });
+
+  return newStr;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -188,6 +236,25 @@ Similarly, extractVowels('The quick brown fox') returns ['Th qck brwn fx', 'eioo
 
 const extractVowels = (str) => {
   // Solution code here...
+  let arr = [];
+  let foundVowels = [];
+  let newStr = '';
+  const vowels = /[^aeiou]/;
+  let temp = str.split('');
+  temp.forEach(element => {
+    if(vowels.test(element)){
+      newStr += element;
+    }else{
+      foundVowels.push(element);
+    }
+  });
+
+  foundVowels.sort();
+
+  arr.push(newStr);
+  let joinedVowels = foundVowels.join('');
+  arr.push(joinedVowels);
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
