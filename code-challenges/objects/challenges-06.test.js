@@ -72,8 +72,7 @@ let characters = [
 const getHouses = (arr) => {
   let houses = [];
   // Solution code here...
-  let GOTchars = Object.values(arr);
-  GOTchars.forEach(element => {
+  arr.forEach(element => {
     houses.push(element.house);
   });
   return houses;
@@ -93,14 +92,11 @@ hasChildrenValues(characters, 'Sansa') will return false
 
 const hasChildrenValues = (arr, character) => {
   // Solution code here...
-  let GOTchars = Object.values(arr);
-  GOTchars.forEach(element => {
-    console.log(element);
-    console.log(element.children + ' : ' + element.children.length);
-    if(element.name === character && element.children.length > 0){
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].name === character && Object.values(arr[i].children).length > 0){
       return true;
     }
-  });
+  }
   return false;
 };
 
@@ -114,6 +110,16 @@ The input and output of this function are the same as the input and output from 
 
 const hasChildrenEntries = (arr, character) => {
   // Solution code here...
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i].name === character){
+      let children = Object.entries(arr[i])[2];
+      console.log(children);
+      if(children[1].length > 0){
+        return true;
+      }
+    }
+  }
+  return false;
 };
 
 /* ------------------------------------------------------------------------------------------------
