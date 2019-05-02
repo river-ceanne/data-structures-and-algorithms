@@ -10,6 +10,7 @@ For example, oddValues([1,2,3]) returns [1,3].
 
 const oddValues = (arr) => {
   // Solution code here...
+  return arr.filter(value => value % 2 !== 0);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -25,6 +26,7 @@ For example, filterStringsWithVowels('gregor','hound','xyz') returns ['gregor', 
 
 const filterStringsWithVowels = (arr) => {
   // Solution code here...
+  return arr.filter(value => /[aeiou]/.test(value));
 };
 
 
@@ -38,6 +40,7 @@ For example, notInFirstArray([1,2,3], [1,2,3,4]) returns [4].
 
 const notInFirstArray = (forbiddenValues, arr) => {
   // Solution code here...
+  return arr.filter(value => !forbiddenValues.includes(value));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -81,6 +84,7 @@ const snorlaxData = {
 
 const getBaseStatGreaterThan = (arr, minBaseStat) => {
   // Solution code here...
+  return arr.filter(value => minBaseStat < value.baseStat);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -93,6 +97,7 @@ For example, getStatName(snorlaxData.stats, 50) will return ['special-defense', 
 
 const getStatName = (arr, minBaseStat) => {
   // Solution code here...
+  return arr.filter(value => minBaseStat < value.baseStat).map(value => value.stat.name);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -146,6 +151,7 @@ const characters = [
 
 const getCharactersWithoutChildren = (arr) => {
   // Solution code here...
+  return arr.filter(value => !Object.keys(value).includes('children'));
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -158,6 +164,7 @@ For example: evenOddNumericValues(['Gregor', 2, 4, 1]) returns ['even', 'even', 
 
 const evenOddNumericValues = (arr) => {
   // Solution code here...
+  return arr.filter(value => parseFloat(value) === value).map(value => value%2 === 0 ? 'even' : 'odd');
 };
 
 /* ------------------------------------------------------------------------------------------------
