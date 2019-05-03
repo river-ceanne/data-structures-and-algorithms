@@ -157,6 +157,12 @@ Hint: The accumulator should begin as { count: 0, sum: 0 }
 
 const calculateAverage = (arr) => {
   // Solution code here...
+  let output = arr.reduce(((accumulator,currVal) => {
+    accumulator.sum += currVal;
+    accumulator.count++;
+    return accumulator;
+  }),{count: 0,sum: 0});
+  return output.sum / output.count;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -178,6 +184,10 @@ const isPrime = (value) => {
 
 const countPrimeNumbers = (arr) => {
   // Solution code here...
+  return arr.reduce(((accumulator,currVal) => {
+    if(isPrime(currVal)) accumulator += 1;
+    return accumulator;
+  }),0);
 };
 
 /* ------------------------------------------------------------------------------------------------
