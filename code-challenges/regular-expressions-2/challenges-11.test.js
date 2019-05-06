@@ -31,7 +31,7 @@ Note: if you ever need to validate an email using a regex in practice, the Inter
 
 const validateEmail = (email) => {
   // Solution code here..
-  return /^[a-zA-Z0-9]+\w+[^.]@{1}[a-zA-Z0-9]+\.{1}(com)|(net)|(org)$/i.test(email);
+  return /^[a-z0-9]+(\.)*[a-z0-9]+@{1}[a-z0-9]+\.{1}((com)|(net)|(org))$/i.test(email);
 
 };
 
@@ -60,10 +60,10 @@ const validatePhoneNumber = (phoneNumber) => {
   // Solution code here...
   let split = phoneNumber.split('');
   if(split[0] === '('){
-    console.log(phoneNumber,/^[0-9]{3}( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber));
+    //console.log(phoneNumber,/^[0-9]{3}( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber));
     return /^\([0-9]{3}\)( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber);
   }else{
-    console.log(phoneNumber,/^[0-9]{3}( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber));
+    //console.log(phoneNumber,/^[0-9]{3}( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber));
     return /^[0-9]{3}( |-)?[0-9]{3}( |-)?[0-9]{4}$/.test(phoneNumber);
   }
 };
