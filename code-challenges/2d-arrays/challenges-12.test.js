@@ -123,9 +123,14 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 
 const calculateProduct = (numbers) => {
   // Solution code here...
-  return numbers.reduce((accum,set)=> {
+  let product = 1;
+  for(let i = 0; i < numbers.length;i++){
+    for(let ii = 0; ii < numbers[i].length; ii++){
+      product *= numbers[i][ii];
+    }
+  }
+  return product;
 
-  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -147,13 +152,15 @@ const weeklyTemperatures = [
 const averageDailyTemperature = (weather) => {
   // Solution code here...
   let totals = 0;
+  let tempCount = 0;
 
   for(let i = 0; i < weather.length;i++){
     for(let ii = 0; ii < weather[i].length; ii++){
       totals += weather[i][ii];
+      tempCount++;
     }
   }
-  return totals / (weather.length * weather[0].length);
+  return totals / tempCount;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -175,16 +182,18 @@ let lowestWeeklyTemperatureData = [
 
 const lowestWeeklyAverage = (weather) => {
   // Solution code here...
-  return weather.reduce((accum,val) => {
-    let tots = 0;
-    val.forEach(temp => tots += temp);
-    let avg = Math.round((tots / val.length)*100)/100;
-    console.log(accum);
-    if(accum > avg){
-      return accum = avg;
+  let lowest = Number.MAX_VALUE;
+  for(let i = 0; i < weather.length;i++){
+    let total = 0;
+    for(let ii = 0; ii < weather[i].length; ii++){
+      total += weather[i][ii];
     }
-    return accum;
-  },0);
+    let avg = total / weather[i].length;
+    if(avg < lowest){
+      lowest = avg;
+    }
+  }
+  return lowest;
 };
 
 /* ------------------------------------------------------------------------------------------------
