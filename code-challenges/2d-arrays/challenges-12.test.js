@@ -79,12 +79,9 @@ const errands = [
 const howManyTreats = (arr) => {
   // Solution code here...
   return arr.reduce((accum,val) => {
-    console.log(val);
-    console.log(val.store);
     if(val.store === 'Pet store'){
       val.items.forEach(item => {
         if(item.name === 'Treats'){
-          console.log(item.quantity);
           return accum = item.quantity;
         }
       });
@@ -126,6 +123,9 @@ For example, the following input returns a product of 720: [[1,2], [3,4], [5,6]]
 
 const calculateProduct = (numbers) => {
   // Solution code here...
+  return numbers.reduce((accum,set)=> {
+
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -146,6 +146,14 @@ const weeklyTemperatures = [
 
 const averageDailyTemperature = (weather) => {
   // Solution code here...
+  let totals = 0;
+
+  for(let i = 0; i < weather.length;i++){
+    for(let ii = 0; ii < weather[i].length; ii++){
+      totals += weather[i][ii];
+    }
+  }
+  return totals / (weather.length * weather[0].length);
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -167,6 +175,16 @@ let lowestWeeklyTemperatureData = [
 
 const lowestWeeklyAverage = (weather) => {
   // Solution code here...
+  return weather.reduce((accum,val) => {
+    let tots = 0;
+    val.forEach(temp => tots += temp);
+    let avg = Math.round((tots / val.length)*100)/100;
+    console.log(accum);
+    if(accum > avg){
+      return accum = avg;
+    }
+    return accum;
+  },0);
 };
 
 /* ------------------------------------------------------------------------------------------------
