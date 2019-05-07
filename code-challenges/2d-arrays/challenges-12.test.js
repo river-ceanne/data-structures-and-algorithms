@@ -210,6 +210,17 @@ For example, excel('1,1,1\n4,4,4\n9,9,9') returns [3, 12, 27].
 
 const excel = (str) => {
   // Solution code here...
+  let arr = str.split('\n');
+
+  arr = arr.map(val => val.split(',')).map(val => {
+    let sum = 0;
+    val.forEach(each => {
+      sum += parseInt(each);
+    });
+    return sum;
+  });
+  
+  return arr;
 };
 
 /* ------------------------------------------------------------------------------------------------
