@@ -149,6 +149,9 @@ For example, ['abcd', 'efgh', 'ijkl', 'mnop'] returns ['a', 'f', 'k', 'p']
 
 const characterByIndex = (arr) => {
   // Solution code here...
+  return arr.map((val,i) => {
+    return val.substring(i,i+1);
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
