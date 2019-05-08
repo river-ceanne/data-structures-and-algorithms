@@ -103,7 +103,6 @@ const unenrollBrook = (arr) => {
   arr.forEach(element => {
     output.push(element.filter(each => !each.includes('Brook')));
   });
-  console.table(output);
   return output;
 };
 
@@ -132,6 +131,12 @@ const daysOfWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Sat
 
 const sortByDay = (arr) => {
   // Solution code here...
+  let output = [...daysOfWeek];
+
+  return output.map((val) => {
+    let day = arr.filter(each => each.includes(val));
+    return val = day;
+  });
 };
 
 /* ------------------------------------------------------------------------------------------------
