@@ -1,5 +1,10 @@
 # Data Structures and Algorithms
 
+This repository is a collection of code with some basic solutions on some common programming problems. Programming language used in this repo is Javascript and Java. 
+
+## Table of Contents
+1. [Reverse an Array](./code-challenges/array_reverse)
+
 ## Reverse an Array
 
 ### Challenge

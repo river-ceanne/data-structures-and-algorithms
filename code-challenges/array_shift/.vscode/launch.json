@@ -1,0 +1,10 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "CodeLens (Launch) - ArrayShift",
+      "request": "launch",
+      "mainClass": "ArrayShift"
+    }
+  ]
+}
