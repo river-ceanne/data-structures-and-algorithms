@@ -19,6 +19,8 @@ My apporach was to loop through the array half its length and exchange the value
 
 ### [Code](./code-challenges/array_reverse)
 
+<hr>
+
 ## Shift an Array
 
 ### Challenge
