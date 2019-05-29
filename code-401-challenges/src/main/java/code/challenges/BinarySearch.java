@@ -11,7 +11,7 @@ public class BinarySearch {
         int min = 0;
         int mid;
 
-        while(min < max){
+        while(min <= max){
             mid = min + (max - min) / 2;
 
             if(arr[mid] == key){
