@@ -36,10 +36,17 @@ public class BinarySearchTest {
     }
 
     @Test
-    public void testBinarySearch5(){
+    public void testBinarySearchHighestIndex(){
         int[] arr = {1,2,3,4,5,6,7,8,9,10};
 
-        assertTrue("Binary Search: ", binarySearch(arr,10) == 9);
+        assertTrue("Binary Search High Index: ", binarySearch(arr,10) == 9);
+    }
+
+    @Test
+    public void testBinarySearchLowestIndex(){
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
+
+        assertTrue("Binary Search High Index: ", binarySearch(arr,1) == 0);
     }
 
 
