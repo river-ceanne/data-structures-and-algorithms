@@ -16,7 +16,8 @@ My apporach was to loop through the array half its length and exchange the value
 
 ### Solution
 ![Alt text](./assets/array_reverse.jpg?raw=true "Array Reverse Code Challenge")
-[Code](./code-challenges/array_reverse)
+
+### [Code](./code-challenges/array_reverse)
 
 ## Shift an Array
 
@@ -28,4 +29,5 @@ My apporach was to create a new array 1 element more than the length of the pass
 
 ### Solution
 ![Alt text](./assets/array_shift.jpg?raw=true "Array Shift Code Challenge")
-[Code](./code-401-challenges/src/main/java/code/challenges/ArrayShift.java)
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/ArrayShift.java)
