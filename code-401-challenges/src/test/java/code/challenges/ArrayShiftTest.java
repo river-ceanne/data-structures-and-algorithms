@@ -4,11 +4,28 @@
 package code.challenges;
 
 
-import static org.junit.Assert.assertNotNull;
+import org.junit.Test;
+
+import java.util.Arrays;
+
+import static code.challenges.ArrayShift.insertShiftArray;
+import static org.junit.Assert.assertTrue;
 
 public class ArrayShiftTest {
+    @Test
     public void arrayShiftedProperly() {
-//        App classUnderTest = new App();
-//        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+        int[] test1 = {1,2,4,5};
+        int[] test1Res = insertShiftArray(test1,3);
+        int[] test1expected = {1,2,3,4,5};
+
+        assertTrue("Array Shifted Properly ?", Arrays.equals(test1Res,test1expected));
+    }
+
+    @Test
+    public void arrayShiftLengthRight(){
+        int[] test1 = {1,2,4,5};
+        int[] test1Res = insertShiftArray(test1,3);
+
+        assertTrue("Array Shift Length right ?", (test1.length + 1 == test1Res.length));
     }
 }
