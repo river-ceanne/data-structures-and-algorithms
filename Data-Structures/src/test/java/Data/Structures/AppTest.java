@@ -7,8 +7,15 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class AppTest {
-    @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+    @Test
+    public void testLinkedList() {
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+        linkedList.insert("two");
+        linkedList.insert("three");
+
+        linkedList.print();
+
     }
 }
