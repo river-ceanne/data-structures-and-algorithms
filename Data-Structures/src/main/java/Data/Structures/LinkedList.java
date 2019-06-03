@@ -8,11 +8,9 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 public class LinkedList {
 
     private Node head;
-//    private Node current;
 
     public LinkedList(){
         head = new Node();
-//        current = head;
     }
 
     public Node getHead() {

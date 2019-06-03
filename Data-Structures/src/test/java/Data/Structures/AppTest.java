@@ -4,11 +4,46 @@
 package Data.Structures;
 
 import org.junit.Test;
+
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
+
 import static org.junit.Assert.*;
 
 public class AppTest {
+
+    // Can successfully instantiate an empty linked list
+    //Can properly insert into the linked list
+    //The head property will properly point to the first node in the linked list
+    //Can properly insert multiple nodes into the linked list
+    //Will return true when finding a value within the linked list that exists
+    //Will return false when searching for a value in the linked list that does not exist
+    //Can properly return a collection of all the values that exist in the linked list
+
     @Test
-    public void testLinkedList() {
+    public void testLinkedListInstantiation(){
+        LinkedList linkedList = new LinkedList();
+        assertEquals("",linkedList.getHead().getValue());
+        assertEquals(null,linkedList.getHead().getNextNode());
+    }
+
+    @Test
+    public void testLinkedListInsert(){
+
+        LinkedList linkedList = new LinkedList();
+        linkedList.insert("one");
+
+        assertEquals("one",linkedList.getHead().getValue());
+
+        linkedList.insert("two");
+        Node temp = linkedList.getHead();
+        linkedList.insert("three");
+
+        assertEquals(temp,linkedList.getHead().getNextNode());
+    }
+
+    @Test
+    public void testLinkedListPrint() {
 
         LinkedList linkedList = new LinkedList();
 
@@ -16,7 +51,14 @@ public class AppTest {
         linkedList.insert("two");
         linkedList.insert("three");
 
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
         linkedList.print();
+
+        assertEquals("three\n" +
+                "two\n" +
+                "one\n\n",outContent.toString());
 
     }
 
