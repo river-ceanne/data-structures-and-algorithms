@@ -162,6 +162,26 @@ public class AppTest {
 
     }
 
+    @Test
+    public void testLinkedListToString(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        System.out.println(linkedList);
+
+        assertEquals("one\n" +
+                "two\n" +
+                "three\n" +
+                "four\n\n",outContent.toString());
+    }
+
 
 
 }
