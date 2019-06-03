@@ -9,6 +9,7 @@ import static org.junit.Assert.*;
 public class AppTest {
     @Test
     public void testLinkedList() {
+
         LinkedList linkedList = new LinkedList();
 
         linkedList.insert("one");
@@ -18,4 +19,35 @@ public class AppTest {
         linkedList.print();
 
     }
+
+    @Test
+    public void testLinkedListIncludesTrue() {
+
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+        linkedList.insert("two");
+        linkedList.insert("three");
+
+        assertTrue("testing linked list is true: ",
+                linkedList.includes("two",linkedList.getHead()));
+
+    }
+
+    @Test
+    public void testLinkedListIncludesFalse() {
+
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+        linkedList.insert("two");
+        linkedList.insert("three");
+
+        assertFalse("testing linked list is true: ",
+                linkedList.includes("five",linkedList.getHead()));
+
+    }
+
+
+
 }

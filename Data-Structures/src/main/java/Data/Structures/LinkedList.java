@@ -8,11 +8,11 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 public class LinkedList {
 
     private Node head;
-    private Node current;
+//    private Node current;
 
     public LinkedList(){
         head = new Node();
-        current = head;
+//        current = head;
     }
 
     public Node getHead() {
@@ -27,27 +27,32 @@ public class LinkedList {
 
         Node newNode;
 
-        if(head != null){
-            newNode = new Node(value,head.getNextNode());
-        }else{
-            newNode = new Node(value,null);
-        }
+        newNode = new Node(value,head);
 
-        head.setNextNode(newNode);
+        head = newNode;
     }
 
-    public boolean includes(String value, Node head){
-        if(value == head.getValue()){
+    public boolean includes(String value, Node curr){
+
+        if(curr == null){
+            return false;
+        }
+
+        if(value == curr.getValue()){
             return true;
         }
-        return includes(value,head.getNextNode());
+
+        return includes(value,curr.getNextNode());
     }
 
     public void print(){
 
-//        while(current.getNextNode()){
-//
-//        }
+        Node current = head;
+
+        while(current != null){
+            System.out.println(current.getValue());
+            current = current.getNextNode();
+        }
 
     }
 
