@@ -83,7 +83,14 @@ public class LinkedList {
     }
 
     public void insertAfter(String value, String newVal){
+        Node current = head;
 
+        while(current != null){
+            if(current.getValue() == value){
+                Node newNode = new Node(newVal,current.getNextNode());
+                current.setNextNode(newNode);
+            }
+        }
     }
 
 }//end of class
