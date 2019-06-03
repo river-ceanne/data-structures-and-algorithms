@@ -1,6 +1,7 @@
 package Data.Structures;
 
 import java.sql.SQLOutput;
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.concurrent.ConcurrentLinkedDeque;
@@ -10,7 +11,7 @@ public class LinkedList {
     private Node head;
 
     public LinkedList(){
-        head = new Node();
+        head = null;
     }
 
     public Node getHead() {
@@ -24,9 +25,7 @@ public class LinkedList {
     public void insert(String value){
 
         Node newNode;
-
         newNode = new Node(value,head);
-
         head = newNode;
     }
 
@@ -43,15 +42,17 @@ public class LinkedList {
         return includes(value,curr.getNextNode());
     }
 
-    public void print(){
+    public ArrayList<String> print(){
 
         Node current = head;
+        ArrayList<String> nodeValues = new ArrayList<>();
 
         while(current != null){
-            System.out.println(current.getValue());
+            nodeValues.add(current.getValue());
             current = current.getNextNode();
         }
 
+        return nodeValues;
     }
 
 }//end of class
