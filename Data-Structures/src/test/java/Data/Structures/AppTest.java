@@ -50,7 +50,8 @@ public class AppTest {
         expected.add("two");
         expected.add("one");
 
-//        assertEquals(expected.size(),res.size());
+        assertEquals(expected.size(),res.size());
+        assertEquals(expected,res);
 
     }
 
@@ -79,6 +80,74 @@ public class AppTest {
 
         assertFalse("testing linked list is true: ",
                 linkedList.includes("five",linkedList.getHead()));
+
+    }
+
+    @Test
+    public void testLinkedListAppend() {
+
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("firstInsert");
+        linkedList.insert("mid");
+        linkedList.insert("lastInsert");
+        linkedList.append("the append");
+
+        Node scanner = linkedList.getHead();
+        String lastVal = "";
+
+        while(scanner != null){
+
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("the append",lastVal);
+
+
+    }
+
+    @Test
+    public void testInsertBefore(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+        linkedList.insert("two");
+        linkedList.insert("three");
+        linkedList.insert("four");
+
+        linkedList.insertBefore("three","two and a half");
+
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            System.out.println(scanner.getValue());
+            scanner = scanner.getNextNode();
+
+        }
+
+    }
+
+    @Test
+    public void testInsertAfter(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+        linkedList.insert("two");
+        linkedList.insert("three");
+        linkedList.insert("four");
+
+        linkedList.insertAfter("three","three and a half");
+
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            System.out.println(scanner.getValue());
+            scanner = scanner.getNextNode();
+
+        }
 
     }
 

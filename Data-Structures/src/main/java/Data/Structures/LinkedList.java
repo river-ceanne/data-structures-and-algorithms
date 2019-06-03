@@ -23,9 +23,7 @@ public class LinkedList {
     }
 
     public void insert(String value){
-
-        Node newNode;
-        newNode = new Node(value,head);
+        Node newNode = new Node(value,head);
         head = newNode;
     }
 
@@ -60,12 +58,14 @@ public class LinkedList {
     //.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
 
     public void append(String value){
-        Node newNode = new Node(value);
         Node current = head;
         while(current != null){
             if(current.getNextNode() == null){
+                Node newNode = new Node(value);
                 current.setNextNode(newNode);
+                break;
             }
+            current = current.getNextNode();
         }
 
     }
@@ -78,6 +78,7 @@ public class LinkedList {
                 Node newNode = new Node(newVal,current.getNextNode());
                 current.setNextNode(newNode);
             }
+            current = current.getNextNode();
         }
 
     }
@@ -90,6 +91,8 @@ public class LinkedList {
                 Node newNode = new Node(newVal,current.getNextNode());
                 current.setNextNode(newNode);
             }
+
+            current = current.getNextNode();
         }
     }
 
