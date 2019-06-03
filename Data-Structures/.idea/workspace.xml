@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c2330c15-4a64-4757-9b44-637147f8ec69" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -29,8 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+            <state relative-caret-position="387">
+              <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#238#239#0" expanded="true" />
@@ -66,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+            <state relative-caret-position="474">
+              <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -195,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest">
+  <component name="RunManager" selected="JUnit.AppTest.testLinkedListAppendMultiple">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -227,22 +226,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testInsertBefore" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data.Structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testInsertBefore" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AppTest.testLinkedListAppend" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -259,7 +242,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testLinkedListInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testLinkedListAppendMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -269,7 +252,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testLinkedListInsert" />
+      <option name="METHOD_NAME" value="testLinkedListAppendMultiple" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testLinkedListToString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data.Structures" />
+      <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
+      <option name="METHOD_NAME" value="testLinkedListToString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,11 +276,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.testLinkedListAppendMultiple" />
+        <item itemvalue="JUnit.AppTest.testLinkedListAppend" />
+        <item itemvalue="JUnit.AppTest.testLinkedListToString" />
         <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.testInsertAfter" />
-        <item itemvalue="JUnit.AppTest.testInsertBefore" />
-        <item itemvalue="JUnit.AppTest.testLinkedListAppend" />
-        <item itemvalue="JUnit.AppTest.testLinkedListInsert" />
       </list>
     </recent_temporary>
   </component>
@@ -359,39 +358,46 @@
       <option name="project" value="LOCAL" />
       <updated>1559596626169</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LinkedList toString created plus its test">
+      <created>1559599189821</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559599189821</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testLinkedListAppend - 2019.06.03 at 14h 14m 40s.xml">
+    <history-entry file="AppTest_testLinkedListToString - 2019.06.03 at 14h 56m 57s.xml">
+      <configuration name="AppTest.testLinkedListToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListToString - 2019.06.03 at 14h 58m 37s.xml">
+      <configuration name="AppTest.testLinkedListToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListToString - 2019.06.03 at 14h 58m 47s.xml">
+      <configuration name="AppTest.testLinkedListToString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 20m 19s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 20m 38s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 22m 54s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 23m 49s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 26m 00s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testLinkedListAppend - 2019.06.03 at 16h 26m 43s.xml">
       <configuration name="AppTest.testLinkedListAppend" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testLinkedListAppend - 2019.06.03 at 14h 15m 12s.xml">
-      <configuration name="AppTest.testLinkedListAppend" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testLinkedListAppend - 2019.06.03 at 14h 15m 26s.xml">
-      <configuration name="AppTest.testLinkedListAppend" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertBefore - 2019.06.03 at 14h 16m 33s.xml">
-      <configuration name="AppTest.testInsertBefore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertBefore - 2019.06.03 at 14h 18m 46s.xml">
-      <configuration name="AppTest.testInsertBefore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertBefore - 2019.06.03 at 14h 19m 40s.xml">
-      <configuration name="AppTest.testInsertBefore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertAfter - 2019.06.03 at 14h 21m 08s.xml">
-      <configuration name="AppTest.testInsertAfter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertBefore - 2019.06.03 at 14h 30m 39s.xml">
-      <configuration name="AppTest.testInsertBefore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertBefore - 2019.06.03 at 14h 31m 30s.xml">
-      <configuration name="AppTest.testInsertBefore" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testInsertAfter - 2019.06.03 at 14h 32m 38s.xml">
-      <configuration name="AppTest.testInsertAfter" configurationId="JUnit" />
+    <history-entry file="AppTest_testLinkedListAppendMultiple - 2019.06.03 at 16h 27m 11s.xml">
+      <configuration name="AppTest.testLinkedListAppendMultiple" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -438,7 +444,8 @@
     <MESSAGE value="insertBefore made" />
     <MESSAGE value="insertAfter created" />
     <MESSAGE value="append function and its test done" />
-    <option name="LAST_COMMIT_MESSAGE" value="append function and its test done" />
+    <MESSAGE value="LinkedList toString created plus its test" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList toString created plus its test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testLinkedList.ic" NAME="AppTest.testLinkedList Coverage Results" MODIFIED="1559578067840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -472,8 +479,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="78" column="45" lean-forward="true" selection-start-line="78" selection-start-column="45" selection-end-line="78" selection-end-column="45" />
+        <state relative-caret-position="387">
+          <caret line="100" column="32" selection-start-line="100" selection-start-column="32" selection-end-line="100" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#238#239#0" expanded="true" />
@@ -488,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="160" column="31" selection-start-line="160" selection-start-column="31" selection-end-line="160" selection-end-column="31" />
+        <state relative-caret-position="474">
+          <caret line="134" column="8" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

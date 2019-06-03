@@ -110,6 +110,53 @@ public class AppTest {
     }
 
     @Test
+    public void testLinkedListAppendMultiple() {
+
+        LinkedList linkedList = new LinkedList();
+
+
+        linkedList.insert("firstInsert");
+        linkedList.insert("mid");
+        linkedList.insert("lastInsert");
+        linkedList.append("first append");
+
+        Node scanner = linkedList.getHead();
+        String lastVal = "";
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("first append",lastVal);
+        scanner = linkedList.getHead();
+        linkedList.append("second append");
+
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("second append",lastVal);
+
+        scanner = linkedList.getHead();
+        linkedList.append("the append");
+
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("the append",lastVal);
+
+    }
+
+    @Test
     public void testInsertBefore(){
         LinkedList linkedList = new LinkedList();
 
