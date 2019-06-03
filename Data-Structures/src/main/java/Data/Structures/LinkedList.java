@@ -55,4 +55,27 @@ public class LinkedList {
         return nodeValues;
     }
 
+    // .append(value) which adds a new node with the given value to the end of the list
+    //.insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+    //.insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+    public void append(String value){
+        Node newNode = new Node(value);
+        Node current = head;
+        while(current != null){
+            if(current.getNextNode() == null){
+                current.setNextNode(newNode);
+            }
+        }
+
+    }
+
+    public void insertBefore(String value, String newVal){
+
+    }
+
+    public void insertAfter(String value, String newVal){
+
+    }
+
 }//end of class
