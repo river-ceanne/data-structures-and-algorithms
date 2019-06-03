@@ -71,6 +71,14 @@ public class LinkedList {
     }
 
     public void insertBefore(String value, String newVal){
+        Node current = head;
+
+        while(current != null){
+            if(current.getNextNode().getValue() == value){
+                Node newNode = new Node(newVal,current.getNextNode());
+                current.setNextNode(newNode);
+            }
+        }
 
     }
 
