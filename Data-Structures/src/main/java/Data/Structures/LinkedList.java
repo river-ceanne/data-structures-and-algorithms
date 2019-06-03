@@ -77,6 +77,7 @@ public class LinkedList {
             if(current.getNextNode().getValue() == value){
                 Node newNode = new Node(newVal,current.getNextNode());
                 current.setNextNode(newNode);
+                break;
             }
             current = current.getNextNode();
         }
