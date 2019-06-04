@@ -50,7 +50,8 @@ public class AppTest {
         expected.add("two");
         expected.add("one");
 
-//        assertEquals(expected.size(),res.size());
+        assertEquals(expected.size(),res.size());
+        assertEquals(expected,res);
 
     }
 
@@ -80,6 +81,205 @@ public class AppTest {
         assertFalse("testing linked list is true: ",
                 linkedList.includes("five",linkedList.getHead()));
 
+    }
+
+    @Test
+    public void testLinkedListAppend() {
+
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("firstInsert");
+        linkedList.insert("mid");
+        linkedList.insert("lastInsert");
+        linkedList.append("the append");
+
+        Node scanner = linkedList.getHead();
+        String lastVal = "";
+
+        while(scanner != null){
+
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("the append",lastVal);
+
+
+    }
+
+    @Test
+    public void testLinkedListAppendMultiple() {
+
+        LinkedList linkedList = new LinkedList();
+
+
+        linkedList.insert("firstInsert");
+        linkedList.insert("mid");
+        linkedList.insert("lastInsert");
+        linkedList.append("first append");
+
+        Node scanner = linkedList.getHead();
+        String lastVal = "";
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("first append",lastVal);
+        scanner = linkedList.getHead();
+        linkedList.append("second append");
+
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("second append",lastVal);
+
+        scanner = linkedList.getHead();
+        linkedList.append("the append");
+
+        while(scanner != null){
+            if(scanner.getNextNode() == null)
+                lastVal = scanner.getValue();
+
+            scanner = scanner.getNextNode();
+        }
+
+        assertEquals("the append",lastVal);
+
+    }
+
+    @Test
+    public void testInsertBefore(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertBefore("three","two and a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+        }
+
+        if(arrayList.contains("three")){
+            int index = arrayList.indexOf("three");
+            assertEquals("two and a half",arrayList.get(index - 1));
+        }
+
+    }
+
+    @Test
+    public void testInsertBeforeFirst(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertBefore("one","a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+        }
+
+        if(arrayList.contains("one")){
+            int index = arrayList.indexOf("one");
+            assertEquals("a half",arrayList.get(index - 1));
+        }
+
+    }
+
+
+    @Test
+    public void testInsertAfter(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertAfter("three","three and a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+
+        }
+
+        if(arrayList.contains("three")){
+            int index = arrayList.indexOf("three");
+            assertEquals("three and a half",arrayList.get(index + 1));
+        }
+
+    }
+
+    @Test
+    public void testInsertAfterLast(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertAfter("four","four and a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+        }
+
+        if(arrayList.contains("four")){
+            int index = arrayList.indexOf("four");
+            assertEquals("four and a half",arrayList.get(index + 1));
+        }
+
+    }
+
+    @Test
+    public void testLinkedListToString(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        System.out.println(linkedList);
+
+        assertEquals("one\n" +
+                "two\n" +
+                "three\n" +
+                "four\n\n",outContent.toString());
     }
 
 

@@ -7,6 +7,7 @@ This repository is a collection of code with some basic solutions on some common
 2. [Shift an Array](#shift-an-array)
 3. [Binary Search](#binary-search)
 4. [Singly Linked List](#singly-linked-list)
+5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
 
 ## Reverse an Array
 
@@ -73,3 +74,39 @@ Insert function for the linked list was created with O(1) time because of its in
 ## API
 Linked List methods: 
 insert(String x), includes(String x), print(): returns ArrayList<String>, setters/getters: getHead(),setHead(Node head)
+
+# Singly Linked List Insertions
+Extension exercise to other types of insertions to a singly linked list.
+
+## Challenge
+Write the following methods for the Linked List class:
+
+* .append(value) which adds a new node with the given value to the end of the list
+* .insertBefore(value, newVal) which add a new node with the given newValue immediately before the first value node
+* .insertAfter(value, newVal) which add a new node with the given newValue immediately after the first value node
+
+
+### Solution
+Append
+![Alt text](./assets/ll_insertionsAppend.jpg?raw=true "Array Shift Code Challenge")
+
+Insert Before
+![Alt text](./assets/ll_insertionsBefore.jpg?raw=true "Array Shift Code Challenge")
+
+Insert After
+![Alt text](./assets/ll_insertionsAfter.jpg?raw=true "Array Shift Code Challenge")
+
+## Approach / Efficiency
+Append -> Time Complexity is O(n)
+InsertBefore -> Time Complexity is O(n)
+InsertAfter -> Time Complexity is O(n)
+
+## API
+Linked List methods: 
+
+append(String newValue), 
+insertBefore(String searchValue, String newValue), 
+insertAfter(String searchValue, String newValue)
+
+
+

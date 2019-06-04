@@ -23,9 +23,7 @@ public class LinkedList {
     }
 
     public void insert(String value){
-
-        Node newNode;
-        newNode = new Node(value,head);
+        Node newNode = new Node(value,head);
         head = newNode;
     }
 
@@ -53,6 +51,64 @@ public class LinkedList {
         }
 
         return nodeValues;
+    }
+
+    public void append(String value){
+        Node current = head;
+        while(current != null){
+            if(current.getNextNode() == null){
+                Node newNode = new Node(value);
+                current.setNextNode(newNode);
+                break;
+            }
+            current = current.getNextNode();
+        }
+
+    }
+
+    public void insertBefore(String value, String newVal){
+        Node current = head;
+
+        if(head.getValue() == value){
+            Node newNode = new Node(newVal,head);
+            head = newNode;
+            return;
+        }
+
+        while(current != null){
+
+            if(current.getNextNode().getValue() == value){
+                Node newNode = new Node(newVal,current.getNextNode());
+                current.setNextNode(newNode);
+                break;
+            }
+            current = current.getNextNode();
+        }
+
+    }
+
+    public void insertAfter(String value, String newVal){
+        Node current = head;
+
+        while(current != null){
+            if(current.getValue() == value){
+                Node newNode = new Node(newVal,current.getNextNode());
+                current.setNextNode(newNode);
+            }
+
+            current = current.getNextNode();
+        }
+    }
+
+    public String toString(){
+        StringBuilder output = new StringBuilder();
+        Node current = head;
+        while(current != null){
+            output.append(current.getValue());
+            output.append("\n");
+            current = current.getNextNode();
+        }
+        return output.toString();
     }
 
 }//end of class
