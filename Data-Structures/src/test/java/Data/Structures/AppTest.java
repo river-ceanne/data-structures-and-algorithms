@@ -183,6 +183,33 @@ public class AppTest {
     }
 
     @Test
+    public void testInsertBeforeFirst(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertBefore("one","a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+        }
+
+        if(arrayList.contains("one")){
+            int index = arrayList.indexOf("one");
+            assertEquals("a half",arrayList.get(index - 1));
+        }
+
+    }
+
+
+    @Test
     public void testInsertAfter(){
         LinkedList linkedList = new LinkedList();
 
@@ -205,6 +232,32 @@ public class AppTest {
         if(arrayList.contains("three")){
             int index = arrayList.indexOf("three");
             assertEquals("three and a half",arrayList.get(index + 1));
+        }
+
+    }
+
+    @Test
+    public void testInsertAfterLast(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.insertAfter("four","four and a half");
+
+        ArrayList<String> arrayList = new ArrayList<>();
+        Node scanner = linkedList.getHead();
+
+        while(scanner != null){
+            arrayList.add(scanner.getValue());
+            scanner = scanner.getNextNode();
+        }
+
+        if(arrayList.contains("four")){
+            int index = arrayList.indexOf("four");
+            assertEquals("four and a half",arrayList.get(index + 1));
         }
 
     }
