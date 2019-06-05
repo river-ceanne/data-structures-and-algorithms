@@ -112,6 +112,10 @@ public class LinkedList {
         int count = 1;
         Node curr = head;
 
+        if(k >= size || k < 0){
+            throw new IllegalStateException("entered value(k) is greater than size or less than 0");
+        }
+
         while(curr != null){
             if(count == index) return curr.getValue();
             count++;
@@ -119,6 +123,7 @@ public class LinkedList {
         }
 
         return "";
+
     }
 
     public String toString(){

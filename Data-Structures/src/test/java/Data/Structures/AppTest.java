@@ -272,8 +272,41 @@ public class AppTest {
         linkedList.insert("one");
 
         assertEquals("two",linkedList.getKth(2));
-        assertEquals("one",linkedList.getKth(3));
 
+    }
+
+    @Test (expected = IllegalStateException.class)
+    public void testGetKthExceptionSameAsSize(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.getKth(4);
+    }
+
+    @Test (expected = IllegalStateException.class)
+    public void testGetKthExceptionNegativeK(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        linkedList.getKth(-2);
+    }
+
+    @Test
+    public void testGetKthExceptionSize1(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("one");
+
+        linkedList.getKth(0);
+        assertEquals("one",linkedList.getKth(0));
     }
 
     @Test
