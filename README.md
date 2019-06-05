@@ -127,4 +127,6 @@ Space Complexity -> O(1)
 ## API
 Method: .getKth(int k)
 
+### [Code](./Data-Structures/src/main/java/Data/Structures/LinkedList.java)
+
 
