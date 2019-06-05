@@ -274,7 +274,6 @@ public class AppTest {
         assertEquals("two",linkedList.getKth(2));
         assertEquals("one",linkedList.getKth(3));
 
-
     }
 
     @Test
