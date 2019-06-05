@@ -8,6 +8,7 @@ This repository is a collection of code with some basic solutions on some common
 3. [Binary Search](#binary-search)
 4. [Singly Linked List](#singly-linked-list)
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
+6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
 
 ## Reverse an Array
 
@@ -88,13 +89,13 @@ Write the following methods for the Linked List class:
 
 ### Solution
 Append
-![Alt text](./assets/ll_insertionsAppend.jpg?raw=true "Array Shift Code Challenge")
+![Alt text](./assets/ll_insertionsAppend.jpg?raw=true)
 
 Insert Before
-![Alt text](./assets/ll_insertionsBefore.jpg?raw=true "Array Shift Code Challenge")
+![Alt text](./assets/ll_insertionsBefore.jpg?raw=true)
 
 Insert After
-![Alt text](./assets/ll_insertionsAfter.jpg?raw=true "Array Shift Code Challenge")
+![Alt text](./assets/ll_insertionsAfter.jpg?raw=true)
 
 ## Approach / Efficiency
 Append -> Time Complexity is O(n)
@@ -108,5 +109,22 @@ append(String newValue),
 insertBefore(String searchValue, String newValue), 
 insertAfter(String searchValue, String newValue)
 
+<hr>
+
+# Singly Linked List Kth From End
+
+## Challenge
+Write the following methods for the Linked List class:
+
+### Solution
+![Alt text](./assets/ll_kth_from_end.jpg?raw=true "Kth From End")
+
+## Approach / Efficiency
+Time Complexity -> O(1) 
+This is because our approach has a linked list that has its own size variable that keeps count on every insert.
+Space Complexity -> O(1)
+
+## API
+Method: .getKth(int k)
 
 

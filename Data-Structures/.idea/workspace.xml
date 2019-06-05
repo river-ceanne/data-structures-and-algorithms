@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2330c15-4a64-4757-9b44-637147f8ec69" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="c2330c15-4a64-4757-9b44-637147f8ec69" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -50,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="228">
-              <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
+              <caret line="310" selection-start-line="310" selection-end-line="310" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -371,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1559754352424</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="all tests made">
+      <created>1559755363877</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1559755363877</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -454,7 +458,8 @@
     <MESSAGE value="LinkedList append multiple test made" />
     <MESSAGE value="done" />
     <MESSAGE value="code challenge kth done with simple test" />
-    <option name="LAST_COMMIT_MESSAGE" value="code challenge kth done with simple test" />
+    <MESSAGE value="all tests made" />
+    <option name="LAST_COMMIT_MESSAGE" value="all tests made" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testLinkedList.ic" NAME="AppTest.testLinkedList Coverage Results" MODIFIED="1559578067840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -489,7 +494,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="310" column="4" selection-start-line="310" selection-start-column="4" selection-end-line="310" selection-end-column="4" />
+          <caret line="310" selection-start-line="310" selection-end-line="310" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
