@@ -9,9 +9,11 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 public class LinkedList {
 
     private Node head;
+    private int size;
 
     public LinkedList(){
         head = null;
+        size = 0;
     }
 
     public Node getHead() {
@@ -25,6 +27,7 @@ public class LinkedList {
     public void insert(String value){
         Node newNode = new Node(value,head);
         head = newNode;
+        size++;
     }
 
     public boolean includes(String value, Node curr){
@@ -63,7 +66,7 @@ public class LinkedList {
             }
             current = current.getNextNode();
         }
-
+        size++;
     }
 
     public void insertBefore(String value, String newVal){
@@ -85,6 +88,8 @@ public class LinkedList {
             current = current.getNextNode();
         }
 
+        size++;
+
     }
 
     public void insertAfter(String value, String newVal){
@@ -98,6 +103,27 @@ public class LinkedList {
 
             current = current.getNextNode();
         }
+
+        size++;
+    }
+
+    public String getKth(int k){
+        int index = size - k;
+        int count = 1;
+        Node curr = head;
+
+        if(k >= size || k < 0){
+            throw new IllegalStateException("entered value(k) is greater than size or less than 0");
+        }
+
+        while(curr != null){
+            if(count == index) return curr.getValue();
+            count++;
+            curr = curr.getNextNode();
+        }
+
+        return "";
+
     }
 
     public String toString(){
@@ -110,5 +136,7 @@ public class LinkedList {
         }
         return output.toString();
     }
+
+
 
 }//end of class
