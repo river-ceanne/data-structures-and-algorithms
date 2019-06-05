@@ -263,6 +263,21 @@ public class AppTest {
     }
 
     @Test
+    public void testGetKth(){
+        LinkedList linkedList = new LinkedList();
+
+        linkedList.insert("four");
+        linkedList.insert("three");
+        linkedList.insert("two");
+        linkedList.insert("one");
+
+        assertEquals("two",linkedList.getKth(2));
+        assertEquals("one",linkedList.getKth(3));
+
+
+    }
+
+    @Test
     public void testLinkedListToString(){
         LinkedList linkedList = new LinkedList();
 
