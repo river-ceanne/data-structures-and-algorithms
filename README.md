@@ -8,11 +8,7 @@ This repository is a collection of code with some basic solutions on some common
 3. [Binary Search](#binary-search)
 4. [Singly Linked List](#singly-linked-list)
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
-<<<<<<< HEAD
-5. [Singly Linked List - Merge List (Extended)](#singly-linked-list---merge-list)
-=======
 6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
->>>>>>> 8b76d99abc43496ba646a5eade7757b5aa8564f9
 
 ## Reverse an Array
 
