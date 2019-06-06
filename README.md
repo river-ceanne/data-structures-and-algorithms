@@ -8,6 +8,7 @@ This repository is a collection of code with some basic solutions on some common
 3. [Binary Search](#binary-search)
 4. [Singly Linked List](#singly-linked-list)
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
+5. [Singly Linked List - Merge List (Extended)](#singly-linked-list---merge-list)
 
 ## Reverse an Array
 
@@ -107,6 +108,26 @@ Linked List methods:
 append(String newValue), 
 insertBefore(String searchValue, String newValue), 
 insertAfter(String searchValue, String newValue)
+
+<hr>
+
+# Singly Linked List - Merge List
+Extension exercise to merge two linked list together.
+
+## Challenge
+Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+### Solution
+Append
+![Alt text](./assets/ll_merge.jpg?raw=true)
+
+
+## Approach / Efficiency
+Time Complexity -> O(n)
+Space Complexity -> O(1)
+
+## API
 
 
 
