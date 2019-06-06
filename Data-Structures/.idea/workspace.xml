@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/main/Data/Structures/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/main/Data/Structures/LinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Data/Structures/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Data/Structures/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,20 +36,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="152" selection-start-line="152" selection-end-line="152" />
+            <state relative-caret-position="376">
+              <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-235">
-              <caret line="321" column="50" lean-forward="true" selection-start-line="321" selection-start-column="50" selection-end-line="321" selection-end-column="50" />
+            <state relative-caret-position="226">
+              <caret line="324" column="36" selection-start-line="324" selection-start-column="36" selection-end-line="324" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -71,8 +71,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/App.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" />
       </list>
     </option>
   </component>
@@ -405,42 +405,49 @@
       <option name="project" value="LOCAL" />
       <updated>1559845448503</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="done with merge function">
+      <created>1559846158370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559846158370</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 10m 47s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedListFirstOneEmpty - 2019.06.06 at 11h 35m 29s.xml">
+      <configuration name="AppTest.testmergeLinkedListFirstOneEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 15m 35s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 21m 18s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 21m 30s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 22m 27s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 23m 50s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 32m 25s.xml">
-      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testmergeLinkedListEmpty - 2019.06.06 at 11h 32m 50s.xml">
+    <history-entry file="AppTest_testmergeLinkedListEmpty - 2019.06.06 at 11h 35m 33s.xml">
       <configuration name="AppTest.testmergeLinkedListEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testmergeLinkedListFirstOneEmpty - 2019.06.06 at 11h 32m 55s.xml">
-      <configuration name="AppTest.testmergeLinkedListFirstOneEmpty" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 35m 36s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testmergeLinkedListFirstOneEmpty - 2019.06.06 at 11h 33m 32s.xml">
-      <configuration name="AppTest.testmergeLinkedListFirstOneEmpty" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 36m 52s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testmergeLinkedListSecondOneEmpty - 2019.06.06 at 11h 33m 37s.xml">
-      <configuration name="AppTest.testmergeLinkedListSecondOneEmpty" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 13s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 22s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 43s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 38m 09s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 38m 45s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 39m 10s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 39m 22s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -534,7 +541,8 @@
     <MESSAGE value="started settiing up on the test function" />
     <MESSAGE value="tests for empty lists made" />
     <MESSAGE value="some progress on the merge list" />
-    <option name="LAST_COMMIT_MESSAGE" value="some progress on the merge list" />
+    <MESSAGE value="done with merge function" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with merge function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -589,17 +597,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="321" column="50" lean-forward="true" selection-start-line="321" selection-start-column="50" selection-end-line="321" selection-end-column="50" />
+        <state relative-caret-position="376">
+          <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        <state relative-caret-position="226">
+          <caret line="324" column="36" selection-start-line="324" selection-start-column="36" selection-end-line="324" selection-end-column="36" />
         </state>
       </provider>
     </entry>

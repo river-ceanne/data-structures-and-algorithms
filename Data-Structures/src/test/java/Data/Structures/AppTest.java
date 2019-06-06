@@ -317,16 +317,23 @@ public class AppTest {
         linkedList1.insert("six");
         linkedList1.insert("four");
         linkedList1.insert("two");
-        System.out.println(linkedList1);
 
         LinkedList linkedList2 = new LinkedList();
 
         linkedList2.insert("seven");
         linkedList2.insert("five");
         linkedList2.insert("three");
-        System.out.println(linkedList2);
 
-        System.out.println(LinkedList.mergeLists(linkedList1,linkedList2));
+        LinkedList res = LinkedList.mergeLists(linkedList1,linkedList2);
+
+        assertEquals("two\n" +
+                "three\n" +
+                "four\n" +
+                "five\n" +
+                "six\n" +
+                "seven\n" +
+                "eigth\n",res.toString());
+
     }
 
     @Test
