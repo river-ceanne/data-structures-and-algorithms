@@ -136,25 +136,19 @@ public class LinkedList {
             return one;
         }
 
-        Node curr1 = one.getHead();
-        Node curr2 = two.getHead();
-        Node temp;
+        Node one_curr = one.getHead(), two_curr = two.getHead();
+        Node one_next, two_next;
 
-        while(curr1 != null){
-            temp = curr1.getNextNode();
-            curr1.setNextNode(curr2);
-            curr1 = curr1.getNextNode();
-            curr1.setNextNode(temp);
-            curr2 = curr2.getNextNode();
+        while (one_curr != null && two_curr != null) {
 
-            if(curr1.getNextNode() == null){
-                curr1.setNextNode(curr2);
-                break;
-            }else if(curr2.getNextNode() == null){
-                curr2.setNextNode(curr1);
-                break;
-            }
+            one_next = one_curr.getNextNode();//save pointers
+            two_next = two_curr.getNextNode();
 
+            two_curr.setNextNode(one_next);// set new currents
+            one_curr.setNextNode(two_curr);
+
+            one_curr = one_next;// update current pointers for next looping
+            two_curr = two_next;
         }
 
         return one;
