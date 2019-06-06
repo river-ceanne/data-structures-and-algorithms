@@ -326,7 +326,6 @@ public class AppTest {
         linkedList2.insert("three");
         System.out.println(linkedList2);
 
-
         System.out.println(LinkedList.mergeLists(linkedList1,linkedList2));
     }
 

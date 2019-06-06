@@ -140,22 +140,24 @@ public class LinkedList {
         Node curr2 = two.getHead();
         Node temp;
 
-        while(curr1.getNextNode() != null && curr2.getNextNode() != null){
+        while(curr1 != null){
             temp = curr1.getNextNode();
             curr1.setNextNode(curr2);
             curr1 = curr1.getNextNode();
             curr1.setNextNode(temp);
-            curr1 = curr1.getNextNode();
             curr2 = curr2.getNextNode();
+
+            if(curr1.getNextNode() == null){
+                curr1.setNextNode(curr2);
+                break;
+            }else if(curr2.getNextNode() == null){
+                curr2.setNextNode(curr1);
+                break;
+            }
+
         }
 
-        if(curr1.getNextNode() == null){
-            curr1.setNextNode(curr2);
-        }else{
-            curr2.setNextNode(curr1);
-        }
-
-        return new LinkedList();
+        return one;
     }
 
     public String toString(){
