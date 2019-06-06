@@ -310,6 +310,20 @@ public class AppTest {
     }
 
     @Test
+    public void testmergeLinkedList(){
+        LinkedList linkedList1 = new LinkedList();
+
+        linkedList1.insert("one");
+
+        LinkedList linkedList2 = new LinkedList();
+
+        linkedList2.insert("one");
+
+        linkedList.getKth(0);
+        assertEquals("one",linkedList.getKth(0));
+    }
+
+    @Test
     public void testLinkedListToString(){
         LinkedList linkedList = new LinkedList();
 

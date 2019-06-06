@@ -126,7 +126,14 @@ public class LinkedList {
 
     }
 
-    public LinkedList mergeLists(LinkedList one, LinkedList two){
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
+
+        if(one == null && two == null){
+            return one; // return any one of the null linked list
+        }
+
+        Node curr1 = one.getHead();
+        Node curr2 = two.getHead();
 
 
 
