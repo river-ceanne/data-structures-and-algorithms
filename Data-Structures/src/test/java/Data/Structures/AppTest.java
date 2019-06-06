@@ -317,16 +317,54 @@ public class AppTest {
         linkedList1.insert("six");
         linkedList1.insert("four");
         linkedList1.insert("two");
+        System.out.println(linkedList1);
 
         LinkedList linkedList2 = new LinkedList();
 
         linkedList2.insert("seven");
         linkedList2.insert("five");
         linkedList2.insert("three");
+        System.out.println(linkedList2);
 
 
         System.out.println(LinkedList.mergeLists(linkedList1,linkedList2));
     }
+
+    @Test
+    public void testmergeLinkedListEmpty(){
+        LinkedList linkedList1 = new LinkedList();
+
+        LinkedList linkedList2 = new LinkedList();
+
+        assertEquals(linkedList1,LinkedList.mergeLists(linkedList1,linkedList2));
+    }
+
+    @Test
+    public void testmergeLinkedListFirstOneEmpty(){
+        LinkedList linkedList1 = new LinkedList();
+
+        LinkedList linkedList2 = new LinkedList();
+        linkedList2.insert("seven");
+        linkedList2.insert("five");
+        linkedList2.insert("three");
+
+        assertEquals(linkedList2,LinkedList.mergeLists(linkedList1,linkedList2));
+    }
+
+
+    @Test
+    public void testmergeLinkedListSecondOneEmpty(){
+        LinkedList linkedList1 = new LinkedList();
+        linkedList1.insert("eigth");
+        linkedList1.insert("six");
+        linkedList1.insert("four");
+        linkedList1.insert("two");
+
+        LinkedList linkedList2 = new LinkedList();
+
+        assertEquals(linkedList1,LinkedList.mergeLists(linkedList1,linkedList2));
+    }
+
 
     @Test
     public void testLinkedListToString(){

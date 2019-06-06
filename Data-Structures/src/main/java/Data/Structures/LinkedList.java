@@ -128,7 +128,9 @@ public class LinkedList {
 
     public static LinkedList mergeLists(LinkedList one, LinkedList two){
 
-        if(one.getHead() == null && two.getHead() != null ){
+        if(one.getHead() == null && two.getHead() == null){
+            return one;
+        }else if(one.getHead() == null && two.getHead() != null ){
             return two;
         }else if(two.getHead() == null && one.getHead() != null ){
             return one;
@@ -141,8 +143,10 @@ public class LinkedList {
         while(curr1.getNextNode() != null && curr2.getNextNode() != null){
             temp = curr1.getNextNode();
             curr1.setNextNode(curr2);
-            curr1 = temp;
-            curr2.setNextNode(curr2.getNextNode());
+            curr1 = curr1.getNextNode();
+            curr1.setNextNode(temp);
+            curr1 = curr1.getNextNode();
+            curr2 = curr2.getNextNode();
         }
 
         if(curr1.getNextNode() == null){
@@ -151,7 +155,7 @@ public class LinkedList {
             curr2.setNextNode(curr1);
         }
 
-        return one;
+        return new LinkedList();
     }
 
     public String toString(){
