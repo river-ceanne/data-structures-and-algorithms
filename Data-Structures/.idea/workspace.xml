@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c2330c15-4a64-4757-9b44-637147f8ec69" name="Default Changelist" comment="" />
+    <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/test/Data/Structures/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/test/Data/Structures/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -20,25 +24,23 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/Node.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="376">
+              <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -46,11 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="310" selection-start-line="310" selection-end-line="310" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="226">
+              <caret line="324" column="36" selection-start-line="324" selection-start-column="36" selection-end-line="324" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -87,9 +86,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,12 +95,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data-Structures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
@@ -155,7 +159,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -175,8 +178,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testGetKthExceptionSize1">
-    <configuration name="AppTest.testGetKth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AppTest.testmergeLinkedList">
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -186,13 +189,28 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testGetKth()" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppTest.testmergeLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data.Structures" />
+      <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
+      <option name="METHOD_NAME" value="testmergeLinkedList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testGetKthException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testmergeLinkedListEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -202,13 +220,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testGetKthException" />
+      <option name="METHOD_NAME" value="testmergeLinkedListEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testGetKthExceptionNegativeK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testmergeLinkedListFirstOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -218,13 +236,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testGetKthExceptionNegativeK" />
+      <option name="METHOD_NAME" value="testmergeLinkedListFirstOneEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.testGetKthExceptionSize1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.testmergeLinkedListSecondOneEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -234,23 +252,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Data.Structures" />
       <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testGetKthExceptionSize1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AppTest.testInsertAfterLast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Data.Structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Data.Structures" />
-      <option name="MAIN_CLASS_NAME" value="Data.Structures.AppTest" />
-      <option name="METHOD_NAME" value="testInsertAfterLast" />
+      <option name="METHOD_NAME" value="testmergeLinkedListSecondOneEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,11 +260,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AppTest.testGetKthExceptionSize1" />
-        <item itemvalue="JUnit.AppTest.testGetKthExceptionNegativeK" />
-        <item itemvalue="JUnit.AppTest.testGetKthException" />
-        <item itemvalue="JUnit.AppTest.testGetKth" />
-        <item itemvalue="JUnit.AppTest.testInsertAfterLast" />
+        <item itemvalue="JUnit.AppTest.testmergeLinkedList" />
+        <item itemvalue="JUnit.AppTest.testmergeLinkedListEmpty" />
+        <item itemvalue="JUnit.AppTest.testmergeLinkedListFirstOneEmpty" />
+        <item itemvalue="JUnit.AppTest.testmergeLinkedListSecondOneEmpty" />
+        <item itemvalue="JUnit.AppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -375,40 +377,87 @@
       <option name="project" value="LOCAL" />
       <updated>1559755363877</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="starting on the merge list function">
+      <created>1559842453866</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1559842453866</updated>
+    </task>
+    <task id="LOCAL-00016" summary="started settiing up on the test function">
+      <created>1559843132880</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1559843132880</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tests for empty lists made">
+      <created>1559844297122</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1559844297122</updated>
+    </task>
+    <task id="LOCAL-00018" summary="some progress on the merge list">
+      <created>1559845448503</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559845448503</updated>
+    </task>
+    <task id="LOCAL-00019" summary="done with merge function">
+      <created>1559846158370</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559846158370</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest_testInsertAfterLast - 2019.06.03 at 16h 46m 38s.xml">
-      <configuration name="AppTest.testInsertAfterLast" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedListFirstOneEmpty - 2019.06.06 at 11h 35m 29s.xml">
+      <configuration name="AppTest.testmergeLinkedListFirstOneEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsertAfterLast - 2019.06.04 at 09h 21m 54s.xml">
-      <configuration name="AppTest.testInsertAfterLast" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedListEmpty - 2019.06.06 at 11h 35m 33s.xml">
+      <configuration name="AppTest.testmergeLinkedListEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testInsertAfterLast - 2019.06.04 at 09h 53m 53s.xml">
-      <configuration name="AppTest.testInsertAfterLast" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 35m 36s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKth - 2019.06.05 at 10h 04m 45s.xml">
-      <configuration name="AppTest.testGetKth" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 36m 52s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKth - 2019.06.05 at 10h 05m 27s.xml">
-      <configuration name="AppTest.testGetKth" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 13s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKthException - 2019.06.05 at 10h 17m 17s.xml">
-      <configuration name="AppTest.testGetKthException" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 22s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKthException - 2019.06.05 at 10h 17m 35s.xml">
-      <configuration name="AppTest.testGetKthException" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 37m 43s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKthExceptionNegativeK - 2019.06.05 at 10h 19m 34s.xml">
-      <configuration name="AppTest.testGetKthExceptionNegativeK" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 38m 09s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKthExceptionSize1 - 2019.06.05 at 10h 21m 55s.xml">
-      <configuration name="AppTest.testGetKthExceptionSize1" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 38m 45s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest_testGetKthExceptionSize1 - 2019.06.05 at 10h 22m 19s.xml">
-      <configuration name="AppTest.testGetKthExceptionSize1" configurationId="JUnit" />
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 39m 10s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AppTest_testmergeLinkedList - 2019.06.06 at 11h 39m 22s.xml">
+      <configuration name="AppTest.testmergeLinkedList" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -419,8 +468,37 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2532189" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="2" weight="0.28674698" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32891566" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31686747" />
+      <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49928468" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" weight="0.32891566" />
+      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.16309012" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.2879518" />
@@ -428,7 +506,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.31686747" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -442,8 +520,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.16309012" />
-    </layout>
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.16309012" />
+    </layout-to-restore>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="linkedlist and node java files initially created" />
@@ -459,10 +537,15 @@
     <MESSAGE value="done" />
     <MESSAGE value="code challenge kth done with simple test" />
     <MESSAGE value="all tests made" />
-    <option name="LAST_COMMIT_MESSAGE" value="all tests made" />
+    <MESSAGE value="starting on the merge list function" />
+    <MESSAGE value="started settiing up on the test function" />
+    <MESSAGE value="tests for empty lists made" />
+    <MESSAGE value="some progress on the merge list" />
+    <MESSAGE value="done with merge function" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with merge function" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testLinkedList.ic" NAME="AppTest.testLinkedList Coverage Results" MODIFIED="1559578067840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Data.Structures.*</FILTER>
     </SUITE>
   </component>
@@ -481,23 +564,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="497" column="1" selection-start-line="497" selection-start-column="1" selection-end-line="497" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.classpath">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-87" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="376">
+          <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="310" selection-start-line="310" selection-end-line="310" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="226">
+          <caret line="324" column="36" selection-start-line="324" selection-start-column="36" selection-end-line="324" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -126,6 +126,34 @@ public class LinkedList {
 
     }
 
+    public static LinkedList mergeLists(LinkedList one, LinkedList two){
+
+        if(one.getHead() == null && two.getHead() == null){
+            return one;
+        }else if(one.getHead() == null && two.getHead() != null ){
+            return two;
+        }else if(two.getHead() == null && one.getHead() != null ){
+            return one;
+        }
+
+        Node one_curr = one.getHead(), two_curr = two.getHead();
+        Node one_next, two_next;
+
+        while (one_curr != null && two_curr != null) {
+
+            one_next = one_curr.getNextNode();//save pointers
+            two_next = two_curr.getNextNode();
+
+            two_curr.setNextNode(one_next);// set new currents
+            one_curr.setNextNode(two_curr);
+
+            one_curr = one_next;// update current pointers for next looping
+            two_curr = two_next;
+        }
+
+        return one;
+    }
+
     public String toString(){
         StringBuilder output = new StringBuilder();
         Node current = head;

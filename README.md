@@ -129,4 +129,25 @@ Method: .getKth(int k)
 
 ### [Code](./Data-Structures/src/main/java/Data/Structures/LinkedList.java)
 
+<hr>
 
+# Singly Linked List - Merge List
+Extension exercise to merge two linked list together.
+
+## Challenge
+Write a function called mergeLists which takes two linked lists as arguments. Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the head of the zipped list. Try and keep additional space down to O(1). You have access to the Node class and all the properties on the Linked List class as well as the methods created in previous challenges.
+
+
+### Solution
+Append
+![Alt text](./assets/ll_merge.jpg?raw=true)
+
+
+## Approach / Efficiency
+Time Complexity -> O(n)
+Space Complexity -> O(1)
+
+## API
+Method: mergeLists(LinkedList one, LinkedList two) -> returns LinkedList
+
+### [Code](./Data-Structures/src/main/java/Data/Structures/LinkedList.java)
