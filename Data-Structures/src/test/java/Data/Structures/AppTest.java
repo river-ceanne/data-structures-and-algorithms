@@ -313,14 +313,19 @@ public class AppTest {
     public void testmergeLinkedList(){
         LinkedList linkedList1 = new LinkedList();
 
-        linkedList1.insert("one");
+        linkedList1.insert("eigth");
+        linkedList1.insert("six");
+        linkedList1.insert("four");
+        linkedList1.insert("two");
 
         LinkedList linkedList2 = new LinkedList();
 
-        linkedList2.insert("one");
+        linkedList2.insert("seven");
+        linkedList2.insert("five");
+        linkedList2.insert("three");
 
-        linkedList.getKth(0);
-        assertEquals("one",linkedList.getKth(0));
+
+        System.out.println(LinkedList.mergeLists(linkedList1,linkedList2));
     }
 
     @Test

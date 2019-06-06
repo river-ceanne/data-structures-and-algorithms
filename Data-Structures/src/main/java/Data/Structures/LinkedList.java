@@ -128,14 +128,28 @@ public class LinkedList {
 
     public static LinkedList mergeLists(LinkedList one, LinkedList two){
 
-        if(one == null && two == null){
-            return one; // return any one of the null linked list
+        if(one.getHead() == null && two.getHead() != null ){
+            return two;
+        }else if(two.getHead() == null && one.getHead() != null ){
+            return one;
         }
 
         Node curr1 = one.getHead();
         Node curr2 = two.getHead();
+        Node temp;
 
+        while(curr1.getNextNode() != null && curr2.getNextNode() != null){
+            temp = curr1.getNextNode();
+            curr1.setNextNode(curr2);
+            curr1 = temp;
+            curr2.setNextNode(curr2.getNextNode());
+        }
 
+        if(curr1.getNextNode() == null){
+            curr1.setNextNode(curr2);
+        }else{
+            curr2.setNextNode(curr1);
+        }
 
         return one;
     }
