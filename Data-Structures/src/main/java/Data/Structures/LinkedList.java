@@ -100,6 +100,13 @@ public class LinkedList {
         }
     }
 
+    public LinkedList mergeLists(LinkedList one, LinkedList two){
+
+
+
+        return one;
+    }
+
     public String toString(){
         StringBuilder output = new StringBuilder();
         Node current = head;
