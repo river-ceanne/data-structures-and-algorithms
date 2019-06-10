@@ -1,4 +1,4 @@
-package Data.Structures;
+package stacksandqueues;
 
 public class Queue {
 
