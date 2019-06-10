@@ -13,9 +13,9 @@ public class Stack {
     // Define a method called peek that does not take an argument and returns the value of the node located on top of the stack,
     // without removing it from the stack.
 
-    private Node[] stack;
-    private int top;
-    private int capacity;
+    protected Node[] stack;
+    protected int top;
+    protected int capacity;
     private final int MAX_DEFAULT = 100;
 
     public Stack(){
@@ -31,7 +31,7 @@ public class Stack {
     }
 
     public void push(String val){
-        if (isFull()) throw new AssertionError("Stack is Full! Stack Overflow!");
+        if (isFull()) throw new ArrayIndexOutOfBoundsException("Stack is Full! Stack Overflow!");
         Node newNode = new Node(val);
         top++;
         stack[top] = newNode;
