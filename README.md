@@ -9,6 +9,7 @@ This repository is a collection of code with some basic solutions on some common
 4. [Singly Linked List](#singly-linked-list)
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
 6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
+7. [Stacks & Queues](#stacks-and-queues)
 
 ## Reverse an Array
 
@@ -151,3 +152,29 @@ Space Complexity -> O(1)
 Method: mergeLists(LinkedList one, LinkedList two) -> returns LinkedList
 
 ### [Code](./Data-Structures/src/main/java/Data/Structures/LinkedList.java)
+
+<hr>
+
+# Stacks and Queues
+Java implementation of a stack and queue
+
+## Challenge
+* Create a Stack class that has a top property. It creates an empty Stack when instantiated.
+This object should be aware of a default empty value assigned to top when the stack is created.
+* Define a method called push which takes any value as an argument and adds a new node with that value to the top of the stack with an O(1) Time performance.
+* Define a method called pop that does not take any argument, removes the node from the top of the stack, and returns the node’s value.
+* Define a method called peek that does not take an argument and returns the value of the node located on top of the stack, without removing it from the stack.
+* Create a Queue class that has a top property. It creates an empty Queue when instantiated.
+This object should be aware of a default empty value assigned to front when the queue is created.
+* Define a method called enqueue which takes any value as an argument and adds a new node with that value to the back of the queue with an O(1) Time performance.
+* Define a method called dequeue that does not take any argument, removes the node from the front of the queue, and returns the node’s value.
+* Define a method called peek that does not take an argument and returns the value of the node located in the front of the queue, without removing it from the queue.
+
+
+## Approach & Efficiency
+* Stack -> Push() and Pop() at O(1) time and space.
+* Queue -> Enqueue() and Dequeue() at O(1) time and space.
+
+## API
+* Stack -> Push(), Pop(), Peek(), isEmpty(), isFull()
+* Queue -> Enqueue(), Dequeue(), Peek(), isEmpty(), isFull()
