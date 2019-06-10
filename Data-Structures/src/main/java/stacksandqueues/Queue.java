@@ -21,27 +21,40 @@ public class Queue {
 
     public Queue(){
         queue = new Node[MAX];
+        capacity = MAX;
+        front = 0;
+        rear = -1;
     }
 
     public Queue(int capacity){
         this.capacity = capacity;
         queue = new Node[capacity];
+        front = 0;
+        rear = -1;
     }
 
-    public void enqueue(){
-
+    public void enqueue(String var){
+        if (isFull()) throw new ArrayIndexOutOfBoundsException("Queue is Full. Cannot Equeue!");
+        Node newNode = new Node(var);
+        queue[++rear] = newNode;
     }
 
     public String dequeue(){
+        if (isEmpty()) throw new ArrayIndexOutOfBoundsException("Queue is Empty. Cannot Dequeue!");
         return queue[rear--].getValue();
     }
 
+    public String peek(){
+        if (isEmpty()) throw new ArrayIndexOutOfBoundsException("Queue is Empty. Nothing to peek!");
+        return queue[front].getValue();
+    }
+
     public boolean isEmpty(){
-        return false;
+        return rear == -1;
     }
 
     public boolean isFull(){
-        return false;
+        return rear == capacity - 1;
     }
 
 }
