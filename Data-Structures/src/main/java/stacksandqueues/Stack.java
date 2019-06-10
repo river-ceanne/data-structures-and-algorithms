@@ -38,14 +38,14 @@ public class Stack {
     }
 
     public String pop(){
-        if (isEmpty()) throw new AssertionError("Stack is Empty! Stack underflow!");
+        if (isEmpty()) throw new ArrayIndexOutOfBoundsException("Stack is Empty! Stack underflow!");
         String val = stack[top].getValue();
         top--;
         return val;
     }
 
     public String peek(){
-        if (isEmpty()) throw new AssertionError("Stack is Empty! Stack underflow!");
+        if (isEmpty()) throw new ArrayIndexOutOfBoundsException("Stack is Empty! Stack underflow!");
         return stack[top].getValue();
     }
 

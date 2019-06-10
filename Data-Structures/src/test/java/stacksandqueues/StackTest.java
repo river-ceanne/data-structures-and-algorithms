@@ -55,7 +55,7 @@ public class StackTest {
         assertEquals("Bubbles",stack.pop());
     }
 
-    @Test (expected = AssertionError.class)
+    @Test (expected = ArrayIndexOutOfBoundsException.class)
     public void testStackPopMultipleToEmpty(){
         Stack stack = new Stack(10);
         stack.push("Buttercup");

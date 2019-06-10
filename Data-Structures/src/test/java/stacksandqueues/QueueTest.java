@@ -6,16 +6,6 @@ import static org.junit.Assert.*;
 
 public class QueueTest {
 
-
-//   -------------------------- Stacks & Queues Tests --------------------------------
-
-    //Can successfully enqueue into a queue
-    //Can successfully enqueue multiple values into a queue
-    //Can successfully dequeue out of a queue the expected value
-    //Can successfully peek into a queue, seeing the expected value
-    //Can successfully empty a queue after multiple dequeues
-    //Can successfully instantiate an empty queue
-
     @Test
     public void testQueueDefultConstructor(){
         Queue queue = new Queue();
