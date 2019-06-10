@@ -49,11 +49,11 @@ public class Stack {
         return stack[top].getValue();
     }
 
-    private boolean isEmpty(){
+    public boolean isEmpty(){
        return top == -1;
     }
 
-    private boolean isFull(){
+    public boolean isFull(){
         return top - 1 == capacity;
     }
 }
