@@ -41,7 +41,7 @@ public class Queue {
 
     public String dequeue(){
         if (isEmpty()) throw new ArrayIndexOutOfBoundsException("Queue is Empty. Cannot Dequeue!");
-        return queue[rear--].getValue();
+        return queue[front++].getValue();
     }
 
     public String peek(){
@@ -50,7 +50,7 @@ public class Queue {
     }
 
     public boolean isEmpty(){
-        return rear == -1;
+        return front -1 == rear;
     }
 
     public boolean isFull(){
