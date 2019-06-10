@@ -9,6 +9,7 @@ This repository is a collection of code with some basic solutions on some common
 4. [Singly Linked List](#singly-linked-list)
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
 6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
+7. [Stacks & Queues](#stacks-and-queues)
 
 ## Reverse an Array
 
@@ -151,3 +152,17 @@ Space Complexity -> O(1)
 Method: mergeLists(LinkedList one, LinkedList two) -> returns LinkedList
 
 ### [Code](./Data-Structures/src/main/java/Data/Structures/LinkedList.java)
+
+<hr>
+
+# Stacks and Queues
+<!-- Short summary or background information -->
+
+## Challenge
+<!-- Description of the challenge -->
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+
+## API
+<!-- Description of each method publicly available to your Stack and Queue-->
