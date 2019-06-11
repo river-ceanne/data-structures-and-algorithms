@@ -5,4 +5,6 @@
 build
 
 # User-specific stuff
-Data-Structures/.idea/**
+Data-Structures/.idea/*
+
+Data-Structures/.idea
