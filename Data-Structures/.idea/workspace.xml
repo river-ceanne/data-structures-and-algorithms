@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="started with queue with stacks">
-      <change afterPath="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" afterDir="false" />
+    <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,19 +36,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/LinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="153" column="19" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="442">
+              <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+              <folding>
+                <element signature="e#1097#1098#0" expanded="true" />
+                <element signature="e#1123#1124#0" expanded="true" />
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1186#1187#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -57,32 +53,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="-548">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/queuewithstacks/QueueWithStacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -90,11 +65,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+            <state relative-caret-position="143">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,17 +77,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            <state relative-caret-position="-623">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,10 +110,11 @@
         <option value="$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/QueueTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java" />
         <option value="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" />
       </list>
     </option>
   </component>
@@ -264,66 +233,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StackTest">
-    <configuration name="QueueTest.testQueueDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PseudoQueueTest.testPseudoQueueEnqueueToOverflow">
+    <configuration name="PseudoQueueTest.testPseudoQueueDequeueMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="queuewithstacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="testQueueDequeue" />
+      <option name="PACKAGE_NAME" value="queuewithstacks" />
+      <option name="MAIN_CLASS_NAME" value="queuewithstacks.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueDequeueMultiple" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testQueueDequeueMultiple" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest.testPseudoQueueDequeueMultipleToException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="queuewithstacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="testQueueDequeueMultiple" />
+      <option name="PACKAGE_NAME" value="queuewithstacks" />
+      <option name="MAIN_CLASS_NAME" value="queuewithstacks.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueDequeueMultipleToException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueTest.testQueueDequeueMultipleToEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="PATTERN" value="queuewithstacks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="testQueueDequeueMultipleToEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueueTest.testQueuePeek" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stacksandqueues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="stacksandqueues" />
-      <option name="MAIN_CLASS_NAME" value="stacksandqueues.QueueTest" />
-      <option name="METHOD_NAME" value="testQueuePeek" />
+      <option name="PACKAGE_NAME" value="queuewithstacks" />
+      <option name="MAIN_CLASS_NAME" value="queuewithstacks.PseudoQueueTest" />
+      <option name="METHOD_NAME" value="testPseudoQueueEnqueueToOverflow" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -344,13 +297,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest.testStackPushMultipleToFull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="stacksandqueues.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="stacksandqueues" />
+      <option name="MAIN_CLASS_NAME" value="stacksandqueues.StackTest" />
+      <option name="METHOD_NAME" value="testStackPushMultipleToFull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueEnqueueToOverflow" />
         <item itemvalue="JUnit.StackTest" />
-        <item itemvalue="JUnit.QueueTest.testQueuePeek" />
-        <item itemvalue="JUnit.QueueTest.testQueueDequeueMultipleToEmpty" />
-        <item itemvalue="JUnit.QueueTest.testQueueDequeueMultiple" />
-        <item itemvalue="JUnit.QueueTest.testQueueDequeue" />
+        <item itemvalue="JUnit.StackTest.testStackPushMultipleToFull" />
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueDequeueMultipleToException" />
+        <item itemvalue="JUnit.PseudoQueueTest.testPseudoQueueDequeueMultiple" />
       </list>
     </recent_temporary>
   </component>
@@ -554,42 +523,56 @@
       <option name="project" value="LOCAL" />
       <updated>1560187934732</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="progress on enqueue and dequeue">
+      <created>1560210340213</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1560210340213</updated>
+    </task>
+    <task id="LOCAL-00029" summary="PseudoQueue made and its tests">
+      <created>1560249995615</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1560249995615</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QueueTest_testQueueDequeue - 2019.06.10 at 10h 24m 02s.xml">
-      <configuration name="QueueTest.testQueueDequeue" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 37m 34s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeue - 2019.06.10 at 10h 24m 35s.xml">
-      <configuration name="QueueTest.testQueueDequeue" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 37m 45s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultiple - 2019.06.10 at 10h 25m 25s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultiple" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 38m 08s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultiple - 2019.06.10 at 10h 25m 53s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultiple" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 40m 11s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultiple - 2019.06.10 at 10h 26m 36s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultiple" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 41m 49s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultiple - 2019.06.10 at 10h 27m 34s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultiple" configurationId="JUnit" />
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 42m 24s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultiple - 2019.06.10 at 10h 28m 03s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultiple" configurationId="JUnit" />
+    <history-entry file="StackTest_testStackPushMultipleToFull - 2019.06.11 at 03h 44m 04s.xml">
+      <configuration name="StackTest.testStackPushMultipleToFull" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QueueTest_testQueueDequeueMultipleToEmpty - 2019.06.10 at 10h 29m 04s.xml">
-      <configuration name="QueueTest.testQueueDequeueMultipleToEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testQueuePeek - 2019.06.10 at 10h 30m 19s.xml">
-      <configuration name="QueueTest.testQueuePeek" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="QueueTest_testQueuePeek - 2019.06.10 at 10h 30m 50s.xml">
-      <configuration name="QueueTest.testQueuePeek" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StackTest - 2019.06.10 at 10h 32m 21s.xml">
+    <history-entry file="StackTest - 2019.06.11 at 03h 44m 08s.xml">
       <configuration name="StackTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 44m 19s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 44m 49s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 45m 10s.xml">
+      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -619,7 +602,7 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.31686747" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.31686747" />
       <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -638,8 +621,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="methods completed. feature tasks / needed functions made." />
-    <MESSAGE value="tests made" />
     <MESSAGE value="append func made" />
     <MESSAGE value="insertBefore made" />
     <MESSAGE value="insertAfter created" />
@@ -663,7 +644,9 @@
     <MESSAGE value="queue tests made :D" />
     <MESSAGE value="cleanup made.." />
     <MESSAGE value="started with queue with stacks" />
-    <option name="LAST_COMMIT_MESSAGE" value="started with queue with stacks" />
+    <MESSAGE value="progress on enqueue and dequeue" />
+    <MESSAGE value="PseudoQueue made and its tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="PseudoQueue made and its tests" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -730,16 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -764,13 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="24" lean-forward="true" selection-start-column="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -778,20 +744,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/stacksandqueues/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/stacksandqueues/StackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="-623">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="28" lean-forward="true" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        <state relative-caret-position="143">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

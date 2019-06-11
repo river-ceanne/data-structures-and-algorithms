@@ -178,3 +178,28 @@ This object should be aware of a default empty value assigned to front when the 
 ## API
 * Stack -> Push(), Pop(), Peek(), isEmpty(), isFull()
 * Queue -> Enqueue(), Dequeue(), Peek(), isEmpty(), isFull()
+
+<hr>
+
+# Queues With Stacks
+A queue implementation using 2 stacks
+
+## Challenge
+* Create a brand new PseudoQueue class. Do not use an existing Queue. Instead, this PseudoQueue class will implement our standard queue interface (the two methods listed below), but will internally only utilize 2 Stack objects. Ensure that you create your class with the following methods:
+
+  - enqueue(value) which inserts value into the PseudoQueue, using a first-in, first-out approach.
+  - dequeue() which extracts a value from the PseudoQueue, using a first-in, first-out approach.
+
+
+## Approach & Efficiency
+* Enqueue(String x)
+  - Time Complexity: O(1) or O(n) if first stack is full
+* Dequeue()
+  - Time Complexity:  O(1) or O(n) if first stack is full
+
+## API
+Enqueue(String x), Dequeue(), and Constructors
+
+## [Code](./Data-Structures/src/main/java/queuewithstacks/PseudoQueue.java)
+
+<hr>
