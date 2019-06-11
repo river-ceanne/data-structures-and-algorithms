@@ -6,47 +6,47 @@ import java.util.EmptyStackException;
 
 public class PseudoQueue {
 
-    protected Stack firstStack;
-    protected Stack secondStack;
+    protected Stack inbox;
+    protected Stack outbox;
 
     public PseudoQueue(){
-        firstStack = new Stack();
-        secondStack = new Stack();
+        inbox = new Stack();
+        outbox = new Stack();
     }
 
     public PseudoQueue(int cap1, int cap2){
-        firstStack = new Stack(cap1);
-        secondStack = new Stack(cap2);
+        inbox = new Stack(cap1);
+        outbox = new Stack(cap2);
     }
 
     public void enqueue(String val){
 
-        if (firstStack.isFull()){
-            if(secondStack.isFull()) throw new StackOverflowError();
+        if (inbox.isFull()){
+            if(outbox.isFull()) throw new StackOverflowError();
             else{
-                while (!firstStack.isEmpty() && !secondStack.isFull()){
-                    secondStack.push(firstStack.pop());
+                while (!inbox.isEmpty() && !outbox.isFull()){
+                    outbox.push(inbox.pop());
                 }
-                firstStack.push(val);
+                inbox.push(val);
             }
         }else{
-            firstStack.push(val);
+            inbox.push(val);
         }
 
     }
 
     public String dequeue(){
-        if(secondStack.isEmpty()){
+        if(outbox.isEmpty()){
 
-            if(firstStack.isEmpty()) throw new EmptyStackException();
+            if(inbox.isEmpty()) throw new EmptyStackException();
 
-            while(!firstStack.isEmpty()){
-                secondStack.push(firstStack.pop());
+            while(!inbox.isEmpty()){
+                outbox.push(inbox.pop());
             }
 
         }
 
-        return secondStack.pop();
+        return outbox.pop();
     }
 
 }

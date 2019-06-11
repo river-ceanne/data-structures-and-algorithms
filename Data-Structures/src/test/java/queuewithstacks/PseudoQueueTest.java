@@ -1,7 +1,6 @@
 package queuewithstacks;
 
 import org.junit.Test;
-import stacksandqueues.Stack;
 
 import java.util.EmptyStackException;
 
@@ -12,27 +11,27 @@ public class PseudoQueueTest {
     @Test
     public void testPseudoQueueDefultConstructor(){
         PseudoQueue pseudoQueue = new PseudoQueue();
-        assertEquals(-1,pseudoQueue.firstStack.getTop());
-        assertEquals(-1,pseudoQueue.secondStack.getTop());
-        assertEquals(100,pseudoQueue.firstStack.getCapacity());
-        assertEquals(100,pseudoQueue.secondStack.getCapacity());
+        assertEquals(-1,pseudoQueue.inbox.getTop());
+        assertEquals(-1,pseudoQueue.outbox.getTop());
+        assertEquals(100,pseudoQueue.inbox.getCapacity());
+        assertEquals(100,pseudoQueue.outbox.getCapacity());
     }
 
     @Test
     public void testPseudoQueueConstructor(){
         PseudoQueue pseudoQueue = new PseudoQueue(10,10);
-        assertEquals(-1,pseudoQueue.firstStack.getTop());
-        assertEquals(-1,pseudoQueue.secondStack.getTop());
-        assertEquals(10,pseudoQueue.firstStack.getCapacity());
-        assertEquals(10,pseudoQueue.secondStack.getCapacity());
+        assertEquals(-1,pseudoQueue.inbox.getTop());
+        assertEquals(-1,pseudoQueue.outbox.getTop());
+        assertEquals(10,pseudoQueue.inbox.getCapacity());
+        assertEquals(10,pseudoQueue.outbox.getCapacity());
     }
 
     @Test
     public void testPseudoQueueEnqueue(){
         PseudoQueue pseudoQueue = new PseudoQueue(10,10);
         pseudoQueue.enqueue("Bubbles");
-        assertEquals("Bubbles",pseudoQueue.firstStack.peek());
-        assertEquals(0,pseudoQueue.firstStack.getTop());
+        assertEquals("Bubbles",pseudoQueue.inbox.peek());
+        assertEquals(0,pseudoQueue.inbox.getTop());
     }
 
     @Test (expected = StackOverflowError.class)
