@@ -195,10 +195,14 @@ A queue implementation using 2 stacks
 * Enqueue(String x)
   - Time Complexity: O(1) or O(n) if first stack is full
 * Dequeue()
-  - Time Complexity:  O(1) or O(n) if first stack is full
+  - Time Complexity:  O(1) or O(n) if second stack is empty
 
 ## API
 Enqueue(String x), Dequeue(), and Constructors
+
+### Solution
+Append
+![Alt text](./assets/queue_with_stacks.jpg?raw=true)
 
 ## [Code](./Data-Structures/src/main/java/queuewithstacks/PseudoQueue.java)
 
