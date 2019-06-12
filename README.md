@@ -10,7 +10,8 @@ This repository is a collection of code with some basic solutions on some common
 5. [Singly Linked List - Insertions (Extended)](#singly-linked-list-insertions)
 6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
 7. [Stacks & Queues](#stacks-and-queues)
-7. [Queues With Stacks](#queues-with-stacks)
+8. [Queues With Stacks](#queues-with-stacks)
+9. [Animal Shelter Exercise](#animal-shelter)
 
 ## Reverse an Array
 
@@ -206,5 +207,32 @@ Enqueue(String x), Dequeue(), and Constructors
 ![Alt text](./assets/queue_with_stacks.jpg?raw=true)
 
 ## [Code](./Data-Structures/src/main/java/queuewithstacks/PseudoQueue.java)
+
+<hr>
+
+# Animal Shelter
+A relaxed implementation of an abstract queue with the concept of an Animal Shelter. 
+
+## Challenge
+* Create a class called AnimalShelter which holds only dogs and cats. The shelter operates using a first-in, first-out approach.
+* Implement the following methods:
+  - enqueue(animal): adds animal to the shelter. animal can be either a dog or a cat object.
+  - dequeue(pref): returns either a dog or a cat. If pref is not "dog" or "cat" then return null.
+
+
+## Approach & Efficiency
+* Enqueue(String x)
+  - Time Complexity: O(1) or O(n) if preferred animal is at the end or gone
+* Dequeue()
+  - Time Complexity:  O(1) or O(n) if preferred animal is at the end or gone
+
+## API
+Enqueue(String x), Dequeue(), and Constructor
+
+### Solution
+
+![Alt text](./assets/fifo_animal_shelter.jpg?raw=true)
+
+## [Code](./fifoAnimalShelter/src/main/java/fifoAnimalShelter/)
 
 <hr>

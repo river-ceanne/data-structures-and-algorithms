@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a3c211d3-56c6-491e-8b7f-e66434d7c78a" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding>
+                <element signature="e#179#180#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="780">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="e#109#110#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Dog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Cat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Anima.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Cat.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Dog.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java" />
+        <option value="$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="y" value="19" />
+    <option name="width" value="1440" />
+    <option name="height" value="823" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fifoAnimalShelter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fifoAnimalShelter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fifoAnimalShelter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="fifoAnimalShelter" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.AnimalShelterTest">
+    <configuration name="AnimalShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fifoAnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.testAnimalShelterDefaultConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fifoAnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="testAnimalShelterDefaultConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.testAnimalShelterDequeue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fifoAnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="testAnimalShelterDequeue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.testAnimalShelterDequeueNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fifoAnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="testAnimalShelterDequeueNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalShelterTest.testAnimalShelterEnqueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="fifoAnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fifoAnimalShelter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="METHOD_NAME" value="testAnimalShelterEnqueue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnimalShelterTest" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeue" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeueNull" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterEnqueue" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDefaultConstructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3c211d3-56c6-491e-8b7f-e66434d7c78a" name="Default Changelist" comment="" />
+      <created>1560356568653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560356568653</updated>
+    </task>
+    <task id="LOCAL-00001" summary="initial file/directory made for the code challenge">
+      <created>1560356604948</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560356604948</updated>
+    </task>
+    <task id="LOCAL-00002" summary="classes basics created">
+      <created>1560357374750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560357374750</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Animal Shelter Class made with needed funcs">
+      <created>1560358638767</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1560358638767</updated>
+    </task>
+    <task id="LOCAL-00004" summary="saving progres...">
+      <created>1560359730937</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1560359730937</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test made dequeue null of not dog or cat preferred">
+      <created>1560360171289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560360171289</updated>
+    </task>
+    <task id="LOCAL-00006" summary="enqueue tests made">
+      <created>1560360563884</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1560360563884</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finished">
+      <created>1560361053116</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1560361053116</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 24m 33s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 24m 55s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 25m 15s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 26m 41s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 27m 34s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 28m 21s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 30m 12s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 31m 00s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 35m 22s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest - 2019.06.12 at 10h 49m 39s.xml">
+      <configuration name="AnimalShelterTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32891566" />
+      <window_info anchor="bottom" id="Messages" weight="0.32891566" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial file/directory made for the code challenge" />
+    <MESSAGE value="classes basics created" />
+    <MESSAGE value="Animal Shelter Class made with needed funcs" />
+    <MESSAGE value="saving progres..." />
+    <MESSAGE value="test made dequeue null of not dog or cat preferred" />
+    <MESSAGE value="enqueue tests made" />
+    <MESSAGE value="finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Anima.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/DogTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/CatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#245#246#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Dog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="e#179#180#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
