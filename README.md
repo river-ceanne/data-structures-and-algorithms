@@ -11,7 +11,7 @@ This repository is a collection of code with some basic solutions on some common
 6. [Singly Linked List - Kth From End (Extended)](#singly-linked-list-kth-from-end)
 7. [Stacks & Queues](#stacks-and-queues)
 8. [Queues With Stacks](#queues-with-stacks)
-9. [Animal Shelter Exercise](#queues-with-stacks)
+9. [Animal Shelter Exercise](#animal-shelter)
 
 ## Reverse an Array
 
