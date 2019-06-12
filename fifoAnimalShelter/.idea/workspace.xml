@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a3c211d3-56c6-491e-8b7f-e66434d7c78a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java" afterDir="false" />
     </list>
@@ -30,8 +29,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="292">
+              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#179#180#0" expanded="true" />
@@ -46,8 +45,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+            <state relative-caret-position="230">
+              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -194,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalShelterTest.testAnimalShelterDequeueNull">
+  <component name="RunManager" selected="JUnit.AnimalShelterTest.testAnimalShelterDequeue">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.App" />
       <module name="fifoAnimalShelter" />
@@ -274,8 +273,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeueNull" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeue" />
+        <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeueNull" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterEnqueue" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDefaultConstructor" />
         <item itemvalue="Application.AnimalShelter" />
@@ -321,25 +320,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560359730937</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test made dequeue null of not dog or cat preferred">
+      <created>1560360171289</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1560360171289</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnimalShelterTest_testAnimalShelterEnqueue - 2019.06.12 at 10h 11m 57s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterEnqueue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 12m 58s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 13m 26s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 14m 24s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 16m 37s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 17m 33s.xml">
       <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
     </history-entry>
@@ -354,6 +345,21 @@
     </history-entry>
     <history-entry file="AnimalShelterTest_testAnimalShelterDequeueNull - 2019.06.12 at 10h 22m 19s.xml">
       <configuration name="AnimalShelterTest.testAnimalShelterDequeueNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 24m 33s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 24m 55s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 25m 15s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 26m 41s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 27m 34s.xml">
+      <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -395,7 +401,8 @@
     <MESSAGE value="classes basics created" />
     <MESSAGE value="Animal Shelter Class made with needed funcs" />
     <MESSAGE value="saving progres..." />
-    <option name="LAST_COMMIT_MESSAGE" value="saving progres..." />
+    <MESSAGE value="test made dequeue null of not dog or cat preferred" />
+    <option name="LAST_COMMIT_MESSAGE" value="test made dequeue null of not dog or cat preferred" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/Anima.java">
@@ -488,8 +495,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="292">
+          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#179#180#0" expanded="true" />
@@ -502,8 +509,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="56" column="38" lean-forward="true" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
+        <state relative-caret-position="230">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

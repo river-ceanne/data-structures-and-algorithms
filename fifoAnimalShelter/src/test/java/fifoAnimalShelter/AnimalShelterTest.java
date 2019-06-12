@@ -42,7 +42,9 @@ public class AnimalShelterTest {
         Dog dog4 = new Dog("Scrappy");
         animalShelter.enqueue(dog4);
 
-        assertEquals(cat2.getName(),animalShelter.dequeue("cat").getName());
+        assertEquals(dog1.getName(),animalShelter.dequeue("dog").getName());
+        assertEquals(dog4.getName(),animalShelter.dequeue("dog").getName());
+
     }
 
     @Test

@@ -23,14 +23,17 @@ public class AnimalShelter {
         switch (pref){
             case "dog":
                 do{
-                    animal = animals.get(incrementor);
+                    animal = animals.get(incrementor++);
                     System.out.println(animal.getClass().getTypeName());
                 }while(animal.getClass().getTypeName() != "fifoAnimalShelter.Dog");
+                animals.remove(animal);
                 return animal;
             case "cat":
                 do{
-                    animal = animals.get(incrementor);
+                    animal = animals.get(incrementor++);
+                    System.out.println(animal.getClass().getTypeName());
                 }while(animal.getClass().getTypeName() != "fifoAnimalShelter.Cat");
+                animals.remove(animal);
                 return animal;
             default:
                 return null;
