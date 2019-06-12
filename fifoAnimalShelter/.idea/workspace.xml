@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a3c211d3-56c6-491e-8b7f-e66434d7c78a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java" afterDir="false" />
-    </list>
+    <list default="true" id="a3c211d3-56c6-491e-8b7f-e66434d7c78a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -25,7 +22,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -40,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+            <state relative-caret-position="780">
+              <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -200,9 +197,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AnimalShelterTest.testAnimalShelterDequeue">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.App" />
+  <component name="RunManager" selected="JUnit.AnimalShelterTest">
+    <configuration name="AnimalShelterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="fifoAnimalShelter" />
       <extension name="coverage">
         <pattern>
@@ -210,6 +206,9 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="fifoAnimalShelter" />
+      <option name="MAIN_CLASS_NAME" value="fifoAnimalShelter.AnimalShelterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,11 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AnimalShelterTest" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeue" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDequeueNull" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterEnqueue" />
         <item itemvalue="JUnit.AnimalShelterTest.testAnimalShelterDefaultConstructor" />
-        <item itemvalue="Application.AnimalShelter" />
       </list>
     </recent_temporary>
   </component>
@@ -352,9 +351,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnimalShelterTest_testAnimalShelterDequeueNull - 2019.06.12 at 10h 22m 19s.xml">
-      <configuration name="AnimalShelterTest.testAnimalShelterDequeueNull" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 24m 33s.xml">
       <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
     </history-entry>
@@ -382,10 +378,12 @@
     <history-entry file="AnimalShelterTest_testAnimalShelterDequeue - 2019.06.12 at 10h 35m 22s.xml">
       <configuration name="AnimalShelterTest.testAnimalShelterDequeue" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AnimalShelterTest - 2019.06.12 at 10h 49m 39s.xml">
+      <configuration name="AnimalShelterTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -508,16 +506,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/fifoAnimalShelter/AnimalShelter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -527,6 +515,16 @@
             <element signature="e#222#223#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/fifoAnimalShelter/AnimalShelterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="37" lean-forward="true" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
