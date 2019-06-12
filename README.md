@@ -231,7 +231,7 @@ Enqueue(String x), Dequeue(), and Constructor
 
 ### Solution
 
-![Alt text](./assets/queue_with_stacks.jpg?raw=true)
+![Alt text](./assets/fifo_animal_shelter.jpg?raw=true)
 
 ## [Code](./fifoAnimalShelter/src/main/java/fifoAnimalShelter/)
 
