@@ -19,10 +19,14 @@ public class AnimalShelter {
         pref = pref.toLowerCase();
         int decrementor = 1;
         Animal animal;
+
+
+
         switch (pref){
             case "dog":
                 do{
                     animal = animals.get(animals.size() - decrementor);
+                    System.out.println(animal.getClass().getTypeName());
                 }while(animal.getClass().getTypeName() != "fifoAnimalShelter.Dog");
                 return animal;
             case "cat":
