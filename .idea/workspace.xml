@@ -70,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -156,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MultiBracketValidationTest.testMultiBracketValidationSixWorded">
+  <component name="RunManager" selected="JUnit.MultiBracketValidationTest">
     <configuration name="MultiBracketValidationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="multibracketvalidation" />
       <extension name="coverage">
@@ -238,9 +238,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MultiBracketValidationTest" />
         <item itemvalue="JUnit.MultiBracketValidationTest.testMultiBracketValidationSixWorded" />
         <item itemvalue="JUnit.MultiBracketValidationTest.testMultiBracketValidationSeven" />
-        <item itemvalue="JUnit.MultiBracketValidationTest" />
         <item itemvalue="JUnit.MultiBracketValidationTest.testMultiBracketValidationFiveWorded" />
         <item itemvalue="JUnit.MultiBracketValidationTest.testMultiBracketValidationFour" />
       </list>
