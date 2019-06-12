@@ -233,6 +233,6 @@ Enqueue(String x), Dequeue(), and Constructor
 
 ![Alt text](./assets/queue_with_stacks.jpg?raw=true)
 
-## [Code](./Data-Structures/src/main/java/queuewithstacks/PseudoQueue.java)
+## [Code](./fifoAnimalShelter/src/main/java/fifoAnimalShelter/)
 
 <hr>
