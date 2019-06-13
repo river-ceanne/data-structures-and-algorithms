@@ -241,6 +241,8 @@ Enqueue(String x), Dequeue(), and Constructor
 
 # Multi-Bracket Validation
 
+Code Challenge Pair Partner: Jhia Turner
+
 ## Challenge
 * Java: a method 
       
@@ -260,7 +262,8 @@ Time Complexity: O(n)
 
 ### Solution
 
-![Alt text](./assets/fifo_animal_shelter.jpg?raw=true)
+![Alt text](./assets/multiBracketVal1.jpg?raw=true)
+![Alt text](./assets/multiBracketVal2.jpg?raw=true)
 
 ## [Code](./code-401-challenges/src/main/java/code/challenges/MultiBracketValidation.java)
 
