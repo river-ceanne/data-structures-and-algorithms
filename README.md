@@ -12,6 +12,7 @@ This repository is a collection of code with some basic solutions on some common
 7. [Stacks & Queues](#stacks-and-queues)
 8. [Queues With Stacks](#queues-with-stacks)
 9. [Animal Shelter Exercise](#animal-shelter)
+10. [Multi Bracket Validation](#multi-bracket-validation)
 
 ## Reverse an Array
 
@@ -234,5 +235,36 @@ Enqueue(String x), Dequeue(), and Constructor
 ![Alt text](./assets/fifo_animal_shelter.jpg?raw=true)
 
 ## [Code](./fifoAnimalShelter/src/main/java/fifoAnimalShelter/)
+
+<hr>
+
+
+# Multi-Bracket Validation
+
+Code Challenge Pair Partner: Jhia Turner
+
+## Challenge
+* Java: a method 
+      
+      public static boolean multiBracketValidation(String input)
+
+The function should take a string as its only argument, and should return a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets:
+
+    Round Brackets : ()
+    Square Brackets : []
+    Curly Brackets : {}
+
+## Approach & Efficiency
+Time Complexity: O(n)
+
+## API
+    multiBracketValidation(String input)
+
+### Solution
+
+![Alt text](./assets/multiBracketVal1.jpg?raw=true)
+![Alt text](./assets/multiBracketVal2.jpg?raw=true)
+
+## [Code](./code-401-challenges/src/main/java/code/challenges/MultiBracketValidation.java)
 
 <hr>
