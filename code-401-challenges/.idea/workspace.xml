@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/code/challenges/MultiBracketValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/code/challenges/MultiBracketValidation.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/code/challenges/MultiBracketValidation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
-              <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="60">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -36,7 +35,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/MultiBracketValidationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
+            <state relative-caret-position="525">
               <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -342,16 +341,24 @@
       <option name="project" value="LOCAL" />
       <updated>1560455008655</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refining return line">
+      <created>1560458292221</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1560458292221</updated>
+    </task>
+    <task id="LOCAL-00009" summary="refining return line!">
+      <created>1560458320010</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1560458320010</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest - 2019.05.29 at 11h 27m 11s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BinarySearchTest - 2019.05.29 at 11h 27m 43s.xml">
-      <configuration name="BinarySearchTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BinarySearchTest - 2019.05.29 at 11h 28m 19s.xml">
       <configuration name="BinarySearchTest" configurationId="JUnit" />
     </history-entry>
@@ -374,6 +381,12 @@
       <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MultiBracketValidationTest - 2019.06.13 at 12h 42m 37s.xml">
+      <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest - 2019.06.13 at 13h 38m 19s.xml">
+      <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MultiBracketValidationTest - 2019.06.13 at 13h 38m 33s.xml">
       <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -421,7 +434,9 @@
     <MESSAGE value="multibracketvalidation class made" />
     <MESSAGE value="multibracketvalidation tests made .." />
     <MESSAGE value="all tests now passed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="all tests now passed!" />
+    <MESSAGE value="refining return line" />
+    <MESSAGE value="refining return line!" />
+    <option name="LAST_COMMIT_MESSAGE" value="refining return line!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/Test.java" />
@@ -489,7 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/MultiBracketValidationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
+        <state relative-caret-position="525">
           <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -513,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/code/challenges/MultiBracketValidation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="60">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
     </entry>
