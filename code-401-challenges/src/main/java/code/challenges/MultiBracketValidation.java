@@ -47,6 +47,6 @@ public class MultiBracketValidation {
 
         }//end of string split for loop
 
-        return !openBrackStack.empty();
+        return openBrackStack.empty();
     }
 }
