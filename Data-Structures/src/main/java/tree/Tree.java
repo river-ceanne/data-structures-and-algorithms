@@ -70,6 +70,28 @@ public class Tree {
             BinaryTreeNode newChildNode = new BinaryTreeNode(value);
         }
 
+        public boolean containsValue(int value){
+            return searchTree(value,root);
+        }
+
+        public boolean searchTree(int searchValue, BinaryTreeNode node){
+
+            if(node.getValue() == searchValue){
+
+                return true;
+
+            }else if(node.getValue() > searchValue){
+
+                return searchTree(searchValue, node.getLeftChild());
+
+            }else if(node.getValue() < searchValue){
+
+                return searchTree(searchValue, node.getRightChild());
+            }
+
+            return true;
+        }
+
 
     }
 
