@@ -23,7 +23,7 @@ public class BinaryTreeNode {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(Object value) {
         this.value = value;
     }
 
