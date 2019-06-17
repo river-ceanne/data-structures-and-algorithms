@@ -86,7 +86,12 @@ public class TreeTest {
     @Test
     public void testBinaryTreePreOrder(){
         Tree.BinaryTree binaryTree = initializeBTree();
+        ArrayList<Integer> expected = new ArrayList<>();
+        expected.add(4); expected.add(2); expected.add(1); expected.add(3);
+        expected.add(6); expected.add(5); expected.add(7);
 
+        //expected: 4,2,1,3,6,5,7
+        assertEquals(expected,binaryTree.preOrder());
 
     }
 
@@ -94,8 +99,9 @@ public class TreeTest {
     public void testBinaryTreeInOrder(){
         Tree.BinaryTree binaryTree = initializeBTree();
         ArrayList<Integer> expected = new ArrayList<>();
-        expected.add(1); expected.add(2); expected.add(3); expected.add(4); expected.add(5);
-        expected.add(6); expected.add(7);
+        expected.add(1); expected.add(2); expected.add(3); expected.add(4);
+        expected.add(5); expected.add(6); expected.add(7);
+        //expected: 1,2,3,4,5,6,7
         assertEquals(expected, binaryTree.inOrder());
     }
 
@@ -103,6 +109,12 @@ public class TreeTest {
     @Test
     public void testBinaryTreePostOrder(){
         Tree.BinaryTree binaryTree = initializeBTree();
+        ArrayList<Integer> expected = new ArrayList<>();
+        expected.add(1); expected.add(3); expected.add(2);
+        expected.add(5); expected.add(7); expected.add(6); expected.add(4);
+
+        //expected: 1,3,2,5,7,6,4
+        assertEquals(expected, binaryTree.postOrder());
 
     }
 

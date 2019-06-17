@@ -1,5 +1,7 @@
 package tree;
 
+import org.checkerframework.checker.units.qual.A;
+
 import java.util.ArrayList;
 
 public class Tree {
@@ -30,23 +32,63 @@ public class Tree {
         public ArrayList<Integer> preOrder(){
             //(b) Preorder (Root, Left, Right)
             // starts at root
+            ArrayList<Integer> arr = new ArrayList<>();
 
-            return new ArrayList<>();
+            return preOrderTree(arr,root);
+        }
+
+        private ArrayList<Integer> preOrderTree(ArrayList<Integer> arr, BinaryTreeNode node){
+            if(node == null) return arr;
+
+            arr.add(node.getValue());
+
+            inOrderTree(arr,node.getLeftChild());
+
+            inOrderTree(arr,node.getRightChild());
+
+            return arr;
         }
 
         public ArrayList<Integer> inOrder(){
             //(a) Inorder (Left, Root, Right)
-            //starts with left most leaf
+            //starts with left most leaf(will order values properly tree if BST)
+            ArrayList<Integer> arr = new ArrayList<>();
 
-            return new ArrayList<>();
+            return inOrderTree(arr,root);
+        }
+
+        private ArrayList<Integer> inOrderTree(ArrayList<Integer> arr, BinaryTreeNode node){
+            if(node == null) return arr;
+
+            inOrderTree(arr,node.getLeftChild());
+
+            arr.add(node.getValue());
+
+            inOrderTree(arr,node.getRightChild());
+
+            return arr;
         }
 
         public ArrayList<Integer> postOrder(){
             //(c) Postorder (Left, Right, Root)
             //starts with left most leaf
+            ArrayList<Integer> arr = new ArrayList<>();
 
-            return new ArrayList<>();
+            return postOrderTree(arr,root);
         }
+
+        private ArrayList<Integer> postOrderTree(ArrayList<Integer> arr, BinaryTreeNode node){
+            if(node == null) return arr;
+
+            inOrderTree(arr,node.getLeftChild());
+
+            inOrderTree(arr,node.getRightChild());
+
+            arr.add(node.getValue());
+
+            return arr;
+        }
+
 
         public BinaryTreeNode getRoot() {
             return root;
