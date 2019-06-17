@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,25 +50,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="173">
+              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1759#1760#0" expanded="true" />
                 <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#3243#3244#0" expanded="true" />
+                <element signature="e#3296#3297#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
+            <state relative-caret-position="202">
+              <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -106,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
       </list>
     </option>
   </component>
@@ -218,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.testBinaryTreePostOrder">
+  <component name="RunManager" selected="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -234,7 +236,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreeConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinarySearchTreeAddNewValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -244,13 +246,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreeConstructor" />
+      <option name="METHOD_NAME" value="testBinarySearchTreeAddNewValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreeInOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinarySearchTreeContainsValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -260,13 +262,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreeInOrder" />
+      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreePostOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -276,13 +278,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreePostOrder" />
+      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValueFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreePreOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -292,7 +294,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreePreOrder" />
+      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValueTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -300,11 +302,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.testBinaryTreePostOrder" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreePreOrder" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreeInOrder" />
+        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse" />
+        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueTrue" />
+        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValue" />
+        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeAddNewValue" />
         <item itemvalue="JUnit.TreeTest" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreeConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -585,42 +587,56 @@
       <option name="project" value="LOCAL" />
       <updated>1560790429233</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="tests made for depth traversals and function and helper functions made for them in class..">
+      <created>1560790525428</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1560790525428</updated>
+    </task>
+    <task id="LOCAL-00040" summary="adding new value to BST function made + test passed">
+      <created>1560791158103</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1560791158103</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_testBinarySearchTreeAddNewValueToEmptyTree - 2019.06.16 at 20h 40m 47s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeAddNewValueToEmptyTree" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinaryTreePreOrder - 2019.06.17 at 09h 55m 36s.xml">
+      <configuration name="TreeTest.testBinaryTreePreOrder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeDefaultConstructor - 2019.06.16 at 20h 42m 26s.xml">
-      <configuration name="TreeTest.testBinaryTreeDefaultConstructor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeConstructor - 2019.06.16 at 20h 43m 14s.xml">
-      <configuration name="TreeTest.testBinaryTreeConstructor" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest - 2019.06.16 at 20h 45m 33s.xml">
+    <history-entry file="TreeTest - 2019.06.17 at 09h 55m 53s.xml">
       <configuration name="TreeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreePreOrder - 2019.06.16 at 20h 53m 00s.xml">
-      <configuration name="TreeTest.testBinaryTreePreOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeAddNewValue - 2019.06.17 at 10h 01m 58s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeAddNewValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeInOrder - 2019.06.17 at 09h 26m 47s.xml">
-      <configuration name="TreeTest.testBinaryTreeInOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeAddNewValue - 2019.06.17 at 10h 03m 14s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeAddNewValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeInOrder - 2019.06.17 at 09h 26m 59s.xml">
-      <configuration name="TreeTest.testBinaryTreeInOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeAddNewValue - 2019.06.17 at 10h 03m 49s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeAddNewValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeInOrder - 2019.06.17 at 09h 27m 08s.xml">
-      <configuration name="TreeTest.testBinaryTreeInOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValue - 2019.06.17 at 10h 06m 36s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreePreOrder - 2019.06.17 at 09h 50m 27s.xml">
-      <configuration name="TreeTest.testBinaryTreePreOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 06m 58s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreePostOrder - 2019.06.17 at 09h 50m 31s.xml">
-      <configuration name="TreeTest.testBinaryTreePostOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 07m 08s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TreeTest_testBinaryTreePostOrder - 2019.06.17 at 09h 53m 56s.xml">
-      <configuration name="TreeTest.testBinaryTreePostOrder" configurationId="JUnit" />
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 07m 23s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 07m 37s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 07m 57s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -669,8 +685,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="starting on the merge list function" />
-    <MESSAGE value="started settiing up on the test function" />
     <MESSAGE value="tests for empty lists made" />
     <MESSAGE value="some progress on the merge list" />
     <MESSAGE value="done with merge function" />
@@ -694,7 +708,9 @@
     <MESSAGE value="Binary Tree constructor tests made" />
     <MESSAGE value="saving some Testing set-up for the depth first traversal tests" />
     <MESSAGE value="tests made for depth traversals and function and helper functions made for them in class" />
-    <option name="LAST_COMMIT_MESSAGE" value="tests made for depth traversals and function and helper functions made for them in class" />
+    <MESSAGE value="tests made for depth traversals and function and helper functions made for them in class.." />
+    <MESSAGE value="adding new value to BST function made + test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new value to BST function made + test passed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -848,24 +864,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="113" column="31" selection-start-line="113" selection-start-column="31" selection-end-line="113" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="173">
+          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1759#1760#0" expanded="true" />
             <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#3243#3244#0" expanded="true" />
+            <element signature="e#3296#3297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

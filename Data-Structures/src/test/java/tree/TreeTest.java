@@ -155,10 +155,20 @@ public class TreeTest {
     }
 
     @Test
-    public void testBinarySearchTreeContainsValue(){
+    public void testBinarySearchTreeContainsValueTrue(){
         Tree.BinarySearchTree binarySearchTree = initializeBST();
 
+        assertTrue(binarySearchTree.containsValue(2));
+        assertTrue(binarySearchTree.containsValue(3));
+        assertTrue(binarySearchTree.containsValue(5));
+    }
 
+    @Test
+    public void testBinarySearchTreeContainsValueFalse(){
+        Tree.BinarySearchTree binarySearchTree = initializeBST();
+
+        assertFalse(binarySearchTree.containsValue(10));
+        assertFalse(binarySearchTree.containsValue(30));
     }
 
     private Tree.BinarySearchTree initializeBST(){
