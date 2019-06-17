@@ -5,12 +5,12 @@ import tree.Tree;
 
 public class FizzBuzzTree {
 
-    public Tree.BinaryTree FizzBuzzTree(Tree.BinaryTree binaryTree){
+    public static void FizzBuzzTree(Tree.BinaryTree binaryTree){
 
-        return binaryTree;
+        fizzBuzzTreeHelper(binaryTree.getRoot(),binaryTree.getRoot());
     }
 
-    private BinaryTreeNode fizzBuzzTreeHelper(BinaryTreeNode root, BinaryTreeNode node){
+    private static BinaryTreeNode fizzBuzzTreeHelper(BinaryTreeNode root, BinaryTreeNode node){
         if(node == null) return root;
 
         //do something here
@@ -25,7 +25,7 @@ public class FizzBuzzTree {
         return root;
     }
 
-    private boolean divisibleBy3(Object value){
+    private static boolean divisibleBy3(Object value){
         if(value.getClass() == Integer.class){
             return ((int) value) % 3 == 0;
         }
@@ -33,7 +33,7 @@ public class FizzBuzzTree {
         return false;
     }
 
-    private boolean divisibleBy5(Object value){
+    private static boolean divisibleBy5(Object value){
         if(value.getClass() == Integer.class){
             return ((int) value) % 5 == 0;
         }
@@ -41,9 +41,9 @@ public class FizzBuzzTree {
         return false;
     }
 
-    private boolean divisibleBy3And5(Object value){
+    private static boolean divisibleBy3And5(Object value){
         if(value.getClass() == Integer.class){
-            return  ((int) value) % 5 == 0;
+            return (((int) value) % 3 == 0) && (((int) value) % 5 == 0);
         }
 
         return false;
