@@ -2,7 +2,7 @@ package tree;
 
 public class BinaryTreeNode {
 
-    private int value;
+    private Object value;
     private BinaryTreeNode leftChild;
     private BinaryTreeNode rightChild;
 
@@ -19,7 +19,7 @@ public class BinaryTreeNode {
     }
 
 
-    public int getValue() {
+    public Object getValue() {
         return value;
     }
 
