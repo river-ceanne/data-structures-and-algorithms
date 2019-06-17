@@ -14,6 +14,10 @@ public class BinaryTreeNode {
         this.rightChild = rightChild;
     }
 
+    public BinaryTreeNode(int value){
+        this.value = value;
+    }
+
 
     public int getValue() {
         return value;
