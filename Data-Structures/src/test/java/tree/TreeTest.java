@@ -2,8 +2,9 @@ package tree;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
+import java.util.ArrayList;
+
+import static org.junit.Assert.*;
 
 public class TreeTest {
 
@@ -66,20 +67,42 @@ public class TreeTest {
         assertEquals(10,binarySearchTree.getRoot().getValue());
     }
 
+    ///////////----- TESTS on DEPTH FIRST TRAVERSALS ----/////////
+
+    private Tree.BinaryTree initializeBTree(){
+        BinaryTreeNode binaryTreeNode = new BinaryTreeNode(4);
+        binaryTreeNode.setLeftChild(new BinaryTreeNode(2));
+        binaryTreeNode.setRightChild(new BinaryTreeNode(6));
+
+        Tree.BinaryTree binaryTree = new Tree.BinaryTree(binaryTreeNode);
+
+        binaryTree.getRoot().getLeftChild().setLeftChild(new BinaryTreeNode(1));
+        binaryTree.getRoot().getLeftChild().setRightChild(new BinaryTreeNode(3));
+        binaryTree.getRoot().getRightChild().setLeftChild(new BinaryTreeNode(5));
+        binaryTree.getRoot().getRightChild().setRightChild(new BinaryTreeNode(7));
+        return binaryTree;
+    }
+
     @Test
     public void testBinaryTreePreOrder(){
+        Tree.BinaryTree binaryTree = initializeBTree();
+
 
     }
 
-
     @Test
     public void testBinaryTreeInOrder(){
-
+        Tree.BinaryTree binaryTree = initializeBTree();
+        ArrayList<Integer> expected = new ArrayList<>();
+        expected.add(1); expected.add(2); expected.add(3); expected.add(4); expected.add(5);
+        expected.add(6); expected.add(7);
+        assertEquals(expected, binaryTree.inOrder());
     }
 
 
     @Test
     public void testBinaryTreePostOrder(){
+        Tree.BinaryTree binaryTree = initializeBTree();
 
     }
 
