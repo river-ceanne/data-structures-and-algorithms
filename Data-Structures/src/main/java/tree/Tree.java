@@ -28,14 +28,23 @@ public class Tree {
         }
 
         public ArrayList<Integer> preOrder(){
+            //(b) Preorder (Root, Left, Right)
+            // starts at root
+
             return new ArrayList<>();
         }
 
         public ArrayList<Integer> inOrder(){
+            //(a) Inorder (Left, Root, Right)
+            //starts with left most leaf
+
             return new ArrayList<>();
         }
 
         public ArrayList<Integer> postOrder(){
+            //(c) Postorder (Left, Right, Root)
+            //starts with left most leaf
+
             return new ArrayList<>();
         }
 
@@ -48,7 +57,7 @@ public class Tree {
         }
     }
 
-    public class BinarySearchTree{
+    public static class BinarySearchTree{
 
         private BinaryTreeNode root;
 

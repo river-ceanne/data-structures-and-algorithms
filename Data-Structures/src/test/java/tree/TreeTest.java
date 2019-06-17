@@ -86,15 +86,23 @@ public class TreeTest {
     /////----- BINARY SEARCH TREE TEST -------/////////
 
     @Test
-    public void testBinarySearchTreeDefaultConstructor(){
-
-
+    public void testBinarySearchTreeDefaultConstructor(){ // initialize empty tree test
+        Tree.BinarySearchTree binarySearchTree = new Tree.BinarySearchTree();
+        assertEquals(null,binarySearchTree.getRoot());
     }
 
     @Test
     public void testBinarySearchTreeConstructor(){
+        BinaryTreeNode binaryTreeNode = new BinaryTreeNode(10);
+        Tree.BinarySearchTree binarySearchTree = new Tree.BinarySearchTree(binaryTreeNode);
+        assertEquals(10,binarySearchTree.getRoot().getValue());
+    }
 
-
+    @Test
+    public void testBinarySearchTreeAddNewValueToEmptyTree(){
+        Tree.BinarySearchTree binarySearchTree = new Tree.BinarySearchTree();
+        binarySearchTree.insertValue(10);
+        assertEquals(10,binarySearchTree.getRoot().getValue());
     }
 
     @Test
