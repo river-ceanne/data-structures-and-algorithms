@@ -161,11 +161,15 @@ public class Tree {
 
                 return true;
 
-            }else if(searchValue < node.getValue() && node.getLeftChild() != null){
+            }
+
+            if(searchValue < node.getValue() && node.getLeftChild() != null){
 
                 return searchTree(searchValue, node.getLeftChild());
 
-            }else if(searchValue > node.getValue() && node.getRightChild() != null){
+            }
+
+            if(searchValue > node.getValue() && node.getRightChild() != null){
 
                 return searchTree(searchValue, node.getRightChild());
             }

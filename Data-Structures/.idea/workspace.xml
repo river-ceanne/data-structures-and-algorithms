@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -50,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+            <state relative-caret-position="368">
+              <caret line="171" column="12" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1759#1760#0" expanded="true" />
@@ -66,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
+            <state relative-caret-position="172">
+              <caret line="169" column="56" lean-forward="true" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,8 +108,8 @@
         <option value="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
         <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
       </list>
     </option>
   </component>
@@ -220,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse">
+  <component name="RunManager" selected="JUnit.TreeTest.testBinarySearchTreeContainsValueTrue">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -302,8 +302,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueTrue" />
+        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValue" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeAddNewValue" />
         <item itemvalue="JUnit.TreeTest" />
@@ -601,7 +601,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560791158103</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="bst contains value func made and tested - passed">
+      <created>1560791305731</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1560791305731</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -685,7 +692,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="tests for empty lists made" />
     <MESSAGE value="some progress on the merge list" />
     <MESSAGE value="done with merge function" />
     <MESSAGE value="finishing -- took out println and sout's" />
@@ -710,7 +716,8 @@
     <MESSAGE value="tests made for depth traversals and function and helper functions made for them in class" />
     <MESSAGE value="tests made for depth traversals and function and helper functions made for them in class.." />
     <MESSAGE value="adding new value to BST function made + test passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding new value to BST function made + test passed" />
+    <MESSAGE value="bst contains value func made and tested - passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="bst contains value func made and tested - passed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -864,26 +871,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="169" column="56" lean-forward="true" selection-start-line="169" selection-start-column="56" selection-end-line="169" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="164" lean-forward="true" selection-start-line="164" selection-end-line="164" />
+        <state relative-caret-position="368">
+          <caret line="171" column="12" selection-start-line="171" selection-start-column="12" selection-end-line="171" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1759#1760#0" expanded="true" />
             <element signature="e#1799#1800#0" expanded="true" />
             <element signature="e#3243#3244#0" expanded="true" />
             <element signature="e#3296#3297#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="161" column="51" selection-start-line="161" selection-start-column="51" selection-end-line="161" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
