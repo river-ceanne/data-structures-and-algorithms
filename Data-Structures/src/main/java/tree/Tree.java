@@ -66,30 +66,60 @@ public class Tree {
             this.root = root;
         }
 
-        public void insertToTree(int value){
+        public void insertValue(int value){
             BinaryTreeNode newChildNode = new BinaryTreeNode(value);
+
+            if(root == null){
+                this.root = newChildNode;
+            }else{
+                boolean res = insertToTree(newChildNode,root);
+            }
+
+        }
+
+        protected boolean insertToTree(BinaryTreeNode newChildNode, BinaryTreeNode node){
+
+            if(newChildNode.getValue() < node.getValue()){
+
+                if(node.getLeftChild() != null){
+                    return insertToTree(newChildNode,node.getLeftChild());
+                }else{
+                    node.setLeftChild(newChildNode);
+                }
+
+            }else if(newChildNode.getValue() > node.getValue()){
+
+                if(node.getRightChild() != null){
+                    return insertToTree(newChildNode, node.getRightChild());
+                }else{
+                    node.setRightChild(newChildNode);
+                }
+
+            }
+
+            return true;
         }
 
         public boolean containsValue(int value){
             return searchTree(value,root);
         }
 
-        public boolean searchTree(int searchValue, BinaryTreeNode node){
+        protected boolean searchTree(int searchValue, BinaryTreeNode node){
 
             if(node.getValue() == searchValue){
 
                 return true;
 
-            }else if(node.getValue() > searchValue){
+            }else if(searchValue < node.getValue() && node.getLeftChild() != null){
 
                 return searchTree(searchValue, node.getLeftChild());
 
-            }else if(node.getValue() < searchValue){
+            }else if(searchValue > node.getValue() && node.getRightChild() != null){
 
                 return searchTree(searchValue, node.getRightChild());
             }
 
-            return true;
+            return false;
         }
 
 
