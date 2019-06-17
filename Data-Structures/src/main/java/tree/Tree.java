@@ -134,17 +134,17 @@ public class Tree {
 
                 if(node.getLeftChild() != null){
                     return insertToTree(newChildNode,node.getLeftChild());
-                }else{
-                    node.setLeftChild(newChildNode);
                 }
+
+                node.setLeftChild(newChildNode);
 
             }else if(newChildNode.getValue() > node.getValue()){
 
                 if(node.getRightChild() != null){
                     return insertToTree(newChildNode, node.getRightChild());
-                }else{
-                    node.setRightChild(newChildNode);
                 }
+
+                node.setRightChild(newChildNode);
 
             }
 
@@ -171,6 +171,26 @@ public class Tree {
             }
 
             return false;
+        }
+
+        public ArrayList<Integer> inOrder(){
+            //(a) Inorder (Left, Root, Right)
+            //starts with left most leaf(will order values properly tree if BST)
+            ArrayList<Integer> arr = new ArrayList<>();
+
+            return inOrderTree(arr,root);
+        }
+
+        private ArrayList<Integer> inOrderTree(ArrayList<Integer> arr, BinaryTreeNode node){
+            if(node == null) return arr;
+
+            inOrderTree(arr,node.getLeftChild());
+
+            arr.add(node.getValue());
+
+            inOrderTree(arr,node.getRightChild());
+
+            return arr;
         }
 
 

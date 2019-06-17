@@ -143,14 +143,34 @@ public class TreeTest {
 
     @Test
     public void testBinarySearchTreeAddNewValue(){
+        Tree.BinarySearchTree binarySearchTree = initializeBST();
 
+        ArrayList<Integer> expected = new ArrayList<>();
+        expected.add(1); expected.add(2); expected.add(3); expected.add(4);
+        expected.add(5); expected.add(6); expected.add(7);
+
+        //expected: 1,2,3,4,5,6,7
+        assertEquals(expected,binarySearchTree.inOrder());
 
     }
 
     @Test
     public void testBinarySearchTreeContainsValue(){
+        Tree.BinarySearchTree binarySearchTree = initializeBST();
 
 
+    }
+
+    private Tree.BinarySearchTree initializeBST(){
+        Tree.BinarySearchTree binarySearchTree = new Tree.BinarySearchTree();
+        binarySearchTree.insertValue(4);
+        binarySearchTree.insertValue(6);
+        binarySearchTree.insertValue(7);
+        binarySearchTree.insertValue(5);
+        binarySearchTree.insertValue(2);
+        binarySearchTree.insertValue(1);
+        binarySearchTree.insertValue(3);
+        return  binarySearchTree;
     }
 
 }
