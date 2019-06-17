@@ -42,9 +42,9 @@ public class Tree {
 
             arr.add(node.getValue());
 
-            inOrderTree(arr,node.getLeftChild());
+            preOrderTree(arr,node.getLeftChild());
 
-            inOrderTree(arr,node.getRightChild());
+            preOrderTree(arr,node.getRightChild());
 
             return arr;
         }
@@ -80,9 +80,9 @@ public class Tree {
         private ArrayList<Integer> postOrderTree(ArrayList<Integer> arr, BinaryTreeNode node){
             if(node == null) return arr;
 
-            inOrderTree(arr,node.getLeftChild());
+            postOrderTree(arr,node.getLeftChild());
 
-            inOrderTree(arr,node.getRightChild());
+            postOrderTree(arr,node.getRightChild());
 
             arr.add(node.getValue());
 
