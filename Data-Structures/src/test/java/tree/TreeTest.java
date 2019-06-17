@@ -55,14 +55,15 @@ public class TreeTest {
 
     @Test
     public void testBinaryTreeDefaultConstructor(){
-
-
+        Tree.BinaryTree binaryTree = new Tree.BinaryTree();
+        assertEquals(null,binaryTree.getRoot());
     }
 
     @Test
     public void testBinaryTreeConstructor(){
-
-
+        BinaryTreeNode binaryTreeNode = new BinaryTreeNode(10);
+        Tree.BinaryTree binarySearchTree = new Tree.BinaryTree(binaryTreeNode);
+        assertEquals(10,binarySearchTree.getRoot().getValue());
     }
 
     @Test

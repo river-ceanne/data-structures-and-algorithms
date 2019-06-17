@@ -37,31 +37,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-278">
-              <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-              <folding>
-                <element signature="e#1020#1021#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1409#1410#0" expanded="true" />
-                <element signature="e#1444#1445#0" expanded="true" />
-                <element signature="e#1496#1497#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1681#1682#0" expanded="true" />
-                <element signature="e#1721#1722#0" expanded="true" />
-                <element signature="e#1764#1765#0" expanded="true" />
-                <element signature="e#1799#1800#0" expanded="true" />
-                <element signature="e#1851#1852#0" expanded="true" />
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#2094#2095#0" expanded="true" />
-                <element signature="e#2147#2148#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/BinaryTreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -86,11 +61,36 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="e#1020#1021#0" expanded="true" />
+                <element signature="e#1059#1060#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <element signature="e#1444#1445#0" expanded="true" />
+                <element signature="e#1496#1497#0" expanded="true" />
+                <element signature="e#1536#1537#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1721#1722#0" expanded="true" />
+                <element signature="e#1764#1765#0" expanded="true" />
+                <element signature="e#1799#1800#0" expanded="true" />
+                <element signature="e#1851#1852#0" expanded="true" />
+                <element signature="e#1891#1892#0" expanded="true" />
+                <element signature="e#2094#2095#0" expanded="true" />
+                <element signature="e#2147#2148#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+            <state relative-caret-position="214">
+              <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -240,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.testBinarySearchTreeAddNewValueToEmptyTree">
+  <component name="RunManager" selected="JUnit.TreeTest.testBinaryTreeConstructor">
     <configuration name="TreeTest.testBinarySearchTreeAddNewValueToEmptyTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -289,7 +289,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreeNodeAddChildren" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinaryTreeConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -299,13 +299,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreeNodeAddChildren" />
+      <option name="METHOD_NAME" value="testBinaryTreeConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreeNodeConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TreeTest.testBinaryTreeDefaultConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
@@ -315,7 +315,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreeNodeConstructor" />
+      <option name="METHOD_NAME" value="testBinaryTreeDefaultConstructor" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -323,11 +323,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.testBinaryTreeConstructor" />
+        <item itemvalue="JUnit.TreeTest.testBinaryTreeDefaultConstructor" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeAddNewValueToEmptyTree" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeConstructor" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeDefaultConstructor" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreeNodeAddChildren" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreeNodeConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -580,19 +580,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560742233602</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Binary Search Tree tests for constructors made + initialize a tree node to empty tree test">
+      <created>1560742885422</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1560742885422</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 44m 49s.xml">
-      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PseudoQueueTest_testPseudoQueueEnqueueToOverflow - 2019.06.11 at 03h 45m 10s.xml">
-      <configuration name="PseudoQueueTest.testPseudoQueueEnqueueToOverflow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeNodeDefaultConstructor - 2019.06.16 at 19h 52m 32s.xml">
-      <configuration name="TreeTest.testBinaryTreeNodeDefaultConstructor" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_testBinaryTreeNodeDefaultConstructor - 2019.06.16 at 19h 53m 40s.xml">
       <configuration name="TreeTest.testBinaryTreeNodeDefaultConstructor" configurationId="JUnit" />
     </history-entry>
@@ -616,6 +614,15 @@
     </history-entry>
     <history-entry file="TreeTest_testBinarySearchTreeConstructor - 2019.06.16 at 20h 39m 18s.xml">
       <configuration name="TreeTest.testBinarySearchTreeConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinarySearchTreeAddNewValueToEmptyTree - 2019.06.16 at 20h 40m 47s.xml">
+      <configuration name="TreeTest.testBinarySearchTreeAddNewValueToEmptyTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreeDefaultConstructor - 2019.06.16 at 20h 42m 26s.xml">
+      <configuration name="TreeTest.testBinaryTreeDefaultConstructor" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreeConstructor - 2019.06.16 at 20h 43m 14s.xml">
+      <configuration name="TreeTest.testBinaryTreeConstructor" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -664,7 +671,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="LinkedList append multiple test made" />
     <MESSAGE value="done" />
     <MESSAGE value="code challenge kth done with simple test" />
     <MESSAGE value="all tests made" />
@@ -689,7 +695,8 @@
     <MESSAGE value="Binary Tree Node Tests made" />
     <MESSAGE value="Binary Search Tree contains value func made - inital phase" />
     <MESSAGE value="Binary Search Tree insert to tree func made - inital phase / untested" />
-    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree insert to tree func made - inital phase / untested" />
+    <MESSAGE value="Binary Search Tree tests for constructors made + initialize a tree node to empty tree test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Binary Search Tree tests for constructors made + initialize a tree node to empty tree test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -855,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="37" column="45" lean-forward="true" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="173">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#1020#1021#0" expanded="true" />
             <element signature="e#1059#1060#0" expanded="true" />
@@ -878,8 +885,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="97" column="63" selection-start-line="97" selection-start-column="63" selection-end-line="97" selection-end-column="63" />
+        <state relative-caret-position="214">
+          <caret line="65" column="63" selection-start-line="65" selection-start-column="63" selection-end-line="65" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

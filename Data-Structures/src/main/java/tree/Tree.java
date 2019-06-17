@@ -17,7 +17,7 @@ public class Tree {
     //Define a method named contains that accepts a value, and returns a boolean indicating whether or not the value is in the tree at least once.
 
 
-    public class BinaryTree{
+    public static class BinaryTree{
 
         private BinaryTreeNode root;
 
