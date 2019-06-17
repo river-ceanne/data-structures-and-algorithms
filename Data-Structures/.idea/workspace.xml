@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="last edits and cleaning">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../code-401-challenges/src/main/java/code/challenges/FizzBuzzTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/src/main/java/code/challenges/FizzBuzzTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
