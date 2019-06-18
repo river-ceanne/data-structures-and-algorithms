@@ -14,6 +14,8 @@ This repository is a collection of code with some basic solutions on some common
 9. [Animal Shelter Exercise](#animal-shelter)
 10. [Multi Bracket Validation](#multi-bracket-validation)
 11. [Trees](#trees)
+11. [FizzBuzz](#fizzbuzz)
+
 
 ## Reverse an Array
 
@@ -312,5 +314,40 @@ Binary Trees and Binary Search Trees
     - boolean containsValue(int val)
 
 ## [Code](./Data-Structures/src/main/java/tree)
+
+<hr>
+
+
+# FizzBuzz
+An implementation of a depth first traversal to update specific values of some nodes in a binary tree.
+
+## Challenge
+
+* Write a function called FizzBuzzTree which takes a tree as an argument.
+ 
+* Without utilizing any of the built-in methods available to your language, determine weather or not the value of each node is divisible by 3, 5 or both, and change the value of each of the nodes:
+    - If the value is divisible by 3, replace the value with “Fizz”
+    - If the value is divisible by 5, replace the value with “Buzz”
+    - If the value is divisible by 3 and 5, replace the value with “FizzBuzz”
+
+* Return the tree with its new values.
+  
+* For explicitly-typed languages: Ensure your node values are of type Object, to hold either strings or integers.
+ 
+## Approach & Efficiency
+My approach was a version to go through the nodes of the tree is a modified version of preorder Traversal to read/or edit the value in the nodes of the tree.
+
+Time Complexity is O(n + m), where n is the # of nodes, and m is the # of edges.
+
+## API
+
+- public static void FizzBuzzTree(Tree.BinaryTree binaryTree)
+- private static BinaryTreeNode fizzBuzzTreeHelper(BinaryTreeNode root, BinaryTreeNode node)
+- private static boolean divisibleBy3(Object value)
+- private static boolean divisibleBy5(Object value)
+- private static boolean divisibleBy3And5(Object value)
+
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/FizzBuzzTree.java)
 
 <hr>
