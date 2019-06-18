@@ -348,6 +348,11 @@ Time Complexity is O(n + m), where n is the # of nodes, and m is the # of edges.
 - private static boolean divisibleBy3And5(Object value)
 
 
+### Solution
+
+![Alt text](./assets/fizzbuzz.jpg?raw=true)
+
+
 ### [Code](./code-401-challenges/src/main/java/code/challenges/FizzBuzzTree.java)
 
 <hr>

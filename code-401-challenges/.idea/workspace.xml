@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="fizz buzz made and tested initial">
+    <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="readme updated">
+      <change afterPath="$PROJECT_DIR$/../assets/fizzbuzz.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -28,7 +29,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/code/challenges/FizzBuzzTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="343">
+            <state relative-caret-position="573">
               <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/FizzBuzzTreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="435">
+              <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -71,8 +72,8 @@
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="341">
-                <caret line="347" column="55" selection-start-line="347" selection-start-column="55" selection-end-line="347" selection-end-column="55" />
+              <first_editor relative-caret-position="351">
+                <caret line="347" column="39" lean-forward="true" selection-start-line="347" selection-start-column="39" selection-end-line="347" selection-end-column="39" />
               </first_editor>
               <second_editor />
             </state>
@@ -123,8 +124,8 @@
         <option value="$PROJECT_DIR$/src/main/java/code/challenges/MultiBracketValidation.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/test/java/code/challenges/FizzBuzzTreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/code/challenges/FizzBuzzTree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/code/challenges/FizzBuzzTreeTest.java" />
         <option value="$PROJECT_DIR$/../README.md" />
       </list>
     </option>
@@ -234,27 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTreeTest.testFizzBuzzTree">
-    <configuration name="ArrayShiftTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;code.challenges.ArrayShiftTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.FizzBuzzTreeTest">
     <configuration name="BinarySearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="code-401-challenges.test" />
       <extension name="coverage">
@@ -282,6 +263,21 @@
       <option name="MAIN_CLASS_NAME" value="code.challenges.BinarySearchTest" />
       <option name="METHOD_NAME" value="testBinarySearch" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="code-401-challenges.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.challenges.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code.challenges" />
+      <option name="MAIN_CLASS_NAME" value="code.challenges.FizzBuzzTreeTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -319,11 +315,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTreeTest" />
         <item itemvalue="JUnit.FizzBuzzTreeTest.testFizzBuzzTree" />
         <item itemvalue="JUnit.MultiBracketValidationTest" />
         <item itemvalue="JUnit.BinarySearchTest" />
         <item itemvalue="JUnit.BinarySearchTest.testBinarySearch" />
-        <item itemvalue="Gradle.ArrayShiftTest" />
       </list>
     </recent_temporary>
   </component>
@@ -443,13 +439,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560798852066</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="readme updated">
+      <created>1560888456015</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1560888456015</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MultiBracketValidationTest - 2019.06.13 at 12h 24m 15s.xml">
-      <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MultiBracketValidationTest - 2019.06.13 at 12h 41m 01s.xml">
       <configuration name="MultiBracketValidationTest" configurationId="JUnit" />
     </history-entry>
@@ -476,6 +476,9 @@
     </history-entry>
     <history-entry file="FizzBuzzTreeTest_testFizzBuzzTree - 2019.06.17 at 12h 13m 24s.xml">
       <configuration name="FizzBuzzTreeTest.testFizzBuzzTree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTreeTest - 2019.06.18 at 13h 30m 37s.xml">
+      <configuration name="FizzBuzzTreeTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -530,7 +533,8 @@
     <MESSAGE value="changed value datatype to Object instead of int" />
     <MESSAGE value="saving -- progress on funcs" />
     <MESSAGE value="fizz buzz made and tested initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="fizz buzz made and tested initial" />
+    <MESSAGE value="readme updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme updated" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/Test.java" />
@@ -627,20 +631,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/FizzBuzzTreeTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/code/challenges/FizzBuzzTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="573">
+          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/code/challenges/FizzBuzzTree.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/FizzBuzzTreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="43" column="57" selection-start-line="43" selection-start-column="57" selection-end-line="43" selection-end-column="57" />
+        <state relative-caret-position="435">
+          <caret line="29" column="35" lean-forward="true" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -650,8 +654,8 @@
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="341">
-            <caret line="347" column="55" selection-start-line="347" selection-start-column="55" selection-end-line="347" selection-end-column="55" />
+          <first_editor relative-caret-position="351">
+            <caret line="347" column="39" lean-forward="true" selection-start-line="347" selection-start-column="39" selection-end-line="347" selection-end-column="39" />
           </first_editor>
           <second_editor />
         </state>
