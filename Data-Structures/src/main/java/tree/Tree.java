@@ -3,6 +3,8 @@ package tree;
 import org.checkerframework.checker.units.qual.A;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class Tree {
 
@@ -77,6 +79,21 @@ public class Tree {
         }
 
         public void breadth_first_traversal(){
+            Queue<BinaryTreeNode> queue = new LinkedList<>();
+            queue.add(root);
+            while (!queue.isEmpty())
+            {
+                BinaryTreeNode currNode = queue.poll();
+                System.out.println(currNode.getValue());
+
+                if (currNode.getLeftChild() != null) {
+                    queue.add(currNode.getLeftChild());
+                }
+
+                if (currNode.getRightChild() != null) {
+                    queue.add(currNode.getRightChild());
+                }
+            }
 
         }
 

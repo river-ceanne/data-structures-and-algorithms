@@ -4,8 +4,6 @@
     <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Data-Structures/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/src/main/java/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Data-Structures/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/src/test/java/tree/TreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
