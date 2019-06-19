@@ -14,7 +14,8 @@ This repository is a collection of code with some basic solutions on some common
 9. [Animal Shelter Exercise](#animal-shelter)
 10. [Multi Bracket Validation](#multi-bracket-validation)
 11. [Trees](#trees)
-11. [FizzBuzz](#fizzbuzz)
+12. [FizzBuzz](#fizzbuzz)
+13. [Breath-First Traversal - Binary Tree](#breadth-first-traversal)
 
 
 ## Reverse an Array
@@ -317,7 +318,6 @@ Binary Trees and Binary Search Trees
 
 <hr>
 
-
 # FizzBuzz
 An implementation of a depth first traversal to update specific values of some nodes in a binary tree.
 
@@ -354,5 +354,30 @@ Time Complexity is O(n + m), where n is the # of nodes, and m is the # of edges.
 
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/FizzBuzzTree.java)
+
+<hr>
+
+
+# Breadth-First Traversal
+An implementation of a breadth first traversal to output values of the tree nodes of a Binary Tree.
+
+## Challenge
+
+* Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach; print every visited node’s value.
+ 
+## Approach & Efficiency
+My approach for this problem is using a Queue and a while-loop to output the polled Node's value.
+
+Time Complexity: O(n) - where n is number of nodes in the Binary Tree
+
+## API
+
+- public void breadth_first_traversal()
+
+### Solution
+
+![Alt text](./assets/bft.jpg?raw=true)
+
+### [Code](./Data-Structures/src/main/java/tree/Tree.java)
 
 <hr>
