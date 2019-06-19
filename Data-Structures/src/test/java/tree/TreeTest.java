@@ -2,6 +2,8 @@ package tree;
 
 import org.junit.Test;
 
+import java.io.ByteArrayOutputStream;
+import java.io.PrintStream;
 import java.util.ArrayList;
 
 import static org.junit.Assert.*;
@@ -108,6 +110,23 @@ public class TreeTest {
 
         //expected: 1,3,2,5,7,6,4
         assertEquals(expected, binaryTree.postOrder());
+
+    }
+
+    @Test
+    public void testBinaryTreeBreadthFirstTraversal(){
+        Tree.BinaryTree binaryTree = initializeBTree();
+        ArrayList<Integer> expected = new ArrayList<>();
+        expected.add(4); expected.add(2); expected.add(6);
+        expected.add(1); expected.add(3); expected.add(5); expected.add(7);
+
+        final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(outContent));
+
+        binaryTree.breadth_first_traversal();
+
+        //expected: 4,2,6,1,3,5,7
+        assertEquals("4\n2\n6\n1\n3\n5\n7\n", outContent.toString());
 
     }
 

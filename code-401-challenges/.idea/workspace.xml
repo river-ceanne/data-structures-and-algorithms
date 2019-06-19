@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="readme updated">
-      <change afterPath="$PROJECT_DIR$/../assets/fizzbuzz.jpg" afterDir="false" />
+    <list default="true" id="edab7132-0b26-4444-8e3a-60f83c25d162" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/src/main/java/tree/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data-Structures/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Data-Structures/src/test/java/tree/TreeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -72,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/../README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="351">
+              <first_editor relative-caret-position="264">
                 <caret line="347" column="39" lean-forward="true" selection-start-line="347" selection-start-column="39" selection-end-line="347" selection-end-column="39" />
               </first_editor>
               <second_editor />
@@ -446,7 +446,14 @@
       <option name="project" value="LOCAL" />
       <updated>1560888456015</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="readme updated with whiteboard pic ad pic added to assets dir">
+      <created>1560890398109</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1560890398109</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -534,7 +541,8 @@
     <MESSAGE value="saving -- progress on funcs" />
     <MESSAGE value="fizz buzz made and tested initial" />
     <MESSAGE value="readme updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme updated" />
+    <MESSAGE value="readme updated with whiteboard pic ad pic added to assets dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme updated with whiteboard pic ad pic added to assets dir" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/code/challenges/Test.java" />
@@ -654,7 +662,7 @@
     <entry file="file://$PROJECT_DIR$/../README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="351">
+          <first_editor relative-caret-position="264">
             <caret line="347" column="39" lean-forward="true" selection-start-line="347" selection-start-column="39" selection-end-line="347" selection-end-column="39" />
           </first_editor>
           <second_editor />
