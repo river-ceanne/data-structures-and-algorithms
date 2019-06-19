@@ -376,7 +376,7 @@ Time Complexity: O(n) - where n is number of nodes in the Binary Tree
 
 ### Solution
 
-![Alt text](./assets/fizzbuzz.jpg?raw=true)
+![Alt text](./assets/bft.jpg?raw=true)
 
 ### [Code](./Data-Structures/src/main/java/tree/Tree.java)
 
