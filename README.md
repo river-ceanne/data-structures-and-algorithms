@@ -394,6 +394,7 @@ A method to traverse a binary tree and get its maximum value(integer).
 ## Approach & Efficiency
 My approach for this problem is by using a depth first search traversal and comparing left and right maximum values to return the greater value.
 Time Complexity: O(n + m), where n is the # of nodes, and m is the # of edges.
+Space Complexity: O(1)
 
 ## API
 
@@ -401,7 +402,7 @@ Time Complexity: O(n + m), where n is the # of nodes, and m is the # of edges.
 
 ### Solution
 
-![Alt text](./assets/bft.jpg?raw=true)
+![Alt text](./assets/findMaxBTree.jpg?raw=true)
 
 ### [Code](./Data-Structures/src/main/java/tree/Tree.java)
 
