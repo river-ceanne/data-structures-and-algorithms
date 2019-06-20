@@ -97,6 +97,25 @@ public class Tree {
 
         }
 
+        public int findMaxVal(){
+
+            int max = Integer.MIN_VALUE;
+
+            return findMaxValTree(max,root);
+        }
+
+        private int findMaxValTree(int max, BinaryTreeNode node){
+            if(node == null) return max;
+
+            findMaxValTree(max,node.getLeftChild());
+
+            findMaxValTree(max,node.getRightChild());
+
+            if(max < node.getValue()) max = node.getValue();
+
+            return max;
+        }
+
 
         public BinaryTreeNode getRoot() {
             return root;
