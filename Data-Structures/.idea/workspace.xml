@@ -4,7 +4,7 @@
     <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -54,8 +54,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+            <state relative-caret-position="210">
+              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
+            <state relative-caret-position="336">
+              <caret line="137" column="47" lean-forward="true" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -229,7 +229,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.testBinaryTreeBreadthFirstTraversal">
+  <component name="RunManager" selected="JUnit.TreeTest.testBinaryTreefindMaxVal">
     <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -241,22 +241,6 @@
       <option name="PACKAGE_NAME" value="tree" />
       <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeTest.testBinarySearchTreeContainsValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Data-Structures" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValue" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -309,13 +293,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest.testBinaryTreefindMaxVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tree" />
+      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
+      <option name="METHOD_NAME" value="testBinaryTreefindMaxVal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest.testBinaryTreefindMaxVal" />
         <item itemvalue="JUnit.TreeTest.testBinaryTreeBreadthFirstTraversal" />
         <item itemvalue="JUnit.TreeTest" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueTrue" />
         <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse" />
-        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValue" />
       </list>
     </recent_temporary>
   </component>
@@ -638,28 +638,17 @@
       <option name="project" value="LOCAL" />
       <updated>1560963536723</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="find max val function made">
+      <created>1561047289314</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1561047289314</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 06m 58s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 07m 08s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 07m 23s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 07m 37s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 07m 57s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueFalse - 2019.06.17 at 10h 09m 27s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 09m 31s.xml">
       <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
     </history-entry>
@@ -674,6 +663,24 @@
     </history-entry>
     <history-entry file="TreeTest_testBinaryTreeBreadthFirstTraversal - 2019.06.19 at 09h 57m 53s.xml">
       <configuration name="TreeTest.testBinaryTreeBreadthFirstTraversal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 16m 27s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 18m 52s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 19m 14s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 20m 12s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 20m 46s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 27m 29s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -696,14 +703,14 @@
       <window_info id="Image Layers" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.21173105" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.28674698" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.36144578" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.36144578" />
       <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -722,7 +729,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="FS re-organized" />
     <MESSAGE value="stack made" />
     <MESSAGE value="stack tests made" />
     <MESSAGE value="queue started ... in progress" />
@@ -747,7 +753,8 @@
     <MESSAGE value="bst containValTree func cleaned / refactored -&gt; readability" />
     <MESSAGE value="test made for the breadth first traversal function" />
     <MESSAGE value="breadth first traversal function made and test done - passed" />
-    <option name="LAST_COMMIT_MESSAGE" value="breadth first traversal function made and test done - passed" />
+    <MESSAGE value="find max val function made" />
+    <option name="LAST_COMMIT_MESSAGE" value="find max val function made" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -903,8 +910,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="126" selection-start-line="126" selection-end-line="126" />
+        <state relative-caret-position="336">
+          <caret line="137" column="47" lean-forward="true" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -913,8 +920,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="110" lean-forward="true" selection-start-line="110" selection-end-line="110" />
+        <state relative-caret-position="210">
+          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

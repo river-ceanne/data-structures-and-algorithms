@@ -107,11 +107,12 @@ public class Tree {
         private int findMaxValTree(int max, BinaryTreeNode node){
             if(node == null) return max;
 
-            findMaxValTree(max,node.getLeftChild());
+            max = node.getValue();
+            int leftMax = findMaxValTree(max,node.getLeftChild());
+            int rightMax = findMaxValTree(max,node.getRightChild());
 
-            findMaxValTree(max,node.getRightChild());
-
-            if(max < node.getValue()) max = node.getValue();
+            if(leftMax > max) max = leftMax;
+            if(rightMax > max) max = rightMax;
 
             return max;
         }

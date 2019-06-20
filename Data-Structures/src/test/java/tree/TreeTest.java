@@ -130,6 +130,14 @@ public class TreeTest {
 
     }
 
+    @Test
+    public void testBinaryTreefindMaxVal(){
+        Tree.BinaryTree binaryTree = initializeBTree();
+        int expected = 7;
+
+        assertEquals(expected, binaryTree.findMaxVal());
+
+    }
 
     /////----- BINARY SEARCH TREE TEST -------/////////
 
