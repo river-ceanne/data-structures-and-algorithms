@@ -16,6 +16,7 @@ This repository is a collection of code with some basic solutions on some common
 11. [Trees](#trees)
 12. [FizzBuzz](#fizzbuzz)
 13. [Breath-First Traversal - Binary Tree](#breadth-first-traversal)
+14. [Find Max Value of Binary Tree](#find-max-value-binary-tree)
 
 
 ## Reverse an Array
@@ -377,6 +378,31 @@ Time Complexity: O(n) - where n is number of nodes in the Binary Tree
 ### Solution
 
 ![Alt text](./assets/bft.jpg?raw=true)
+
+### [Code](./Data-Structures/src/main/java/tree/Tree.java)
+
+<hr>
+
+
+# Find Max Value - Binary Tree
+A method to traverse a binary tree and get its maximum value(integer).
+
+## Challenge
+
+* Write a function called find-maximum-value which takes binary tree as its only input. Without utilizing any of the built-in methods available to your language, return the maximum value stored in the tree. You can assume that the values stored in the Binary Tree will be numeric.
+
+## Approach & Efficiency
+My approach for this problem is by using a depth first search traversal and comparing left and right maximum values to return the greater value.
+Time Complexity: O(n + m), where n is the # of nodes, and m is the # of edges.
+Space Complexity: O(1)
+
+## API
+
+- public int findMaxVal()
+
+### Solution
+
+![Alt text](./assets/findMaxBTree.jpg?raw=true)
 
 ### [Code](./Data-Structures/src/main/java/tree/Tree.java)
 
