@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="">
+    <list default="true" id="9b71ade2-867a-41e0-8a5c-cec6a32f3889" name="Default Changelist" comment="readme updated with added whiteboard pic solution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sorts/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sorts/InsertionSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -51,11 +51,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+            <state relative-caret-position="1395">
+              <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="137" column="47" lean-forward="true" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
+            <state relative-caret-position="255">
+              <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,10 +76,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="414">
+                <caret line="408" column="4" selection-start-line="408" selection-start-column="4" selection-end-line="408" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5655">
+            <state relative-caret-position="237">
               <caret line="385" selection-start-line="385" selection-end-line="385" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/sorts/InsertionSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/sorts/InsertionSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,15 +147,17 @@
         <option value="$PROJECT_DIR$/src/test/java/queuewithstacks/PseudoQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/queuewithstacks/PseudoQueue.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/BinaryTreeNode.java" />
-        <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/tree/Tree.java" />
+        <option value="$PROJECT_DIR$/src/test/java/tree/TreeTest.java" />
+        <option value="$PROJECT_DIR$/../README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/sorts/InsertionSort.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sorts/InsertionSortTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="819" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,8 +165,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,7 +201,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tree" type="462c0819:PsiDirectoryNode" />
+              <item name="sorts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
@@ -197,12 +230,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="sorts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data-Structures" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data-Structures" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -229,81 +272,81 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TreeTest.testBinaryTreefindMaxVal">
-    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.InsertionSortTest.testInsertionTestEmpty">
+    <configuration name="InsertionSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSortTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinarySearchTreeContainsValueFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSortTest.testInsertionTestEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValueFalse" />
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testInsertionTestEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSortTest.testInsertionTestReg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinarySearchTreeContainsValueTrue" />
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testInsertionTestReg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreeBreadthFirstTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSortTest.testInsertionTestReverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreeBreadthFirstTraversal" />
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testInsertionTestReverse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTest.testBinaryTreefindMaxVal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="InsertionSortTest.testInsertionTestSorted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tree.*" />
+          <option name="PATTERN" value="sorts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tree" />
-      <option name="MAIN_CLASS_NAME" value="tree.TreeTest" />
-      <option name="METHOD_NAME" value="testBinaryTreefindMaxVal" />
+      <option name="PACKAGE_NAME" value="sorts" />
+      <option name="MAIN_CLASS_NAME" value="sorts.InsertionSortTest" />
+      <option name="METHOD_NAME" value="testInsertionTestSorted" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,11 +354,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TreeTest.testBinaryTreefindMaxVal" />
-        <item itemvalue="JUnit.TreeTest.testBinaryTreeBreadthFirstTraversal" />
-        <item itemvalue="JUnit.TreeTest" />
-        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueTrue" />
-        <item itemvalue="JUnit.TreeTest.testBinarySearchTreeContainsValueFalse" />
+        <item itemvalue="JUnit.InsertionSortTest.testInsertionTestEmpty" />
+        <item itemvalue="JUnit.InsertionSortTest.testInsertionTestSorted" />
+        <item itemvalue="JUnit.InsertionSortTest.testInsertionTestReverse" />
+        <item itemvalue="JUnit.InsertionSortTest" />
+        <item itemvalue="JUnit.InsertionSortTest.testInsertionTestReg" />
       </list>
     </recent_temporary>
   </component>
@@ -645,28 +688,24 @@
       <option name="project" value="LOCAL" />
       <updated>1561047289314</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="find max val function made == test passed - done">
+      <created>1561048157099</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1561048157099</updated>
+    </task>
+    <task id="LOCAL-00047" summary="readme updated with approach and problem domain desc + table of contents updated">
+      <created>1561048631575</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1561048631575</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TreeTest_testBinarySearchTreeContainsValueTrue - 2019.06.17 at 10h 09m 31s.xml">
-      <configuration name="TreeTest.testBinarySearchTreeContainsValueTrue" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest - 2019.06.17 at 10h 11m 08s.xml">
-      <configuration name="TreeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeBreadthFirstTraversal - 2019.06.19 at 09h 44m 09s.xml">
-      <configuration name="TreeTest.testBinaryTreeBreadthFirstTraversal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeBreadthFirstTraversal - 2019.06.19 at 09h 57m 24s.xml">
-      <configuration name="TreeTest.testBinaryTreeBreadthFirstTraversal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreeBreadthFirstTraversal - 2019.06.19 at 09h 57m 53s.xml">
-      <configuration name="TreeTest.testBinaryTreeBreadthFirstTraversal" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 16m 27s.xml">
-      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 18m 52s.xml">
       <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
     </history-entry>
@@ -681,6 +720,24 @@
     </history-entry>
     <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 27m 29s.xml">
       <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest_testBinaryTreefindMaxVal - 2019.06.20 at 09h 28m 17s.xml">
+      <configuration name="TreeTest.testBinaryTreefindMaxVal" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testInsertionTestReg - 2019.07.01 at 10h 34m 29s.xml">
+      <configuration name="InsertionSortTest.testInsertionTestReg" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest - 2019.07.01 at 10h 36m 08s.xml">
+      <configuration name="InsertionSortTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testInsertionTestReverse - 2019.07.01 at 10h 36m 55s.xml">
+      <configuration name="InsertionSortTest.testInsertionTestReverse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testInsertionTestSorted - 2019.07.01 at 10h 37m 26s.xml">
+      <configuration name="InsertionSortTest.testInsertionTestSorted" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InsertionSortTest_testInsertionTestEmpty - 2019.07.01 at 10h 37m 53s.xml">
+      <configuration name="InsertionSortTest.testInsertionTestEmpty" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -702,15 +759,15 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Structure" order="5" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.21173105" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.32891566" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.21459228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Build" order="2" weight="0.28674698" />
       <window_info anchor="bottom" id="Messages" order="3" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.36144578" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.36144578" />
       <window_info anchor="bottom" id="Debug" order="8" sideWeight="0.49928468" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
@@ -729,9 +786,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="stack made" />
-    <MESSAGE value="stack tests made" />
-    <MESSAGE value="queue started ... in progress" />
     <MESSAGE value="queue made" />
     <MESSAGE value="queue tests made :D" />
     <MESSAGE value="cleanup made.." />
@@ -754,7 +808,10 @@
     <MESSAGE value="test made for the breadth first traversal function" />
     <MESSAGE value="breadth first traversal function made and test done - passed" />
     <MESSAGE value="find max val function made" />
-    <option name="LAST_COMMIT_MESSAGE" value="find max val function made" />
+    <MESSAGE value="find max val function made == test passed - done" />
+    <MESSAGE value="readme updated with approach and problem domain desc + table of contents updated" />
+    <MESSAGE value="readme updated with added whiteboard pic solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme updated with added whiteboard pic solution" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures$AppTest_testmergeLinkedList.ic" NAME="AppTest.testmergeLinkedList Coverage Results" MODIFIED="1559843412139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -901,27 +958,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5655">
-          <caret line="385" selection-start-line="385" selection-end-line="385" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="137" column="47" lean-forward="true" selection-start-line="137" selection-start-column="47" selection-end-line="137" selection-end-column="47" />
+        <state relative-caret-position="1395">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree/Tree.java">
+    <entry file="file://$PROJECT_DIR$/../README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="414">
+            <caret line="408" column="4" selection-start-line="408" selection-start-column="4" selection-end-line="408" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="109" column="34" selection-start-line="109" selection-start-column="34" selection-end-line="109" selection-end-column="34" />
+        <state relative-caret-position="237">
+          <caret line="385" selection-start-line="385" selection-end-line="385" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/tree/TreeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="155" lean-forward="true" selection-start-line="155" selection-end-line="155" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/sorts/InsertionSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sorts/InsertionSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
