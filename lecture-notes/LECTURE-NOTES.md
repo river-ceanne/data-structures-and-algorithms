@@ -15,9 +15,11 @@ Merge sort is one of the most efficient sorting algorithms and is base on the â€
 ![Alt text](https://www.baeldung.com/wp-content/uploads/2018/09/mergesort1.png)
 
 ## Algorithm
-1. Compare the current element (x) to the adjacent element (y).
-2. If the comparison reveals y < x, switch the elements.
-3. Repeat these steps until end of list is reached. 
+1. Divide: 
+  We divide the given array into 2, the pivot being the midpoint of the given array. This can be done and carried out using recursion for all the trickled down half arrays until there are no more half arrays to split into 2.
+
+2. Conquer: 
+  We sort and merge the divided arrays from the bottom going to the top and get the result - the sorted array.
 
 ## Pseudocode
 
