@@ -4,72 +4,63 @@
 
 
 ## Learning Objectives
-* Merge sort algorithm and its implementation
+* Quick sort algorithm and its implementation
 
 ## Lecture Flow
-* Merge sort brief description
+* Quick sort brief description
   - visualization of the algorithm
 * Time complexity of the sort
 
 ## Diagram
-![Alt text](https://www.baeldung.com/wp-content/uploads/2018/09/mergesort1.png)
+![Alt text](https://image.slidesharecdn.com/3-150507101206-lva1-app6892/95/38-quicksort-8-638.jpg)
 
 ## Algorithm
-1. Divide: 
-  We divide the given array into 2, the pivot being the midpoint of the given array. This can be done and carried out using recursion for all the trickled down half arrays until there are no more half arrays to split into 2.
 
-2. Conquer: 
-  We sort and merge the divided arrays from the bottom going to the top and get the result - the sorted array.
 
 ## Pseudocode
 
-    ALGORITHM Mergesort(arr)
-    DECLARE n <-- arr.length
-           
-    if arr.length > 1
-      DECLARE mid <-- n/2
-      DECLARE b <-- arr[0...mid]
-      DECLARE c <-- arr[mid...n]
-      // break down the left side
-      Mergesort(b)
-      // break down the right side
-      Mergesort(c)
-      // merge the left and the right side together
-      Merge(b, c, arr)
+    ALGORITHM QuickSort(arr, left, right)
+    if left < right
+        // Partition the array by setting the position of the pivot value 
+        DEFINE position <-- Partition(arr, left, right)
+        // Sort the left
+        QuickSort(arr, left, position - 1)
+        // Sort the right
+        QuickSort(arr, position + 1, right)
 
-    ALGORITHM Merge(b, c, a)
-      DECLARE i <-- 0
-      DECLARE j <-- 0
-      DECLARE k <-- 0
+    ALGORITHM Partition(arr, left, right)
+    // set a pivot value as a point of reference
+    DEFINE pivot <-- arr[right]
+    // create a variable to track the largest index of numbers lower than the defined pivot
+    DEFINE low <-- left - 1
+    for i <- left to right do
+        if arr[i] <= pivot
+            low++
+            Swap(arr, i, low)
 
-    while i < b && j < c
-        if b[i] <= c[j]
-            a[k] <-- b[i]
-            i <-- i + 1
-        else
-            a[k] = c[j]
-            j <-- j + 1
-            
-        k <-- k + 1
+     // place the value of the pivot location in the middle.
+     // all numbers smaller than the pivot are on the left, larger on the right. 
+     Swap(arr, right, low + 1)
+    // return the pivot index point
+     return low + 1
 
-    if i = b.length
-       add remaining items in array c to array a
-    else
-       add remaining items in array b to array a
-       
-    return a
+    ALGORITHM Swap(arr, i, low)
+    DEFINE temp;
+    temp <-- arr[i]
+    arr[i] <-- arr[low]
+    arr[low] <-- temp
 
 ## Readings and References
 
 #### Watch
 
-* https://www.youtube.com/watch?v=4VqmGXwpLqc
+* https://www.youtube.com/watch?v=Hoixgm4-P4M
 
 #### Read
-* https://www.geeksforgeeks.org/merge-sort/
-* https://www.baeldung.com/java-merge-sort
+* https://www.geeksforgeeks.org/quick-sort/
+* https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm
 
 #### Bookmark
 
-* https://www.hackerearth.com/practice/algorithms/sorting/merge-sort/tutorial/
+* https://www.hackerearth.com/practice/algorithms/sorting/quick-sort/tutorial/
 
