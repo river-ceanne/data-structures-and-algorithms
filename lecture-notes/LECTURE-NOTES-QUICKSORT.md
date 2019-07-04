@@ -1,6 +1,6 @@
 # Lecture - Quick Sort
 
-<!-- description -->
+Quick sort is a type of sorting algorithm that uses a pivoting method of the elements during a key partitioning process. 
 
 
 ## Learning Objectives
