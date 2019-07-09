@@ -8,7 +8,7 @@ public class Hashtable {
         map = new Node[size];
     }
 
-    private int hash(String key) {
+    protected int hash(String key) {
         int hashValue = 0;
         char[] letters = key.toCharArray();
         for (int i = 0; i < letters.length; i++) {
@@ -43,7 +43,7 @@ public class Hashtable {
 
     public String get(String key){
         int hashkey = hash(key);
-        return this.map[hashkey].getValue();
+        return map[hashkey] != null? map[hashkey].getValue() : null;
     }
 
     public boolean contains(String key){

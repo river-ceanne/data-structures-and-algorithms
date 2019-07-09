@@ -20,4 +20,38 @@ public class HashtableTest {
         assertEquals(10,hashtable.map.length);
     }
 
+    @Test
+    public void testHashtableAdd(){
+        Hashtable hashtable = new Hashtable(10);
+        hashtable.add("bubbles","the value");
+        assertEquals("the value",hashtable.get("bubbles"));
+    }
+
+    @Test
+    public void testHashtableReturnNull(){
+        Hashtable hashtable = new Hashtable(10);
+        hashtable.add("bubbles","the value");
+        assertEquals(null,hashtable.get("bloop"));
+    }
+
+    @Test
+    public void testHashtableHandleColl(){
+        Hashtable hashtable = new Hashtable(10);
+        hashtable.add("bubbles","the value");
+        hashtable.add("bubbles","the second value");
+        assertEquals("the second value",hashtable.get("bubbles"));
+
+    }
+
+
+    @Test
+    public void testHashtableHandleCollRetreival(){
+        Hashtable hashtable = new Hashtable(10);
+        hashtable.add("bubbles","the value");
+        hashtable.add("bubbles","the second value");
+        assertEquals("the second value",hashtable.get("bubbles"));
+        assertEquals("the value",hashtable.map[hashtable.hash("bubbles")].getNextNode().getValue());
+
+    }
+
 }

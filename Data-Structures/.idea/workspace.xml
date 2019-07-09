@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="580256ca-2f41-43ab-b6a1-436fadba6d75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../multibracketvalidation" beforeDir="false" afterPath="$PROJECT_DIR$/../multibracketvalidation" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -33,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+            <state relative-caret-position="120">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -51,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="373">
+              <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,8 +98,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/Node.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java" />
       </list>
     </option>
   </component>
@@ -193,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HashtableTest (1)">
+  <component name="RunManager" selected="JUnit.HashtableTest.testHashtableHandleColl">
     <configuration name="HashtableTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures.test" />
       <extension name="coverage">
@@ -228,6 +229,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashtableTest.testHashtableAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data.Structures" />
+      <option name="MAIN_CLASS_NAME" value="Data.Structures.HashtableTest" />
+      <option name="METHOD_NAME" value="testHashtableAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashtableTest.testHashtableHandleColl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data.Structures" />
+      <option name="MAIN_CLASS_NAME" value="Data.Structures.HashtableTest" />
+      <option name="METHOD_NAME" value="testHashtableHandleColl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HashtableTest.testHashtableInstantiation" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Data-Structures" />
       <extension name="coverage">
@@ -244,13 +277,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HashtableTest.testHashtableReturnNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Data.Structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Data.Structures" />
+      <option name="MAIN_CLASS_NAME" value="Data.Structures.HashtableTest" />
+      <option name="METHOD_NAME" value="testHashtableReturnNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="JUnit.HashtableTest.testHashtableInstantiation" />
       <item itemvalue="JUnit.HashtableTest" />
       <item itemvalue="JUnit.HashtableTest (1)" />
+      <item itemvalue="JUnit.HashtableTest.testHashtableAdd" />
+      <item itemvalue="JUnit.HashtableTest.testHashtableReturnNull" />
+      <item itemvalue="JUnit.HashtableTest.testHashtableHandleColl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HashtableTest.testHashtableHandleColl" />
+        <item itemvalue="JUnit.HashtableTest.testHashtableReturnNull" />
+        <item itemvalue="JUnit.HashtableTest.testHashtableAdd" />
         <item itemvalue="JUnit.HashtableTest (1)" />
         <item itemvalue="JUnit.HashtableTest" />
       </list>
@@ -270,8 +325,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HashtableTest_(1) - 2019.07.09 at 09h 58m 01s.xml">
-      <configuration name="HashtableTest (1)" configurationId="JUnit" />
+    <history-entry file="HashtableTest_testHashtableReturnNull - 2019.07.09 at 10h 17m 27s.xml">
+      <configuration name="HashtableTest.testHashtableReturnNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableReturnNull - 2019.07.09 at 10h 18m 30s.xml">
+      <configuration name="HashtableTest.testHashtableReturnNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableReturnNull - 2019.07.09 at 10h 19m 39s.xml">
+      <configuration name="HashtableTest.testHashtableReturnNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableReturnNull - 2019.07.09 at 10h 22m 00s.xml">
+      <configuration name="HashtableTest.testHashtableReturnNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableReturnNull - 2019.07.09 at 10h 22m 37s.xml">
+      <configuration name="HashtableTest.testHashtableReturnNull" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableHandleColl - 2019.07.09 at 10h 23m 17s.xml">
+      <configuration name="HashtableTest.testHashtableHandleColl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableHandleColl - 2019.07.09 at 10h 23m 31s.xml">
+      <configuration name="HashtableTest.testHashtableHandleColl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableHandleColl - 2019.07.09 at 10h 23m 55s.xml">
+      <configuration name="HashtableTest.testHashtableHandleColl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableHandleColl - 2019.07.09 at 10h 24m 11s.xml">
+      <configuration name="HashtableTest.testHashtableHandleColl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HashtableTest_testHashtableHandleColl - 2019.07.09 at 10h 26m 30s.xml">
+      <configuration name="HashtableTest.testHashtableHandleColl" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -287,13 +369,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32771084" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32891566" />
@@ -330,20 +412,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data/Structures/Hashtable.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Data/Structures/HashtableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="28" column="36" lean-forward="true" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        <state relative-caret-position="373">
+          <caret line="37" column="51" lean-forward="true" selection-start-line="37" selection-start-column="51" selection-end-line="37" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
