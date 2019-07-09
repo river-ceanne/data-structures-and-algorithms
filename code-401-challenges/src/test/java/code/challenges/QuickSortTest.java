@@ -4,7 +4,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
-public class MergeSortTest {
+public class QuickSortTest {
 
     @Test
     public void testInsertionTestReg(){
@@ -22,7 +22,7 @@ public class MergeSortTest {
         int[] arr = {9,8,7,6,5,4,3};
         int[] expected = {3,4,5,6,7,8,9};
 
-        assertArrayEquals(expected,MergeSort.sort(arr, arr.length));
+        assertArrayEquals(expected,InsertionSort.sort(arr));
 
     }
 
@@ -32,7 +32,7 @@ public class MergeSortTest {
         int[] arr = {1,2,3,4,5};
         int[] expected = {1,2,3,4,5};
 
-        assertArrayEquals(expected,MergeSort.sort(arr, arr.length));
+        assertArrayEquals(expected,InsertionSort.sort(arr));
 
     }
 
@@ -42,7 +42,8 @@ public class MergeSortTest {
         int[] arr = {};
         int[] expected = {};
 
-        assertArrayEquals(expected,MergeSort.sort(arr, arr.length));
+        assertArrayEquals(expected,InsertionSort.sort(arr));
 
     }
+
 }

@@ -2,6 +2,7 @@ package Data.Structures;
 
 public class Node {
 
+    private String key;
     private String value;
     private Node nextNode;
 
@@ -13,6 +14,11 @@ public class Node {
     public Node(String value) {
         this.value = value;
         this.nextNode = null;
+    }
+
+    public Node(String key, String value) {
+        setKey(key);
+        setValue(value);
     }
 
     public Node() {
@@ -37,4 +43,11 @@ public class Node {
     }
 
 
+    public String getKey() {
+        return key;
+    }
+
+    public void setKey(String key) {
+        this.key = key;
+    }
 }
