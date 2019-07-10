@@ -457,14 +457,14 @@ Function that taskes in a long string argument and returns the first repeated wo
 - Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
 
 ## Approach & Efficiency
-My approach is 
+My approach is to split a given string between words. Declare a hashmap to collect the unique words. Loop though each word, checking if the current word is in the hashmap. Before the loop ends, put the current word as a key in our hashmap. Time complexity is linear: O(n).
 
 ## API
-
+        public static String repeatedWord(String string)
 
 ### Solution
 
-![Alt text](./assets/findMaxBTree.jpg?raw=true)
+![Alt text](./assets/repeated_word.jpg)
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/RepeatedWord.java)
 
