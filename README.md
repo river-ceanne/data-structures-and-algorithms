@@ -18,7 +18,7 @@ This repository is a collection of code with some basic solutions on some common
 13. [Breath-First Traversal - Binary Tree](#breadth-first-traversal)
 14. [Find Max Value of Binary Tree](#find-max-value-binary-tree)
 15. [Hashtables](#hashtables)
-
+16. [Repeated Word](#repeated-word)
 
 ## Reverse an Array
 
@@ -444,5 +444,28 @@ Implement a Hashtable with the following methods:
 
 
 ### [Code](./Data-Structures/src/main/java/Data/Structures/Hashtable.java)
+
+<hr>
+
+
+# Repeated Word
+
+Function that taskes in a long string argument and returns the first repeated word (appears more than once) from the given string. 
+
+## Challenge
+- Write a function that accepts a lengthy string parameter.
+- Without utilizing any of the built-in library methods available to your language, return the first word to occur more than once in that provided string.
+
+## Approach & Efficiency
+My approach is 
+
+## API
+
+
+### Solution
+
+![Alt text](./assets/findMaxBTree.jpg?raw=true)
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/RepeatedWord.java)
 
 <hr>
