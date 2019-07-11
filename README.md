@@ -19,6 +19,7 @@ This repository is a collection of code with some basic solutions on some common
 14. [Find Max Value of Binary Tree](#find-max-value-binary-tree)
 15. [Hashtables](#hashtables)
 16. [Repeated Word](#repeated-word)
+17. [Tree Intersection](#tree-intersection)
 
 ## Reverse an Array
 
@@ -467,5 +468,26 @@ My approach is to split a given string between words. Declare a hashmap to colle
 ![Alt text](./assets/repeated_word.jpg)
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/RepeatedWord.java)
+
+<hr>
+
+
+# Tree Intersection
+
+## Challenge
+- Write a function called tree_intersection that takes two binary tree parameters.
+- Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
+
+## Approach & Efficiency
+My approach was to use a HashSet as the returning value after a depth first search on both Binary Trees. The time complexity is O(n + h).
+
+## API
+        public static ArrayList treeIntersection(BinaryTreeNode node1, BinaryTreeNode node2)
+
+### Solution
+
+![Alt text](./assets/tree_intersection.jpg)
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/TreeIntersection.java)
 
 <hr>
