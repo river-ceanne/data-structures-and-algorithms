@@ -479,10 +479,10 @@ My approach is to split a given string between words. Declare a hashmap to colle
 - Without utilizing any of the built-in library methods available to your language, return a set of values found in both trees.
 
 ## Approach & Efficiency
-
+My approach was to use a HashSet as the returning value after a depth first search on both Binary Trees. The time complexity is O(n + h).
 
 ## API
-        public static String treeIntersection(BinaryTreeNode node1, BinaryTreeNode node2)
+        public static ArrayList treeIntersection(BinaryTreeNode node1, BinaryTreeNode node2)
 
 ### Solution
 
