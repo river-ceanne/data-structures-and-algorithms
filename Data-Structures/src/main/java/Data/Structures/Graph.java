@@ -1,8 +1,6 @@
 package Data.Structures;
 
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Graph {
@@ -22,19 +20,20 @@ public class Graph {
 
     // Private variables
     private int numVertices;
-    private LinkedList<Edge>[] adjList;
-    private ArrayList<Node<Integer>> vertices;
+    private LinkedList<Edge>[] edges;
+    private HashMap<Integer,Node<Integer>> vertices;
 
 
     //Constructors
-    public Graph(){}
+    public Graph(){ }
 
     public Graph(int numVertices){
         this.numVertices = numVertices;
-        this.adjList = new LinkedList[numVertices];
+        this.vertices = new HashMap<>();
+        this.edges = new LinkedList[numVertices];
 
         for (int i = 0; i < numVertices; i++) {
-            adjList[i] = new LinkedList<>();
+            edges[i] = new LinkedList<>();
         }
     }
 
@@ -47,79 +46,67 @@ public class Graph {
         this.numVertices = numVertices;
     }
 
-    public LinkedList<Edge>[] getAdjList() {
-        return adjList;
+    public LinkedList<Edge>[] getEdges() {
+        return edges;
     }
 
-    public void setAdjList(LinkedList<Edge>[] adjList) {
-        this.adjList = adjList;
+    public void setEdges(LinkedList<Edge>[] edges) {
+        this.edges = edges;
     }
 
-    public ArrayList<Node<Integer>> getVertices() {
+    public HashMap<Integer,Node<Integer>> getVertices() {
         return vertices;
     }
 
-    public void setVertices(ArrayList<Node<Integer>> vertices) {
+    public void setVertices(HashMap<Integer,Node<Integer>> vertices) {
         this.vertices = vertices;
     }
 
     /// ------- METHODS ------- ///
 
-//AddNode()
-//Adds a new node to the graph
-//Takes in the value of that node
-//Returns the added node
+    public Node<Integer> addNode(int value){
 
-//AddEdge()
-//Adds a new edge between two nodes in the graph
-//Include the ability to have a “weight”
-//Takes in the two nodes to be connected by the edge
-//Both nodes should already be in the Graph
+        if(this.getNodes() == null || this.vertices.isEmpty()){
+        vertices = new HashMap<>();
+        this.numVertices = 100;
+        this.edges = new LinkedList[numVertices];
+            for (int i = 0; i < this.numVertices; i++) {
+                edges[i] = new LinkedList<>();
+            }
+        }
 
-//GetNodes()
-//Returns all of the nodes in the graph as a collection (set, list, or similar)
-
-//GetNeighbors()
-//Returns a collection of nodes connected to the given node
-//Takes in a given node
-//Include the weight of the connection in the returned collection
-
-//Size()
-//Returns the total number of nodes in the graph
-
-    public Node addNode(int value){
-        Node newNode = new Node(value);
-        vertices.add(value, newNode);
+        Node<Integer> newNode = new Node(value);
+        vertices.put(value, newNode);
+        numVertices++;
         return newNode;
     }
 
-    public void addEgde(int source, int destination, int weight) {
-        Node sourceNode = new Node(source);
-        Node destinationNode = new Node(destination);
-        if(vertices.contains(sourceNode) && vertices.contains(destinationNode)){
+    public void addEdge(int source, int destination, int weight) {
+        if(vertices.containsKey(source) && vertices.containsKey(destination)){
             Edge edge = new Edge(source, destination, weight);
-            adjList[source].addFirst(edge); //for directed graph
+            edges[source].addFirst(edge); //for directed graph
         }
 
     }
 
-    public ArrayList<Node<Integer>> getNodes(){
+    public HashMap<Integer,Node<Integer>> getNodes(){
         return vertices;
     }
 
     public HashMap<Node<Integer>,Integer> getNeighbors(Node<Integer> node){
 
-        HashMap<Node<Integer>,Integer> neighbors = new HashMap<>();
+        HashMap<Node<Integer>,Integer> neighbors = new HashMap<>();//<node,weight>
 
-        for (Edge n: adjList[node.getValue()]) {
+        for (Edge n: edges[node.getValue()]) {
             if(n.source == node.getValue()){
                 neighbors.put(vertices.get(n.destination),n.weight);
             }
         }
+
         return neighbors;
     }
 
     public int size(){
-        return numVertices;
+        return this.vertices.size();
     }
 }

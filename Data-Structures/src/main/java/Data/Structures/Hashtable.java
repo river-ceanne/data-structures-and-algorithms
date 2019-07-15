@@ -4,7 +4,7 @@ package Data.Structures;
 
 public class Hashtable {
 
-    protected Node[] map;
+    protected Node<String>[] map;
 
     public Hashtable(int size) {
         map = new Node[size];
