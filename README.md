@@ -20,6 +20,7 @@ This repository is a collection of code with some basic solutions on some common
 15. [Hashtables](#hashtables)
 16. [Repeated Word](#repeated-word)
 17. [Tree Intersection](#tree-intersection)
+18. [Graphs](#graphs)
 
 ## Reverse an Array
 
@@ -489,5 +490,51 @@ My approach was to use a HashSet as the returning value after a depth first sear
 ![Alt text](./assets/tree_intersection.jpg)
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/TreeIntersection.java)
+
+<hr>
+
+# Graphs
+
+Java adjacency list implementation of a graph. 
+
+## Challenge
+Implement your own Graph. The graph should be represented as an adjacency list, and should include the following methods:
+
+- AddNode():
+Adds a new node to the graph
+Takes in the value of that node
+Returns the added node
+
+- AddEdge():
+Adds a new edge between two nodes in the graph
+Include the ability to have a “weight”
+Takes in the two nodes to be connected by the edge
+Both nodes should already be in the Graph
+- GetNodes():
+Returns all of the nodes in the graph as a collection (set, list, or similar)
+- GetNeighbors():
+Returns a collection of nodes connected to the given node
+Takes in a given node
+Include the weight of the connection in the returned collection
+- Size():
+Returns the total number of nodes in the graph
+
+## Approach & Efficiency
+My approach was to use a HashMap to store the Vertices added and a LinkedList<Edges> array for my adjacency list of the edges. 
+
+## API
+
+        public Node<Integer> addNode(int value)
+
+        public void addEdge(int source, int destination, int weight)
+
+        public HashMap<Integer,Node<Integer>> getNodes()
+
+        public HashMap<Node<Integer>,Integer> getNeighbors(Node<Integer> node)
+
+        public int size()
+
+
+### [Code](./Data-Structures/src/main/java/Data/Structures/Graph.java)
 
 <hr>

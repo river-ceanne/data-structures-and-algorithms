@@ -93,7 +93,7 @@ public class AppTest {
         linkedList.insert("lastInsert");
         linkedList.append("the append");
 
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
         String lastVal = "";
 
         while(scanner != null){
@@ -120,7 +120,7 @@ public class AppTest {
         linkedList.insert("lastInsert");
         linkedList.append("first append");
 
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
         String lastVal = "";
         while(scanner != null){
             if(scanner.getNextNode() == null)
@@ -168,7 +168,7 @@ public class AppTest {
         linkedList.insertBefore("three","two and a half");
 
         ArrayList<String> arrayList = new ArrayList<>();
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
 
         while(scanner != null){
             arrayList.add(scanner.getValue());
@@ -194,7 +194,7 @@ public class AppTest {
         linkedList.insertBefore("one","a half");
 
         ArrayList<String> arrayList = new ArrayList<>();
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
 
         while(scanner != null){
             arrayList.add(scanner.getValue());
@@ -221,7 +221,7 @@ public class AppTest {
         linkedList.insertAfter("three","three and a half");
 
         ArrayList<String> arrayList = new ArrayList<>();
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
 
         while(scanner != null){
             arrayList.add(scanner.getValue());
@@ -248,7 +248,7 @@ public class AppTest {
         linkedList.insertAfter("four","four and a half");
 
         ArrayList<String> arrayList = new ArrayList<>();
-        Node scanner = linkedList.getHead();
+        Node<String> scanner = linkedList.getHead();
 
         while(scanner != null){
             arrayList.add(scanner.getValue());

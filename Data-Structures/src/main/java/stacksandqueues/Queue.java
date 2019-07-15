@@ -7,7 +7,7 @@ public class Queue {
     protected int front;
     protected int rear;
     protected int capacity;
-    protected Node[] queue;
+    protected Node<String>[] queue;
     private final int MAX = 100;
 
     public Queue(){
@@ -26,7 +26,7 @@ public class Queue {
 
     public void enqueue(String var){
         if (isFull()) throw new ArrayIndexOutOfBoundsException("Queue is Full. Cannot Equeue!");
-        Node newNode = new Node(var);
+        Node<String> newNode = new Node(var);
         queue[++rear] = newNode;
     }
 
