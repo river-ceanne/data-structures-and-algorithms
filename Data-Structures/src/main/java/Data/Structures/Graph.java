@@ -5,25 +5,46 @@ import java.util.LinkedList;
 
 public class Graph {
 
-    private int numVertices;
-    private LinkedList<Integer>[] adjList;
+    static class Edge {
+        int source;
+        int destination;
+        int weight;
+
+        public Edge(int source, int destination, int weight) {
+            this.source = source;
+            this.destination = destination;
+            this.weight = weight;
+        }
+    }
+
+
+    private int vertices;
+    private LinkedList<Edge>[] adjList;
 
     public Graph(){}
 
+    public Graph(int vertices){
+        this.vertices = vertices;
+        this.adjList = new LinkedList[vertices];
 
-    public int getNumVertices() {
-        return numVertices;
+        for (int i = 0; i < vertices ; i++) {
+            adjList[i] = new LinkedList<>();
+        }
     }
 
-    public void setNumVertices(int numVertices) {
-        this.numVertices = numVertices;
+    public int getVertices() {
+        return vertices;
     }
 
-    public LinkedList<Integer>[] getAdjList() {
+    public void setVertices(int vertices) {
+        this.vertices = vertices;
+    }
+
+    public LinkedList<Edge>[] getAdjList() {
         return adjList;
     }
 
-    public void setAdjList(LinkedList<Integer>[] adjList) {
+    public void setAdjList(LinkedList<Edge>[] adjList) {
         this.adjList = adjList;
     }
 
@@ -50,23 +71,28 @@ public class Graph {
 //Size()
 //Returns the total number of nodes in the graph
 
-    public Node addNode(){
-        return new Node();
+    public Node addNode(int value){
+        Node newNode = new Node(value);
+        return newNode;
     }
 
-    public void addEdge(){
-
+    public void addEgde(int source, int destination, int weight) {
+        Edge edge = new Edge(source, destination, weight);
+        adjList[source].addFirst(edge); //for directed graph
     }
 
     public HashSet<Node> getNodes(){
         return new HashSet<>();
     }
 
-    public HashSet<Node> getNeighbors(Node node){
+    public HashSet<Node> getNeighbors(Node<Integer> node){
+        for (Edge n: adjList[node.getValue()]) {
+
+        }
         return new HashSet<>();
     }
 
     public int size(){
-        return numVertices;
+        return vertices;
     }
 }
