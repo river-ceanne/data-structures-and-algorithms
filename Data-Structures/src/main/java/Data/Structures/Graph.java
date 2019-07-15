@@ -1,10 +1,13 @@
 package Data.Structures;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedList;
 
 public class Graph {
 
+    /// Inner class Edge
     static class Edge {
         int source;
         int destination;
@@ -17,27 +20,31 @@ public class Graph {
         }
     }
 
-
-    private int vertices;
+    // Private variables
+    private int numVertices;
     private LinkedList<Edge>[] adjList;
+    private ArrayList<Node<Integer>> vertices;
 
+
+    //Constructors
     public Graph(){}
 
-    public Graph(int vertices){
-        this.vertices = vertices;
-        this.adjList = new LinkedList[vertices];
+    public Graph(int numVertices){
+        this.numVertices = numVertices;
+        this.adjList = new LinkedList[numVertices];
 
-        for (int i = 0; i < vertices ; i++) {
+        for (int i = 0; i < numVertices; i++) {
             adjList[i] = new LinkedList<>();
         }
     }
 
-    public int getVertices() {
-        return vertices;
+    /// GETTERS/SETTERS
+    public int getNumVertices() {
+        return numVertices;
     }
 
-    public void setVertices(int vertices) {
-        this.vertices = vertices;
+    public void setNumVertices(int numVertices) {
+        this.numVertices = numVertices;
     }
 
     public LinkedList<Edge>[] getAdjList() {
@@ -48,6 +55,15 @@ public class Graph {
         this.adjList = adjList;
     }
 
+    public ArrayList<Node<Integer>> getVertices() {
+        return vertices;
+    }
+
+    public void setVertices(ArrayList<Node<Integer>> vertices) {
+        this.vertices = vertices;
+    }
+
+    /// ------- METHODS ------- ///
 
 //AddNode()
 //Adds a new node to the graph
@@ -73,26 +89,37 @@ public class Graph {
 
     public Node addNode(int value){
         Node newNode = new Node(value);
+        vertices.add(value, newNode);
         return newNode;
     }
 
     public void addEgde(int source, int destination, int weight) {
-        Edge edge = new Edge(source, destination, weight);
-        adjList[source].addFirst(edge); //for directed graph
-    }
-
-    public HashSet<Node> getNodes(){
-        return new HashSet<>();
-    }
-
-    public HashSet<Node> getNeighbors(Node<Integer> node){
-        for (Edge n: adjList[node.getValue()]) {
-
+        Node sourceNode = new Node(source);
+        Node destinationNode = new Node(destination);
+        if(vertices.contains(sourceNode) && vertices.contains(destinationNode)){
+            Edge edge = new Edge(source, destination, weight);
+            adjList[source].addFirst(edge); //for directed graph
         }
-        return new HashSet<>();
+
+    }
+
+    public ArrayList<Node<Integer>> getNodes(){
+        return vertices;
+    }
+
+    public HashMap<Node<Integer>,Integer> getNeighbors(Node<Integer> node){
+
+        HashMap<Node<Integer>,Integer> neighbors = new HashMap<>();
+
+        for (Edge n: adjList[node.getValue()]) {
+            if(n.source == node.getValue()){
+                neighbors.put(vertices.get(n.destination),n.weight);
+            }
+        }
+        return neighbors;
     }
 
     public int size(){
-        return vertices;
+        return numVertices;
     }
 }
