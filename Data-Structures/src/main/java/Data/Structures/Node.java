@@ -1,36 +1,33 @@
 package Data.Structures;
 
-public class Node {
+public class Node<T> {
 
     private String key;
-    private String value;
+    private T value;
     private Node nextNode;
 
-    public Node(String value, Node nextNode) {
+    public Node(T value, Node nextNode) {
         this.value = value;
         this.nextNode = nextNode;
     }
 
-    public Node(String value) {
-        this.value = value;
+    public Node(T value) {
+        this.value =  value;
         this.nextNode = null;
     }
 
-    public Node(String key, String value) {
+    public Node(String key, T value) {
         setKey(key);
         setValue(value);
     }
 
-    public Node() {
-        this.value = "";
-        this.nextNode = null;
-    }
+    public Node() { }
 
     public Node getNextNode() {
         return nextNode;
     }
 
-    public String getValue() {
+    public T getValue() {
         return value;
     }
 
@@ -38,7 +35,7 @@ public class Node {
         this.nextNode = nextNode;
     }
 
-    public void setValue(String value) {
+    public void setValue(T value) {
         this.value = value;
     }
 

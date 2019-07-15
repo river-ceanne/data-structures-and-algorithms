@@ -4,7 +4,7 @@ import Data.Structures.Node;
 
 public class Stack {
 
-    protected Node[] stack;
+    protected Node<String>[] stack;
     protected int top;
     protected int capacity;
     private final int MAX_DEFAULT = 100;

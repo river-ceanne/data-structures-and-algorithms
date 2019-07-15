@@ -8,7 +8,7 @@ import java.util.concurrent.ConcurrentLinkedDeque;
 
 public class LinkedList {
 
-    private Node head;
+    private Node<String> head;
     private int size;
 
     public LinkedList(){
@@ -25,7 +25,7 @@ public class LinkedList {
     }
 
     public void insert(String value){
-        Node newNode = new Node(value,head);
+        Node<String> newNode = new Node<String>(value,head);
         head = newNode;
         size++;
     }
@@ -45,7 +45,7 @@ public class LinkedList {
 
     public ArrayList<String> print(){
 
-        Node current = head;
+        Node<String> current = head;
         ArrayList<String> nodeValues = new ArrayList<>();
 
         while(current != null){
@@ -73,7 +73,7 @@ public class LinkedList {
         Node current = head;
 
         if(head.getValue() == value){
-            Node newNode = new Node(newVal,head);
+            Node<String> newNode = new Node<String>(newVal,head);
             head = newNode;
             return;
         }
@@ -81,7 +81,7 @@ public class LinkedList {
         while(current != null){
 
             if(current.getNextNode().getValue() == value){
-                Node newNode = new Node(newVal,current.getNextNode());
+                Node newNode = new Node<String>(newVal,current.getNextNode());
                 current.setNextNode(newNode);
                 break;
             }
@@ -97,7 +97,7 @@ public class LinkedList {
 
         while(current != null){
             if(current.getValue() == value){
-                Node newNode = new Node(newVal,current.getNextNode());
+                Node newNode = new Node<String>(newVal,current.getNextNode());
                 current.setNextNode(newNode);
             }
 
@@ -110,7 +110,7 @@ public class LinkedList {
     public String getKth(int k){
         int index = size - k;
         int count = 1;
-        Node curr = head;
+        Node<String> curr = head;
 
         if(k >= size || k < 0){
             throw new IllegalStateException("entered value(k) is greater than size or less than 0");
