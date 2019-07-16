@@ -21,6 +21,7 @@ This repository is a collection of code with some basic solutions on some common
 16. [Repeated Word](#repeated-word)
 17. [Tree Intersection](#tree-intersection)
 18. [Graphs](#graphs)
+19. [Hashmap LEFT JOIN](#hashmap-left-join)
 
 ## Reverse an Array
 
@@ -539,7 +540,7 @@ My approach was to use a HashMap to store the Vertices added and a LinkedList<Ed
 <hr>
 
 
-# Left Join
+# Hashmap LEFT JOIN
 
 Implementaion of a programatic LEFT JOIN using 2 hashmaps.
 
