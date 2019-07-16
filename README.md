@@ -573,15 +573,15 @@ Breadth-first traversal of a graph.
 - Extend your graph object with a breadth-first traversal method that accepts a starting node. Without utilizing any of the built-in methods available to your language, return a collection of nodes in the order they were visited. Display the collection.
 
 ## Approach & Efficiency
-....
+My approach was to use a HashSet to store the result of my visited nodes after the traversal and to use a Queue to use as a collection and a flag if empty on a while loop for the neighbor visitations. Time complexity is linear O(V + e) for vertices and edges/neighbors. 
 
 ## API
-        public static Hashtable<String,String[]> leftJoin(HashMap<String,String> synonyms, HashMap<String,String> antonymns)
+        public static HashSet<Node<String>> breadthFirst(Node<String> node)
 
 ### Solution
 
-![Alt text](./assets/left_join.jpg)
+![Alt text](./assets/breadth_first_graph.jpg)
 
-### [Code](./code-401-challenges/src/main/java/code/challenges/LeftJoin.java)
+### [Code](./code-401-challenges/src/main/java/code/challenges/BreadthFirst.java)
 
 <hr>
