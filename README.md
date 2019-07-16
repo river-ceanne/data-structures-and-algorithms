@@ -552,10 +552,10 @@ Implementaion of a programatic LEFT JOIN using 2 hashmaps.
 - LEFT JOIN means all the values in the first hashmap are returned, and if values exist in the “right” hashmap, they are appended to the result row. If no values exist in the right hashmap, then some flavor of NULL should be appended to the result row.
 
 ## Approach & Efficiency
-
+My approach was to use a Hashtable to store the left join of the 2 hash maps. I used the left hashmap in my foreach, adding the hashmap key to a key in my hashtable. I used a String array to store the values of the hashmaps. Time complexity is linear O(n) and space complexity is linear O(n) because of the created hashtable for the output.
 
 ## API
-        public void ....
+        public static Hashtable<String,String[]> leftJoin(HashMap<String,String> synonyms, HashMap<String,String> antonymns)
 
 ### Solution
 
