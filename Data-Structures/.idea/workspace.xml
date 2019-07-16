@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="580256ca-2f41-43ab-b6a1-436fadba6d75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../code-401-challenges/src/main/java/graph/Edge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code-401-challenges/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/gradlew" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-401-challenges/src/main/java/code/challenges/BreadthFirst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/src/main/java/code/challenges/BreadthFirst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code-401-challenges/src/main/java/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/src/main/java/graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../code-401-challenges/src/main/java/graph/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/src/main/java/graph/Node.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../code-401-challenges/src/test/java/code/challenges/BreadthFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../code-401-challenges/src/test/java/code/challenges/BreadthFirstTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../multibracketvalidation" beforeDir="false" afterPath="$PROJECT_DIR$/../multibracketvalidation" afterDir="false" />
     </list>
