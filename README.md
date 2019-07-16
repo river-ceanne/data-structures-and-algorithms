@@ -559,7 +559,7 @@ My approach was to use a Hashtable to store the left join of the 2 hash maps. I 
 
 ### Solution
 
-<!-- ![Alt text](./assets/tree_intersection.jpg) -->
+![Alt text](./assets/left_join.jpg)
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/LeftJoin.java)
 
