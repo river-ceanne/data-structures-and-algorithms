@@ -1,50 +1,38 @@
 package graph;
 
+import java.util.ArrayList;
+
 public class Node<T> {
 
-    private String key;
-    private T value;
-    private Node nextNode;
+    private T name;
+    private ArrayList<Node<T>> neighbors;
 
-    public Node(T value, Node nextNode) {
-        this.value = value;
-        this.nextNode = nextNode;
+    public Node(T name, ArrayList<Node<T>> neighbors) {
+        this.name = name;
+        this.neighbors = neighbors;
     }
 
-    public Node(T value) {
-        this.value =  value;
-        this.nextNode = null;
-    }
-
-    public Node(String key, T value) {
-        setKey(key);
-        setValue(value);
+    public Node(T name) {
+        this.name = name;
+        this.neighbors = new ArrayList<>();
     }
 
     public Node() { }
 
-    public Node getNextNode() {
-        return nextNode;
+    public T getName() {
+        return name;
     }
 
-    public T getValue() {
-        return value;
-    }
-
-    public void setNextNode(Node nextNode) {
-        this.nextNode = nextNode;
-    }
-
-    public void setValue(T value) {
-        this.value = value;
+    public void setName(T name) {
+        this.name = name;
     }
 
 
-    public String getKey() {
-        return key;
+    public ArrayList<Node<T>> getNeighbors() {
+        return neighbors;
     }
 
-    public void setKey(String key) {
-        this.key = key;
+    public void setNeighbors(ArrayList<Node<T>> neighbors) {
+        this.neighbors = neighbors;
     }
 }

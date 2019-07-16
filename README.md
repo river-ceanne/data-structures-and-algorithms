@@ -564,3 +564,24 @@ My approach was to use a Hashtable to store the left join of the 2 hash maps. I 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/LeftJoin.java)
 
 <hr>
+
+# Graph Breadth-First
+
+Breadth-first traversal of a graph. 
+
+## Challenge
+- Extend your graph object with a breadth-first traversal method that accepts a starting node. Without utilizing any of the built-in methods available to your language, return a collection of nodes in the order they were visited. Display the collection.
+
+## Approach & Efficiency
+....
+
+## API
+        public static Hashtable<String,String[]> leftJoin(HashMap<String,String> synonyms, HashMap<String,String> antonymns)
+
+### Solution
+
+![Alt text](./assets/left_join.jpg)
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/LeftJoin.java)
+
+<hr>

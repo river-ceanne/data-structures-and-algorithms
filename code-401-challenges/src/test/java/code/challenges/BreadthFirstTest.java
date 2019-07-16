@@ -1,9 +1,38 @@
 package code.challenges;
 
+import graph.Graph;
+import org.junit.Test;
+
+import static org.junit.Assert.assertNull;
+
 public class BreadthFirstTest {
-//    Extend your graph object with a breadth-first traversal method
-//    that accepts a starting node. Without utilizing any of the built-in methods available
-//    to your language, return a collection of nodes in the order they were visited. Display the collection.
+
+
+    @Test
+    public void testGraphEmpty(){
+        Graph graph = new Graph();
+        assertNull(graph.getNodes());
+    }
+
+    private Graph initialize(){
+        Graph graph = new Graph(5);
+        graph.addNode(1);
+        graph.addNode(5);
+        graph.addNode(2);
+        graph.addNode(4);
+        graph.addNode(3);
+
+        graph.addEdge(1,2,2);
+        graph.addEdge(2,3,7);
+
+        graph.addEdge(3,4,2);
+        graph.addEdge(4,5,7);
+
+        graph.addEdge(5,1,7);
+
+        return graph;
+    }
+
 
 
 }

@@ -5,19 +5,6 @@ import java.util.LinkedList;
 
 public class Graph {
 
-    /// Inner class Edge
-    static class Edge {
-        int source;
-        int destination;
-        int weight;
-
-        public Edge(int source, int destination, int weight) {
-            this.source = source;
-            this.destination = destination;
-            this.weight = weight;
-        }
-    }
-
     // Private variables
     private int numVertices;
     private LinkedList<Edge>[] edges;
@@ -66,6 +53,7 @@ public class Graph {
 
     public Node<Integer> addNode(int value){
 
+        //if graph is empty -- initialize the hashmap and linkedlist array
         if(this.getNodes() == null || this.vertices.isEmpty()){
         vertices = new HashMap<>();
         this.numVertices = 100;
@@ -97,8 +85,8 @@ public class Graph {
 
         HashMap<Node<Integer>,Integer> neighbors = new HashMap<>();//<node,weight>
 
-        for (Edge n: edges[node.getValue()]) {
-            if(n.source == node.getValue()){
+        for (Edge n: edges[node.getName()]) {
+            if(n.source == node.getName()){
                 neighbors.put(vertices.get(n.destination),n.weight);
             }
         }
