@@ -23,6 +23,7 @@ This repository is a collection of code with some basic solutions on some common
 18. [Graphs](#graphs)
 19. [Hashmap LEFT JOIN](#hashmap-left-join)
 20. [Graph Breadth First Traversal](#graph-breadth-first)
+21. [Get Edges](#get-edges)
 
 ## Reverse an Array
 
@@ -584,5 +585,27 @@ My approach was to use a HashSet to store the result of my visited nodes after t
 ![Alt text](./assets/breadth_first_graph.jpg)
 
 ### [Code](./code-401-challenges/src/main/java/code/challenges/BreadthFirst.java)
+
+<hr>
+
+
+# Get Edges
+
+Function to check if a set of vertices are connected in a direct path and return accumulated weights if true.
+
+## Challenge
+- Write a function based on the specifications above, which takes in a graph, and an array of city names. Without utilizing any of the built-in methods available to your language, return whether the full trip is possible with direct flights, and how much it would cost.
+
+## Approach & Efficiency
+...
+
+## API
+        public static HashSet<Node<String>> breadthFirst(Node<String> node)
+
+### Solution
+
+<!-- ![Alt text](./assets/breadth_first_graph.jpg) -->
+
+### [Code](./code-401-challenges/src/main/java/code/challenges/GetEdge.java)
 
 <hr>
