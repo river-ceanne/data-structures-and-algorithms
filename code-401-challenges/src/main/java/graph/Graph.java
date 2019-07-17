@@ -2,6 +2,8 @@ package graph;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.Map;
+import java.util.Set;
 
 public class Graph<T> {
 
@@ -29,13 +31,13 @@ public class Graph<T> {
         this.numVertices = numVertices;
     }
 
-//    public HashMap<Node<T>,LinkedList<Edge<T>>> getEdges() {
-//        return edges;
-//    }
+    public HashMap<T,LinkedList<Edge<T>>> getEdges() {
+        return edges;
+    }
 
-//    public void setEdges(HashMap<Node<T>,LinkedList<Edge<T>>> edges) {
-//        this.edges = edges;
-//    }
+    public void setEdges(HashMap<T,LinkedList<Edge<T>>> edges) {
+        this.edges = edges;
+    }
 
     public HashMap<T,Node<T>> getVertices() {
         return vertices;
@@ -58,14 +60,34 @@ public class Graph<T> {
 
         Node<T> newNode = new Node(value);
         vertices.put(value, newNode);
+        LinkedList<Edge<T>> linkedList = new LinkedList<>();
+        edges.put(value,linkedList);
         numVertices++;
         return newNode;
     }
 
     public void addEdge(T source, T destination, int weight) {
         if(vertices.containsKey(source) && vertices.containsKey(destination)){
-            Edge edge = new Edge(source, destination, weight);
-//            edges. [source].addFirst(edge); //for directed graph
+            Edge edge1 = new Edge(source, destination, weight);
+            Edge edge2 = new Edge(destination, source, weight);
+
+            for(Map.Entry<T,LinkedList<Edge<T>>> set: edges.entrySet()){
+
+                LinkedList<Edge<T>> linkedList = set.getValue();
+
+                //both underneath for undirected graph - add 2 edges on source and destination
+
+                if(set.getKey() == source){
+                    linkedList.add(edge1);
+                }
+
+                if(set.getKey() == destination){
+                    linkedList.add(edge2);
+                }
+
+                set.setValue(linkedList);
+            }
+
         }
 
     }
@@ -77,12 +99,12 @@ public class Graph<T> {
     public HashMap<Node<T>,Integer> getNeighbors(Node<T> node){
 
         HashMap<Node<T>,Integer> neighbors = new HashMap<>();//<node,weight>
-//
-//        for (Edge n: edges[node.getName()]) {
-//            if(n.source == node.getName()){
-//                neighbors.put(vertices.get(n.destination),n.weight);
-//            }
-//        }
+
+        LinkedList<Edge<T>> linkedList = edges.get(node.getName());
+
+        for(Edge<T> e: linkedList){
+            neighbors.put(vertices.get(e.destination),e.weight);
+        }
 
         return neighbors;
     }
